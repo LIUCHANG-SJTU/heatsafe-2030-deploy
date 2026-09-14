@@ -1,0 +1,907 @@
+{
+  "data_mode": "REAL",
+  "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+  "source_id": "hazard:landsat:landsat-c2-l2:LC09_L2SP_119039_20260731_02_T1:era5:reanalysis-era5-land-timeseries:120.1,30.2:2026-07-31T03Z",
+  "grids": [
+    {
+      "grid_id": "HZP-0001",
+      "spatial_heat_score": 0.6565656565656566,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6167572499185402,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0002",
+      "spatial_heat_score": 0.6161616161616161,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5884744216357118,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0003",
+      "spatial_heat_score": 0.7474747474747475,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6803936135549039,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0004",
+      "spatial_heat_score": 0.5656565656565656,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5531208862821766,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0005",
+      "spatial_heat_score": 0.0707070707070707,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.20665623981753012,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0006",
+      "spatial_heat_score": 0.12121212121212122,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.24200977517106548,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0007",
+      "spatial_heat_score": 0.08080808080808081,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.2137269468882372,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0008",
+      "spatial_heat_score": 0.13131313131313133,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.24908048224177257,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0009",
+      "spatial_heat_score": 0.1919191919191919,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.29150472466601496,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0010",
+      "spatial_heat_score": 0.31313131313131315,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.3763532095144998,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0011",
+      "spatial_heat_score": 0.9090909090909091,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.793524926686217,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0012",
+      "spatial_heat_score": 0.7777777777777778,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.701605734767025,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0013",
+      "spatial_heat_score": 0.8080808080808081,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7228178559791463,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0014",
+      "spatial_heat_score": 0.6868686868686869,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6379693711306613,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0015",
+      "spatial_heat_score": 0.26262626262626265,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.3409996741609645,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0016",
+      "spatial_heat_score": 0.6262626262626263,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5955451287064191,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0017",
+      "spatial_heat_score": 0.7575757575757576,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6874643206256109,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0018",
+      "spatial_heat_score": 0.1717171717171717,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.27736331052460084,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0019",
+      "spatial_heat_score": 0.5454545454545454,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5389794721407624,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0020",
+      "spatial_heat_score": 0.37373737373737376,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.4187774519387423,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0021",
+      "spatial_heat_score": 0.9696969696969697,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.8359491691104594,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0022",
+      "spatial_heat_score": 1.0,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.8571612903225806,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0023",
+      "spatial_heat_score": 0.9595959595959596,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.8288784620397522,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0024",
+      "spatial_heat_score": 0.5858585858585859,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5672623004235907,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0025",
+      "spatial_heat_score": 0.09090909090909091,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.22079765395894427,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0026",
+      "spatial_heat_score": 0.1111111111111111,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.23493906810035842,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0027",
+      "spatial_heat_score": 0.15151515151515152,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.2632218963831867,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0028",
+      "spatial_heat_score": 0.24242424242424243,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.3268582600195503,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0029",
+      "spatial_heat_score": 0.47474747474747475,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.48948452264581294,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0030",
+      "spatial_heat_score": 0.25252525252525254,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.33392896709025743,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0031",
+      "spatial_heat_score": 0.9292929292929293,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.8076663408276311,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0032",
+      "spatial_heat_score": 0.98989898989899,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.8500905832518736,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0033",
+      "spatial_heat_score": 0.7878787878787878,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.708676441837732,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0034",
+      "spatial_heat_score": 0.7070707070707071,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6521107852720756,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0035",
+      "spatial_heat_score": 0.43434343434343436,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.4612016943629847,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0036",
+      "spatial_heat_score": 0.030303030303030304,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.17837341153470185,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0037",
+      "spatial_heat_score": 0.050505050505050504,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.192514825676116,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0038",
+      "spatial_heat_score": 0.10101010101010101,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.22786836102965136,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0039",
+      "spatial_heat_score": 0.45454545454545453,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.4753431085043988,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0040",
+      "spatial_heat_score": 0.41414141414141414,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.4470602802215705,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0041",
+      "spatial_heat_score": 0.8787878787878788,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7723128054740958,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0042",
+      "spatial_heat_score": 0.9191919191919192,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.8005956337569241,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0043",
+      "spatial_heat_score": 0.5151515151515151,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5177673509286412,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0044",
+      "spatial_heat_score": 0.696969696969697,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6450400782013685,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0045",
+      "spatial_heat_score": 0.5757575757575758,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5601915933528836,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0046",
+      "spatial_heat_score": 0.3939393939393939,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.43291886608015634,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0047",
+      "spatial_heat_score": 0.3333333333333333,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.3904946236559139,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0048",
+      "spatial_heat_score": 0.6464646464646465,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6096865428478332,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0049",
+      "spatial_heat_score": 0.5353535353535354,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5319087650700554,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0050",
+      "spatial_heat_score": 0.40404040404040403,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.43998957315086346,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0051",
+      "spatial_heat_score": 0.7171717171717171,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6591814923427826,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0052",
+      "spatial_heat_score": 0.5050505050505051,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5106966438579341,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0053",
+      "spatial_heat_score": 0.23232323232323232,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.31978755294884326,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0054",
+      "spatial_heat_score": 0.2828282828282828,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.35514108830237856,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0055",
+      "spatial_heat_score": 0.2727272727272727,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.34807038123167156,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0056",
+      "spatial_heat_score": 0.48484848484848486,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.49655522971652,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0057",
+      "spatial_heat_score": 0.5555555555555556,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5460501792114696,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0058",
+      "spatial_heat_score": 0.6363636363636364,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6026158357771261,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0059",
+      "spatial_heat_score": 0.6666666666666666,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6238279569892473,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0060",
+      "spatial_heat_score": 0.35353535353535354,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.4046360377973281,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0061",
+      "spatial_heat_score": 0.6767676767676768,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6308986640599543,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0062",
+      "spatial_heat_score": 0.797979797979798,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7157471489084392,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0063",
+      "spatial_heat_score": 0.4444444444444444,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.4682724014336917,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0064",
+      "spatial_heat_score": 0.18181818181818182,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.2844340175953079,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0065",
+      "spatial_heat_score": 0.020202020202020204,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.1713027044639948,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0066",
+      "spatial_heat_score": 0.04040404040404041,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.18544411860540894,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0067",
+      "spatial_heat_score": 0.16161616161616163,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.2702926034538938,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0068",
+      "spatial_heat_score": 0.32323232323232326,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.3834239165852069,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0069",
+      "spatial_heat_score": 0.5959595959595959,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5743330074942978,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0070",
+      "spatial_heat_score": 0.3434343434343434,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.39756533072662104,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0071",
+      "spatial_heat_score": 0.36363636363636365,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.41170674486803516,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0072",
+      "spatial_heat_score": 0.5252525252525253,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5248380579993484,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0073",
+      "spatial_heat_score": 0.6060606060606061,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5814037145650048,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0074",
+      "spatial_heat_score": 0.21212121212121213,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.3056461388074291,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0075",
+      "spatial_heat_score": 0.010101010101010102,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.1642319973932877,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0076",
+      "spatial_heat_score": 0.29292929292929293,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.3622117953730857,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0077",
+      "spatial_heat_score": 0.8282828282828283,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7369592701205604,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0078",
+      "spatial_heat_score": 0.7676767676767676,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6945350276963179,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0079",
+      "spatial_heat_score": 0.7272727272727273,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6662521994134897,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0080",
+      "spatial_heat_score": 0.7373737373737373,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.6733229064841968,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0081",
+      "spatial_heat_score": 0.1414141414141414,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.2561511893124796,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0082",
+      "spatial_heat_score": 0.21212121212121213,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.3056461388074291,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0083",
+      "spatial_heat_score": 0.46464646464646464,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.4824138155751059,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0084",
+      "spatial_heat_score": 0.42424242424242425,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.4541309872922776,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0085",
+      "spatial_heat_score": 0.494949494949495,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.5036259367872271,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0086",
+      "spatial_heat_score": 0.8383838383838383,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7440299771912674,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0087",
+      "spatial_heat_score": 0.8484848484848485,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7511006842619745,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0088",
+      "spatial_heat_score": 0.8888888888888888,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7793835125448028,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0089",
+      "spatial_heat_score": 0.9797979797979798,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.8430198761811665,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0090",
+      "spatial_heat_score": 0.8181818181818182,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7298885630498534,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0091",
+      "spatial_heat_score": 0.30303030303030304,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.3692825024437928,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0092",
+      "spatial_heat_score": 0.21212121212121213,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.3056461388074291,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0093",
+      "spatial_heat_score": 0.0,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.15716129032258064,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0094",
+      "spatial_heat_score": 0.06060606060606061,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.19958553274682306,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0095",
+      "spatial_heat_score": 0.3838383838383838,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.4258481590094493,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0096",
+      "spatial_heat_score": 0.8585858585858586,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7581713913326816,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0097",
+      "spatial_heat_score": 0.898989898989899,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7864542196155099,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0098",
+      "spatial_heat_score": 0.9444444444444444,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.8182724014336917,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0099",
+      "spatial_heat_score": 0.9444444444444444,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.8182724014336917,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    },
+    {
+      "grid_id": "HZP-0100",
+      "spatial_heat_score": 0.8686868686868687,
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+      "temporal_severity_score": 0.5238709677419354,
+      "hazard_score": 0.7652420984033887,
+      "source_mode": "REAL",
+      "method": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC"
+    }
+  ]
+}

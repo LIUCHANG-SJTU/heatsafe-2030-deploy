@@ -1,0 +1,17 @@
+{
+  "dataset": "HeatSafe deterministic M0 fixture grid",
+  "provider": "HeatSafe 2030 development team",
+  "source_url": "https://example.invalid/heatsafe-fixture",
+  "retrieved_at": "2026-08-25T03:35:32.683629Z",
+  "time_range": "Synthetic fixture timestamp: 2026-08-01",
+  "bbox": [
+    120.08,
+    30.2,
+    120.10598,
+    30.22246
+  ],
+  "license": "Development fixture only; not an external dataset",
+  "checksum": "sha256:b749226f86c1d26e5487ff3da3a9942a8bd576f07575ea30a64de5710e342140",
+  "data_mode": "FIXTURE",
+  "notes": "Generated locally by scripts/generate_fixture.py; contains no observations."
+}

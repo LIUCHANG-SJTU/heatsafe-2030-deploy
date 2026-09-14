@@ -1,0 +1,4807 @@
+{
+  "data_mode": "FIXTURE",
+  "warning": "Synthetic fixture values. Not a real analysis of Hangzhou.",
+  "grid_size_meters": 250,
+  "cells": [
+    {
+      "grid_id": "HZ-FIX-00001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08,
+              30.2
+            ],
+            [
+              120.082598,
+              30.2
+            ],
+            [
+              120.082598,
+              30.202246
+            ],
+            [
+              120.08,
+              30.202246
+            ],
+            [
+              120.08,
+              30.2
+            ]
+          ]
+        ]
+      },
+      "lat": 30.201123,
+      "lon": 120.081299,
+      "population_total": 180.052,
+      "population_age_0_14": 21.606,
+      "population_age_65_plus": 18.005,
+      "land_surface_temperature": 29.64,
+      "temperature_percentile": 0.420008,
+      "heat_exceedance_hours": 2.0,
+      "ndvi": 0.619993,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.082598,
+              30.2
+            ],
+            [
+              120.08519600000001,
+              30.2
+            ],
+            [
+              120.08519600000001,
+              30.202246
+            ],
+            [
+              120.082598,
+              30.202246
+            ],
+            [
+              120.082598,
+              30.2
+            ]
+          ]
+        ]
+      },
+      "lat": 30.201123,
+      "lon": 120.083897,
+      "population_total": 180.647,
+      "population_age_0_14": 21.679,
+      "population_age_65_plus": 18.065,
+      "land_surface_temperature": 29.642,
+      "temperature_percentile": 0.420097,
+      "heat_exceedance_hours": 2.002,
+      "ndvi": 0.619915,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085196,
+              30.2
+            ],
+            [
+              120.087794,
+              30.2
+            ],
+            [
+              120.087794,
+              30.202246
+            ],
+            [
+              120.085196,
+              30.202246
+            ],
+            [
+              120.085196,
+              30.2
+            ]
+          ]
+        ]
+      },
+      "lat": 30.201123,
+      "lon": 120.086495,
+      "population_total": 185.134,
+      "population_age_0_14": 22.231,
+      "population_age_65_plus": 18.513,
+      "land_surface_temperature": 29.656,
+      "temperature_percentile": 0.42077,
+      "heat_exceedance_hours": 2.019,
+      "ndvi": 0.619327,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.087794,
+              30.2
+            ],
+            [
+              120.09039200000001,
+              30.2
+            ],
+            [
+              120.09039200000001,
+              30.202246
+            ],
+            [
+              120.087794,
+              30.202246
+            ],
+            [
+              120.087794,
+              30.2
+            ]
+          ]
+        ]
+      },
+      "lat": 30.201123,
+      "lon": 120.089093,
+      "population_total": 206.063,
+      "population_age_0_14": 24.811,
+      "population_age_65_plus": 20.606,
+      "land_surface_temperature": 29.719,
+      "temperature_percentile": 0.423909,
+      "heat_exceedance_hours": 2.098,
+      "ndvi": 0.61658,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.090392,
+              30.2
+            ],
+            [
+              120.09299,
+              30.2
+            ],
+            [
+              120.09299,
+              30.202246
+            ],
+            [
+              120.090392,
+              30.202246
+            ],
+            [
+              120.090392,
+              30.2
+            ]
+          ]
+        ]
+      },
+      "lat": 30.201123,
+      "lon": 120.091691,
+      "population_total": 264.489,
+      "population_age_0_14": 32.088,
+      "population_age_65_plus": 26.449,
+      "land_surface_temperature": 29.898,
+      "temperature_percentile": 0.432673,
+      "heat_exceedance_hours": 2.317,
+      "ndvi": 0.608911,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09299,
+              30.2
+            ],
+            [
+              120.095588,
+              30.2
+            ],
+            [
+              120.095588,
+              30.202246
+            ],
+            [
+              120.09299,
+              30.202246
+            ],
+            [
+              120.09299,
+              30.2
+            ]
+          ]
+        ]
+      },
+      "lat": 30.201123,
+      "lon": 120.094289,
+      "population_total": 354.842,
+      "population_age_0_14": 43.55,
+      "population_age_65_plus": 35.484,
+      "land_surface_temperature": 30.173,
+      "temperature_percentile": 0.446226,
+      "heat_exceedance_hours": 2.656,
+      "ndvi": 0.597052,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.095588,
+              30.2
+            ],
+            [
+              120.09818600000001,
+              30.2
+            ],
+            [
+              120.09818600000001,
+              30.202246
+            ],
+            [
+              120.095588,
+              30.202246
+            ],
+            [
+              120.095588,
+              30.2
+            ]
+          ]
+        ]
+      },
+      "lat": 30.201123,
+      "lon": 120.096887,
+      "population_total": 410.954,
+      "population_age_0_14": 50.797,
+      "population_age_65_plus": 41.095,
+      "land_surface_temperature": 30.344,
+      "temperature_percentile": 0.454643,
+      "heat_exceedance_hours": 2.866,
+      "ndvi": 0.589687,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.098186,
+              30.2
+            ],
+            [
+              120.100784,
+              30.2
+            ],
+            [
+              120.100784,
+              30.202246
+            ],
+            [
+              120.098186,
+              30.202246
+            ],
+            [
+              120.098186,
+              30.2
+            ]
+          ]
+        ]
+      },
+      "lat": 30.201123,
+      "lon": 120.099485,
+      "population_total": 374.732,
+      "population_age_0_14": 46.108,
+      "population_age_65_plus": 37.473,
+      "land_surface_temperature": 30.234,
+      "temperature_percentile": 0.44921,
+      "heat_exceedance_hours": 2.73,
+      "ndvi": 0.594441,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00009",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.100784,
+              30.2
+            ],
+            [
+              120.10338200000001,
+              30.2
+            ],
+            [
+              120.10338200000001,
+              30.202246
+            ],
+            [
+              120.100784,
+              30.202246
+            ],
+            [
+              120.100784,
+              30.2
+            ]
+          ]
+        ]
+      },
+      "lat": 30.201123,
+      "lon": 120.102083,
+      "population_total": 284.804,
+      "population_age_0_14": 34.643,
+      "population_age_65_plus": 28.48,
+      "land_surface_temperature": 29.96,
+      "temperature_percentile": 0.435721,
+      "heat_exceedance_hours": 2.393,
+      "ndvi": 0.606244,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.103382,
+              30.2
+            ],
+            [
+              120.10598,
+              30.2
+            ],
+            [
+              120.10598,
+              30.202246
+            ],
+            [
+              120.103382,
+              30.202246
+            ],
+            [
+              120.103382,
+              30.2
+            ]
+          ]
+        ]
+      },
+      "lat": 30.201123,
+      "lon": 120.104681,
+      "population_total": 216.004,
+      "population_age_0_14": 26.042,
+      "population_age_65_plus": 21.6,
+      "land_surface_temperature": 29.75,
+      "temperature_percentile": 0.425401,
+      "heat_exceedance_hours": 2.135,
+      "ndvi": 0.615274,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08,
+              30.202246
+            ],
+            [
+              120.082598,
+              30.202246
+            ],
+            [
+              120.082598,
+              30.204492
+            ],
+            [
+              120.08,
+              30.204492
+            ],
+            [
+              120.08,
+              30.202246
+            ]
+          ]
+        ]
+      },
+      "lat": 30.203369,
+      "lon": 120.081299,
+      "population_total": 205.222,
+      "population_age_0_14": 24.627,
+      "population_age_65_plus": 20.978,
+      "land_surface_temperature": 29.439,
+      "temperature_percentile": 0.420032,
+      "heat_exceedance_hours": 2.001,
+      "ndvi": 0.687292,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00012",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.082598,
+              30.202246
+            ],
+            [
+              120.08519600000001,
+              30.202246
+            ],
+            [
+              120.08519600000001,
+              30.204492
+            ],
+            [
+              120.082598,
+              30.204492
+            ],
+            [
+              120.082598,
+              30.202246
+            ]
+          ]
+        ]
+      },
+      "lat": 30.203369,
+      "lon": 120.083897,
+      "population_total": 207.479,
+      "population_age_0_14": 24.905,
+      "population_age_65_plus": 21.21,
+      "land_surface_temperature": 29.446,
+      "temperature_percentile": 0.420369,
+      "heat_exceedance_hours": 2.009,
+      "ndvi": 0.687004,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00013",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085196,
+              30.202246
+            ],
+            [
+              120.087794,
+              30.202246
+            ],
+            [
+              120.087794,
+              30.204492
+            ],
+            [
+              120.085196,
+              30.204492
+            ],
+            [
+              120.085196,
+              30.202246
+            ]
+          ]
+        ]
+      },
+      "lat": 30.203369,
+      "lon": 120.086495,
+      "population_total": 224.171,
+      "population_age_0_14": 26.967,
+      "population_age_65_plus": 22.917,
+      "land_surface_temperature": 29.496,
+      "temperature_percentile": 0.422872,
+      "heat_exceedance_hours": 2.072,
+      "ndvi": 0.68482,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00014",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.087794,
+              30.202246
+            ],
+            [
+              120.09039200000001,
+              30.202246
+            ],
+            [
+              120.09039200000001,
+              30.204492
+            ],
+            [
+              120.087794,
+              30.204492
+            ],
+            [
+              120.087794,
+              30.202246
+            ]
+          ]
+        ]
+      },
+      "lat": 30.203369,
+      "lon": 120.089093,
+      "population_total": 301.787,
+      "population_age_0_14": 36.67,
+      "population_age_65_plus": 30.851,
+      "land_surface_temperature": 29.733,
+      "temperature_percentile": 0.434515,
+      "heat_exceedance_hours": 2.363,
+      "ndvi": 0.67463,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00015",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.090392,
+              30.202246
+            ],
+            [
+              120.09299,
+              30.202246
+            ],
+            [
+              120.09299,
+              30.204492
+            ],
+            [
+              120.090392,
+              30.204492
+            ],
+            [
+              120.090392,
+              30.202246
+            ]
+          ]
+        ]
+      },
+      "lat": 30.203369,
+      "lon": 120.091691,
+      "population_total": 518.459,
+      "population_age_0_14": 64.754,
+      "population_age_65_plus": 52.999,
+      "land_surface_temperature": 30.394,
+      "temperature_percentile": 0.467017,
+      "heat_exceedance_hours": 3.175,
+      "ndvi": 0.646183,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00016",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09299,
+              30.202246
+            ],
+            [
+              120.095588,
+              30.202246
+            ],
+            [
+              120.095588,
+              30.204492
+            ],
+            [
+              120.09299,
+              30.204492
+            ],
+            [
+              120.09299,
+              30.202246
+            ]
+          ]
+        ]
+      },
+      "lat": 30.203369,
+      "lon": 120.094289,
+      "population_total": 853.582,
+      "population_age_0_14": 111.08,
+      "population_age_65_plus": 87.256,
+      "land_surface_temperature": 31.416,
+      "temperature_percentile": 0.517287,
+      "heat_exceedance_hours": 4.432,
+      "ndvi": 0.602193,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00017",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.095588,
+              30.202246
+            ],
+            [
+              120.09818600000001,
+              30.202246
+            ],
+            [
+              120.09818600000001,
+              30.204492
+            ],
+            [
+              120.095588,
+              30.204492
+            ],
+            [
+              120.095588,
+              30.202246
+            ]
+          ]
+        ]
+      },
+      "lat": 30.203369,
+      "lon": 120.096887,
+      "population_total": 1061.717,
+      "population_age_0_14": 141.618,
+      "population_age_65_plus": 108.531,
+      "land_surface_temperature": 32.051,
+      "temperature_percentile": 0.548508,
+      "heat_exceedance_hours": 5.213,
+      "ndvi": 0.574874,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00018",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.098186,
+              30.202246
+            ],
+            [
+              120.100784,
+              30.202246
+            ],
+            [
+              120.100784,
+              30.204492
+            ],
+            [
+              120.098186,
+              30.204492
+            ],
+            [
+              120.098186,
+              30.202246
+            ]
+          ]
+        ]
+      },
+      "lat": 30.203369,
+      "lon": 120.099485,
+      "population_total": 927.351,
+      "population_age_0_14": 121.749,
+      "population_age_65_plus": 94.796,
+      "land_surface_temperature": 31.641,
+      "temperature_percentile": 0.528353,
+      "heat_exceedance_hours": 4.709,
+      "ndvi": 0.592509,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00019",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.100784,
+              30.202246
+            ],
+            [
+              120.10338200000001,
+              30.202246
+            ],
+            [
+              120.10338200000001,
+              30.204492
+            ],
+            [
+              120.100784,
+              30.204492
+            ],
+            [
+              120.100784,
+              30.202246
+            ]
+          ]
+        ]
+      },
+      "lat": 30.203369,
+      "lon": 120.102083,
+      "population_total": 593.768,
+      "population_age_0_14": 74.859,
+      "population_age_65_plus": 60.696,
+      "land_surface_temperature": 30.624,
+      "temperature_percentile": 0.478315,
+      "heat_exceedance_hours": 3.458,
+      "ndvi": 0.636292,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00020",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.103382,
+              30.202246
+            ],
+            [
+              120.10598,
+              30.202246
+            ],
+            [
+              120.10598,
+              30.204492
+            ],
+            [
+              120.103382,
+              30.204492
+            ],
+            [
+              120.103382,
+              30.202246
+            ]
+          ]
+        ]
+      },
+      "lat": 30.203369,
+      "lon": 120.104681,
+      "population_total": 338.556,
+      "population_age_0_14": 41.333,
+      "population_age_65_plus": 34.608,
+      "land_surface_temperature": 29.845,
+      "temperature_percentile": 0.440033,
+      "heat_exceedance_hours": 2.501,
+      "ndvi": 0.669788,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00021",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08,
+              30.204492
+            ],
+            [
+              120.082598,
+              30.204492
+            ],
+            [
+              120.082598,
+              30.206737999999998
+            ],
+            [
+              120.08,
+              30.206737999999998
+            ],
+            [
+              120.08,
+              30.204492
+            ]
+          ]
+        ]
+      },
+      "lat": 30.205615,
+      "lon": 120.081299,
+      "population_total": 231.096,
+      "population_age_0_14": 27.733,
+      "population_age_65_plus": 24.144,
+      "land_surface_temperature": 29.425,
+      "temperature_percentile": 0.420145,
+      "heat_exceedance_hours": 2.004,
+      "ndvi": 0.692684,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00022",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.082598,
+              30.204492
+            ],
+            [
+              120.08519600000001,
+              30.204492
+            ],
+            [
+              120.08519600000001,
+              30.206737999999998
+            ],
+            [
+              120.082598,
+              30.206737999999998
+            ],
+            [
+              120.082598,
+              30.204492
+            ]
+          ]
+        ]
+      },
+      "lat": 30.205615,
+      "lon": 120.083897,
+      "population_total": 237.553,
+      "population_age_0_14": 28.527,
+      "population_age_65_plus": 24.832,
+      "land_surface_temperature": 29.443,
+      "temperature_percentile": 0.421076,
+      "heat_exceedance_hours": 2.029,
+      "ndvi": 0.692,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00023",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085196,
+              30.204492
+            ],
+            [
+              120.087794,
+              30.204492
+            ],
+            [
+              120.087794,
+              30.206737999999998
+            ],
+            [
+              120.085196,
+              30.206737999999998
+            ],
+            [
+              120.085196,
+              30.204492
+            ]
+          ]
+        ]
+      },
+      "lat": 30.205615,
+      "lon": 120.086495,
+      "population_total": 278.067,
+      "population_age_0_14": 33.564,
+      "population_age_65_plus": 29.082,
+      "land_surface_temperature": 29.566,
+      "temperature_percentile": 0.42712,
+      "heat_exceedance_hours": 2.181,
+      "ndvi": 0.686829,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00024",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.087794,
+              30.204492
+            ],
+            [
+              120.09039200000001,
+              30.204492
+            ],
+            [
+              120.09039200000001,
+              30.206737999999998
+            ],
+            [
+              120.087794,
+              30.206737999999998
+            ],
+            [
+              120.087794,
+              30.204492
+            ]
+          ]
+        ]
+      },
+      "lat": 30.205615,
+      "lon": 120.089093,
+      "population_total": 461.463,
+      "population_age_0_14": 57.026,
+      "population_age_65_plus": 48.253,
+      "land_surface_temperature": 30.125,
+      "temperature_percentile": 0.454642,
+      "heat_exceedance_hours": 2.869,
+      "ndvi": 0.662702,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00025",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.090392,
+              30.204492
+            ],
+            [
+              120.09299,
+              30.204492
+            ],
+            [
+              120.09299,
+              30.206737999999998
+            ],
+            [
+              120.090392,
+              30.206737999999998
+            ],
+            [
+              120.090392,
+              30.204492
+            ]
+          ]
+        ]
+      },
+      "lat": 30.205615,
+      "lon": 120.091691,
+      "population_total": 973.262,
+      "population_age_0_14": 128.076,
+      "population_age_65_plus": 101.706,
+      "land_surface_temperature": 31.688,
+      "temperature_percentile": 0.531454,
+      "heat_exceedance_hours": 4.788,
+      "ndvi": 0.595347,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00026",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09299,
+              30.204492
+            ],
+            [
+              120.095588,
+              30.204492
+            ],
+            [
+              120.095588,
+              30.206737999999998
+            ],
+            [
+              120.09299,
+              30.206737999999998
+            ],
+            [
+              120.09299,
+              30.204492
+            ]
+          ]
+        ]
+      },
+      "lat": 30.205615,
+      "lon": 120.094289,
+      "population_total": 1765.963,
+      "population_age_0_14": 254.289,
+      "population_age_65_plus": 184.469,
+      "land_surface_temperature": 34.106,
+      "temperature_percentile": 0.650386,
+      "heat_exceedance_hours": 7.76,
+      "ndvi": 0.491188,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00027",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.095588,
+              30.204492
+            ],
+            [
+              120.09818600000001,
+              30.204492
+            ],
+            [
+              120.09818600000001,
+              30.206737999999998
+            ],
+            [
+              120.095588,
+              30.206737999999998
+            ],
+            [
+              120.095588,
+              30.204492
+            ]
+          ]
+        ]
+      },
+      "lat": 30.205615,
+      "lon": 120.096887,
+      "population_total": 2258.554,
+      "population_age_0_14": 342.613,
+      "population_age_65_plus": 235.898,
+      "land_surface_temperature": 35.609,
+      "temperature_percentile": 0.724282,
+      "heat_exceedance_hours": 9.607,
+      "ndvi": 0.426501,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00028",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.098186,
+              30.204492
+            ],
+            [
+              120.100784,
+              30.204492
+            ],
+            [
+              120.100784,
+              30.206737999999998
+            ],
+            [
+              120.098186,
+              30.206737999999998
+            ],
+            [
+              120.098186,
+              30.204492
+            ]
+          ]
+        ]
+      },
+      "lat": 30.205615,
+      "lon": 120.099485,
+      "population_total": 1940.371,
+      "population_age_0_14": 284.7,
+      "population_age_65_plus": 202.661,
+      "land_surface_temperature": 34.638,
+      "temperature_percentile": 0.676556,
+      "heat_exceedance_hours": 8.414,
+      "ndvi": 0.468258,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00029",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.100784,
+              30.204492
+            ],
+            [
+              120.10338200000001,
+              30.204492
+            ],
+            [
+              120.10338200000001,
+              30.206737999999998
+            ],
+            [
+              120.100784,
+              30.206737999999998
+            ],
+            [
+              120.100784,
+              30.204492
+            ]
+          ]
+        ]
+      },
+      "lat": 30.205615,
+      "lon": 120.102083,
+      "population_total": 1150.517,
+      "population_age_0_14": 154.61,
+      "population_age_65_plus": 120.165,
+      "land_surface_temperature": 32.229,
+      "temperature_percentile": 0.558078,
+      "heat_exceedance_hours": 5.452,
+      "ndvi": 0.571926,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00030",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.103382,
+              30.204492
+            ],
+            [
+              120.10598,
+              30.204492
+            ],
+            [
+              120.10598,
+              30.206737999999998
+            ],
+            [
+              120.103382,
+              30.206737999999998
+            ],
+            [
+              120.103382,
+              30.204492
+            ]
+          ]
+        ]
+      },
+      "lat": 30.205615,
+      "lon": 120.104681,
+      "population_total": 546.231,
+      "population_age_0_14": 68.247,
+      "population_age_65_plus": 57.051,
+      "land_surface_temperature": 30.386,
+      "temperature_percentile": 0.467435,
+      "heat_exceedance_hours": 3.186,
+      "ndvi": 0.651238,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00031",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08,
+              30.206738
+            ],
+            [
+              120.082598,
+              30.206738
+            ],
+            [
+              120.082598,
+              30.208984
+            ],
+            [
+              120.08,
+              30.208984
+            ],
+            [
+              120.08,
+              30.206738
+            ]
+          ]
+        ]
+      },
+      "lat": 30.207861,
+      "lon": 120.081299,
+      "population_total": 263.172,
+      "population_age_0_14": 31.583,
+      "population_age_65_plus": 28.164,
+      "land_surface_temperature": 29.624,
+      "temperature_percentile": 0.421001,
+      "heat_exceedance_hours": 2.033,
+      "ndvi": 0.631199,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00032",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.082598,
+              30.206738
+            ],
+            [
+              120.08519600000001,
+              30.206738
+            ],
+            [
+              120.08519600000001,
+              30.208984
+            ],
+            [
+              120.082598,
+              30.208984
+            ],
+            [
+              120.082598,
+              30.206738
+            ]
+          ]
+        ]
+      },
+      "lat": 30.207861,
+      "lon": 120.083897,
+      "population_total": 285.607,
+      "population_age_0_14": 34.311,
+      "population_age_65_plus": 30.759,
+      "land_surface_temperature": 29.679,
+      "temperature_percentile": 0.42393,
+      "heat_exceedance_hours": 2.12,
+      "ndvi": 0.630166,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00033",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085196,
+              30.206738
+            ],
+            [
+              120.087794,
+              30.206738
+            ],
+            [
+              120.087794,
+              30.208984
+            ],
+            [
+              120.085196,
+              30.208984
+            ],
+            [
+              120.085196,
+              30.206738
+            ]
+          ]
+        ]
+      },
+      "lat": 30.207861,
+      "lon": 120.086495,
+      "population_total": 358.138,
+      "population_age_0_14": 43.358,
+      "population_age_65_plus": 38.787,
+      "land_surface_temperature": 29.889,
+      "temperature_percentile": 0.43442,
+      "heat_exceedance_hours": 2.396,
+      "ndvi": 0.62235,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00034",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.087794,
+              30.206738
+            ],
+            [
+              120.09039200000001,
+              30.206738
+            ],
+            [
+              120.09039200000001,
+              30.208984
+            ],
+            [
+              120.087794,
+              30.208984
+            ],
+            [
+              120.087794,
+              30.206738
+            ]
+          ]
+        ]
+      },
+      "lat": 30.207861,
+      "lon": 120.089093,
+      "population_total": 630.957,
+      "population_age_0_14": 79.125,
+      "population_age_65_plus": 68.186,
+      "land_surface_temperature": 30.725,
+      "temperature_percentile": 0.475493,
+      "heat_exceedance_hours": 3.417,
+      "ndvi": 0.585885,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00035",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.090392,
+              30.206738
+            ],
+            [
+              120.09299,
+              30.206738
+            ],
+            [
+              120.09299,
+              30.208984
+            ],
+            [
+              120.090392,
+              30.208984
+            ],
+            [
+              120.090392,
+              30.206738
+            ]
+          ]
+        ]
+      },
+      "lat": 30.207861,
+      "lon": 120.091691,
+      "population_total": 1390.426,
+      "population_age_0_14": 191.217,
+      "population_age_65_plus": 149.213,
+      "land_surface_temperature": 33.056,
+      "temperature_percentile": 0.589898,
+      "heat_exceedance_hours": 6.261,
+      "ndvi": 0.484086,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00036",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09299,
+              30.206738
+            ],
+            [
+              120.095588,
+              30.206738
+            ],
+            [
+              120.095588,
+              30.208984
+            ],
+            [
+              120.09299,
+              30.208984
+            ],
+            [
+              120.09299,
+              30.206738
+            ]
+          ]
+        ]
+      },
+      "lat": 30.207861,
+      "lon": 120.094289,
+      "population_total": 2579.426,
+      "population_age_0_14": 403.074,
+      "population_age_65_plus": 275.555,
+      "land_surface_temperature": 36.692,
+      "temperature_percentile": 0.76856,
+      "heat_exceedance_hours": 10.717,
+      "ndvi": 0.326663,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00037",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.095588,
+              30.206738
+            ],
+            [
+              120.09818600000001,
+              30.206738
+            ],
+            [
+              120.09818600000001,
+              30.208984
+            ],
+            [
+              120.095588,
+              30.208984
+            ],
+            [
+              120.095588,
+              30.206738
+            ]
+          ]
+        ]
+      },
+      "lat": 30.207861,
+      "lon": 120.096887,
+      "population_total": 3321.308,
+      "population_age_0_14": 557.66,
+      "population_age_65_plus": 354.345,
+      "land_surface_temperature": 38.958,
+      "temperature_percentile": 0.879932,
+      "heat_exceedance_hours": 13.499,
+      "ndvi": 0.228898,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00038",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.098186,
+              30.206738
+            ],
+            [
+              120.100784,
+              30.206738
+            ],
+            [
+              120.100784,
+              30.208984
+            ],
+            [
+              120.098186,
+              30.208984
+            ],
+            [
+              120.098186,
+              30.206738
+            ]
+          ]
+        ]
+      },
+      "lat": 30.207861,
+      "lon": 120.099485,
+      "population_total": 2840.039,
+      "population_age_0_14": 455.516,
+      "population_age_65_plus": 302.942,
+      "land_surface_temperature": 37.49,
+      "temperature_percentile": 0.807755,
+      "heat_exceedance_hours": 11.694,
+      "ndvi": 0.292008,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00039",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.100784,
+              30.206738
+            ],
+            [
+              120.10338200000001,
+              30.206738
+            ],
+            [
+              120.10338200000001,
+              30.208984
+            ],
+            [
+              120.100784,
+              30.208984
+            ],
+            [
+              120.100784,
+              30.206738
+            ]
+          ]
+        ]
+      },
+      "lat": 30.207861,
+      "lon": 120.102083,
+      "population_total": 1646.246,
+      "population_age_0_14": 233.336,
+      "population_age_65_plus": 175.6,
+      "land_surface_temperature": 33.849,
+      "temperature_percentile": 0.628687,
+      "heat_exceedance_hours": 7.217,
+      "ndvi": 0.448689,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00040",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.103382,
+              30.206738
+            ],
+            [
+              120.10598,
+              30.206738
+            ],
+            [
+              120.10598,
+              30.208984
+            ],
+            [
+              120.103382,
+              30.208984
+            ],
+            [
+              120.103382,
+              30.206738
+            ]
+          ]
+        ]
+      },
+      "lat": 30.207861,
+      "lon": 120.104681,
+      "population_total": 732.943,
+      "population_age_0_14": 93.427,
+      "population_age_65_plus": 78.181,
+      "land_surface_temperature": 31.064,
+      "temperature_percentile": 0.491691,
+      "heat_exceedance_hours": 3.792,
+      "ndvi": 0.56856,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00041",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08,
+              30.208984
+            ],
+            [
+              120.082598,
+              30.208984
+            ],
+            [
+              120.082598,
+              30.21123
+            ],
+            [
+              120.08,
+              30.21123
+            ],
+            [
+              120.08,
+              30.208984
+            ]
+          ]
+        ]
+      },
+      "lat": 30.210107,
+      "lon": 120.081299,
+      "population_total": 327.771,
+      "population_age_0_14": 39.336,
+      "population_age_65_plus": 36.411,
+      "land_surface_temperature": 29.924,
+      "temperature_percentile": 0.425752,
+      "heat_exceedance_hours": 2.191,
+      "ndvi": 0.559369,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00042",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.082598,
+              30.208984
+            ],
+            [
+              120.08519600000001,
+              30.208984
+            ],
+            [
+              120.08519600000001,
+              30.21123
+            ],
+            [
+              120.082598,
+              30.21123
+            ],
+            [
+              120.082598,
+              30.208984
+            ]
+          ]
+        ]
+      },
+      "lat": 30.210107,
+      "lon": 120.083897,
+      "population_total": 427.011,
+      "population_age_0_14": 51.296,
+      "population_age_65_plus": 49.262,
+      "land_surface_temperature": 30.143,
+      "temperature_percentile": 0.437889,
+      "heat_exceedance_hours": 2.586,
+      "ndvi": 0.558372,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00043",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085196,
+              30.208984
+            ],
+            [
+              120.087794,
+              30.208984
+            ],
+            [
+              120.087794,
+              30.21123
+            ],
+            [
+              120.085196,
+              30.21123
+            ],
+            [
+              120.085196,
+              30.208984
+            ]
+          ]
+        ]
+      },
+      "lat": 30.210107,
+      "lon": 120.086495,
+      "population_total": 566.154,
+      "population_age_0_14": 68.52,
+      "population_age_65_plus": 67.472,
+      "land_surface_temperature": 30.492,
+      "temperature_percentile": 0.45631,
+      "heat_exceedance_hours": 3.128,
+      "ndvi": 0.550832,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00044",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.087794,
+              30.208984
+            ],
+            [
+              120.09039200000001,
+              30.208984
+            ],
+            [
+              120.09039200000001,
+              30.21123
+            ],
+            [
+              120.087794,
+              30.21123
+            ],
+            [
+              120.087794,
+              30.208984
+            ]
+          ]
+        ]
+      },
+      "lat": 30.210107,
+      "lon": 120.089093,
+      "population_total": 802.657,
+      "population_age_0_14": 100.504,
+      "population_age_65_plus": 94.477,
+      "land_surface_temperature": 31.243,
+      "temperature_percentile": 0.492731,
+      "heat_exceedance_hours": 4.007,
+      "ndvi": 0.515653,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00045",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.090392,
+              30.208984
+            ],
+            [
+              120.09299,
+              30.208984
+            ],
+            [
+              120.09299,
+              30.21123
+            ],
+            [
+              120.090392,
+              30.21123
+            ],
+            [
+              120.090392,
+              30.208984
+            ]
+          ]
+        ]
+      },
+      "lat": 30.210107,
+      "lon": 120.091691,
+      "population_total": 1449.317,
+      "population_age_0_14": 198.42,
+      "population_age_65_plus": 163.721,
+      "land_surface_temperature": 33.308,
+      "temperature_percentile": 0.592778,
+      "heat_exceedance_hours": 6.407,
+      "ndvi": 0.417445,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00046",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09299,
+              30.208984
+            ],
+            [
+              120.095588,
+              30.208984
+            ],
+            [
+              120.095588,
+              30.21123
+            ],
+            [
+              120.09299,
+              30.21123
+            ],
+            [
+              120.09299,
+              30.208984
+            ]
+          ]
+        ]
+      },
+      "lat": 30.210107,
+      "lon": 120.094289,
+      "population_total": 2540.865,
+      "population_age_0_14": 393.798,
+      "population_age_65_plus": 279.254,
+      "land_surface_temperature": 36.697,
+      "temperature_percentile": 0.758476,
+      "heat_exceedance_hours": 10.484,
+      "ndvi": 0.265575,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00047",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.095588,
+              30.208984
+            ],
+            [
+              120.09818600000001,
+              30.208984
+            ],
+            [
+              120.09818600000001,
+              30.21123
+            ],
+            [
+              120.095588,
+              30.21123
+            ],
+            [
+              120.095588,
+              30.208984
+            ]
+          ]
+        ]
+      },
+      "lat": 30.210107,
+      "lon": 120.096887,
+      "population_total": 3240.617,
+      "population_age_0_14": 538.635,
+      "population_age_65_plus": 353.31,
+      "land_surface_temperature": 38.849,
+      "temperature_percentile": 0.864005,
+      "heat_exceedance_hours": 13.103,
+      "ndvi": 0.171259,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00048",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.098186,
+              30.208984
+            ],
+            [
+              120.100784,
+              30.208984
+            ],
+            [
+              120.100784,
+              30.21123
+            ],
+            [
+              120.098186,
+              30.21123
+            ],
+            [
+              120.098186,
+              30.208984
+            ]
+          ]
+        ]
+      },
+      "lat": 30.210107,
+      "lon": 120.099485,
+      "population_total": 2774.026,
+      "population_age_0_14": 440.975,
+      "population_age_65_plus": 302.088,
+      "land_surface_temperature": 37.428,
+      "temperature_percentile": 0.794097,
+      "heat_exceedance_hours": 11.353,
+      "ndvi": 0.232143,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00049",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.100784,
+              30.208984
+            ],
+            [
+              120.10338200000001,
+              30.208984
+            ],
+            [
+              120.10338200000001,
+              30.21123
+            ],
+            [
+              120.100784,
+              30.21123
+            ],
+            [
+              120.100784,
+              30.208984
+            ]
+          ]
+        ]
+      },
+      "lat": 30.210107,
+      "lon": 120.102083,
+      "population_total": 1622.174,
+      "population_age_0_14": 228.68,
+      "population_age_65_plus": 176.637,
+      "land_surface_temperature": 33.915,
+      "temperature_percentile": 0.621326,
+      "heat_exceedance_hours": 7.033,
+      "ndvi": 0.383297,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00050",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.103382,
+              30.208984
+            ],
+            [
+              120.10598,
+              30.208984
+            ],
+            [
+              120.10598,
+              30.21123
+            ],
+            [
+              120.103382,
+              30.21123
+            ],
+            [
+              120.103382,
+              30.208984
+            ]
+          ]
+        ]
+      },
+      "lat": 30.210107,
+      "lon": 120.104681,
+      "population_total": 741.083,
+      "population_age_0_14": 94.269,
+      "population_age_65_plus": 80.696,
+      "land_surface_temperature": 31.228,
+      "temperature_percentile": 0.489162,
+      "heat_exceedance_hours": 3.729,
+      "ndvi": 0.498939,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00051",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08,
+              30.21123
+            ],
+            [
+              120.082598,
+              30.21123
+            ],
+            [
+              120.082598,
+              30.213476
+            ],
+            [
+              120.08,
+              30.213476
+            ],
+            [
+              120.08,
+              30.21123
+            ]
+          ]
+        ]
+      },
+      "lat": 30.212353,
+      "lon": 120.081299,
+      "population_total": 465.327,
+      "population_age_0_14": 55.842,
+      "population_age_65_plus": 55.176,
+      "land_surface_temperature": 30.213,
+      "temperature_percentile": 0.439252,
+      "heat_exceedance_hours": 2.641,
+      "ndvi": 0.543233,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00052",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.082598,
+              30.21123
+            ],
+            [
+              120.08519600000001,
+              30.21123
+            ],
+            [
+              120.08519600000001,
+              30.213476
+            ],
+            [
+              120.082598,
+              30.213476
+            ],
+            [
+              120.082598,
+              30.21123
+            ]
+          ]
+        ]
+      },
+      "lat": 30.212353,
+      "lon": 120.083897,
+      "population_total": 781.113,
+      "population_age_0_14": 93.796,
+      "population_age_65_plus": 103.96,
+      "land_surface_temperature": 30.891,
+      "temperature_percentile": 0.477286,
+      "heat_exceedance_hours": 3.903,
+      "ndvi": 0.542619,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00053",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085196,
+              30.21123
+            ],
+            [
+              120.087794,
+              30.21123
+            ],
+            [
+              120.087794,
+              30.213476
+            ],
+            [
+              120.085196,
+              30.213476
+            ],
+            [
+              120.085196,
+              30.21123
+            ]
+          ]
+        ]
+      },
+      "lat": 30.212353,
+      "lon": 120.086495,
+      "population_total": 1093.819,
+      "population_age_0_14": 131.95,
+      "population_age_65_plus": 159.735,
+      "land_surface_temperature": 31.59,
+      "temperature_percentile": 0.515872,
+      "heat_exceedance_hours": 5.145,
+      "ndvi": 0.537975,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00054",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.087794,
+              30.21123
+            ],
+            [
+              120.09039200000001,
+              30.21123
+            ],
+            [
+              120.09039200000001,
+              30.213476
+            ],
+            [
+              120.087794,
+              30.213476
+            ],
+            [
+              120.087794,
+              30.21123
+            ]
+          ]
+        ]
+      },
+      "lat": 30.212353,
+      "lon": 120.089093,
+      "population_total": 1151.85,
+      "population_age_0_14": 141.921,
+      "population_age_65_plus": 162.457,
+      "land_surface_temperature": 31.865,
+      "temperature_percentile": 0.527787,
+      "heat_exceedance_hours": 5.336,
+      "ndvi": 0.516313,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00055",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.090392,
+              30.21123
+            ],
+            [
+              120.09299,
+              30.21123
+            ],
+            [
+              120.09299,
+              30.213476
+            ],
+            [
+              120.090392,
+              30.213476
+            ],
+            [
+              120.090392,
+              30.21123
+            ]
+          ]
+        ]
+      },
+      "lat": 30.212353,
+      "lon": 120.091691,
+      "population_total": 1267.748,
+      "population_age_0_14": 165.328,
+      "population_age_65_plus": 158.401,
+      "land_surface_temperature": 32.535,
+      "temperature_percentile": 0.555518,
+      "heat_exceedance_hours": 5.684,
+      "ndvi": 0.455837,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00056",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09299,
+              30.21123
+            ],
+            [
+              120.095588,
+              30.21123
+            ],
+            [
+              120.095588,
+              30.213476
+            ],
+            [
+              120.09299,
+              30.213476
+            ],
+            [
+              120.09299,
+              30.21123
+            ]
+          ]
+        ]
+      },
+      "lat": 30.212353,
+      "lon": 120.094289,
+      "population_total": 1757.736,
+      "population_age_0_14": 248.797,
+      "population_age_65_plus": 201.368,
+      "land_surface_temperature": 34.233,
+      "temperature_percentile": 0.635693,
+      "heat_exceedance_hours": 7.466,
+      "ndvi": 0.362317,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00057",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.095588,
+              30.21123
+            ],
+            [
+              120.09818600000001,
+              30.21123
+            ],
+            [
+              120.09818600000001,
+              30.213476
+            ],
+            [
+              120.095588,
+              30.213476
+            ],
+            [
+              120.095588,
+              30.21123
+            ]
+          ]
+        ]
+      },
+      "lat": 30.212353,
+      "lon": 120.096887,
+      "population_total": 2136.259,
+      "population_age_0_14": 317.145,
+      "population_age_65_plus": 238.353,
+      "land_surface_temperature": 35.446,
+      "temperature_percentile": 0.694391,
+      "heat_exceedance_hours": 8.87,
+      "ndvi": 0.304238,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00058",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.098186,
+              30.21123
+            ],
+            [
+              120.100784,
+              30.21123
+            ],
+            [
+              120.100784,
+              30.213476
+            ],
+            [
+              120.098186,
+              30.213476
+            ],
+            [
+              120.098186,
+              30.21123
+            ]
+          ]
+        ]
+      },
+      "lat": 30.212353,
+      "lon": 120.099485,
+      "population_total": 1841.388,
+      "population_age_0_14": 265.15,
+      "population_age_65_plus": 204.661,
+      "land_surface_temperature": 34.555,
+      "temperature_percentile": 0.650437,
+      "heat_exceedance_hours": 7.762,
+      "ndvi": 0.34173,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00059",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.100784,
+              30.21123
+            ],
+            [
+              120.10338200000001,
+              30.21123
+            ],
+            [
+              120.10338200000001,
+              30.213476
+            ],
+            [
+              120.100784,
+              30.213476
+            ],
+            [
+              120.100784,
+              30.21123
+            ]
+          ]
+        ]
+      },
+      "lat": 30.212353,
+      "lon": 120.102083,
+      "population_total": 1131.521,
+      "population_age_0_14": 150.395,
+      "population_age_65_plus": 125.726,
+      "land_surface_temperature": 32.391,
+      "temperature_percentile": 0.543977,
+      "heat_exceedance_hours": 5.099,
+      "ndvi": 0.434809,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00060",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.103382,
+              30.21123
+            ],
+            [
+              120.10598,
+              30.21123
+            ],
+            [
+              120.10598,
+              30.213476
+            ],
+            [
+              120.103382,
+              30.213476
+            ],
+            [
+              120.103382,
+              30.21123
+            ]
+          ]
+        ]
+      },
+      "lat": 30.212353,
+      "lon": 120.104681,
+      "population_total": 588.931,
+      "population_age_0_14": 73.284,
+      "population_age_65_plus": 65.437,
+      "land_surface_temperature": 30.736,
+      "temperature_percentile": 0.46259,
+      "heat_exceedance_hours": 3.065,
+      "ndvi": 0.50602,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00061",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08,
+              30.213476
+            ],
+            [
+              120.082598,
+              30.213476
+            ],
+            [
+              120.082598,
+              30.215722
+            ],
+            [
+              120.08,
+              30.215722
+            ],
+            [
+              120.08,
+              30.213476
+            ]
+          ]
+        ]
+      },
+      "lat": 30.214599,
+      "lon": 120.081299,
+      "population_total": 622.995,
+      "population_age_0_14": 74.761,
+      "population_age_65_plus": 79.12,
+      "land_surface_temperature": 30.332,
+      "temperature_percentile": 0.455164,
+      "heat_exceedance_hours": 3.172,
+      "ndvi": 0.597626,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00062",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.082598,
+              30.213476
+            ],
+            [
+              120.08519600000001,
+              30.213476
+            ],
+            [
+              120.08519600000001,
+              30.215722
+            ],
+            [
+              120.082598,
+              30.215722
+            ],
+            [
+              120.082598,
+              30.213476
+            ]
+          ]
+        ]
+      },
+      "lat": 30.214599,
+      "lon": 120.083897,
+      "population_total": 1194.517,
+      "population_age_0_14": 143.379,
+      "population_age_65_plus": 183.459,
+      "land_surface_temperature": 31.553,
+      "temperature_percentile": 0.523802,
+      "heat_exceedance_hours": 5.458,
+      "ndvi": 0.597384,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00063",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085196,
+              30.213476
+            ],
+            [
+              120.087794,
+              30.213476
+            ],
+            [
+              120.087794,
+              30.215722
+            ],
+            [
+              120.085196,
+              30.215722
+            ],
+            [
+              120.085196,
+              30.213476
+            ]
+          ]
+        ]
+      },
+      "lat": 30.214599,
+      "lon": 120.086495,
+      "population_total": 1716.251,
+      "population_age_0_14": 206.377,
+      "population_age_65_plus": 304.262,
+      "land_surface_temperature": 32.679,
+      "temperature_percentile": 0.586827,
+      "heat_exceedance_hours": 7.541,
+      "ndvi": 0.595559,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00064",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.087794,
+              30.213476
+            ],
+            [
+              120.09039200000001,
+              30.213476
+            ],
+            [
+              120.09039200000001,
+              30.215722
+            ],
+            [
+              120.087794,
+              30.215722
+            ],
+            [
+              120.087794,
+              30.213476
+            ]
+          ]
+        ]
+      },
+      "lat": 30.214599,
+      "lon": 120.089093,
+      "population_total": 1585.162,
+      "population_age_0_14": 192.22,
+      "population_age_65_plus": 266.526,
+      "land_surface_temperature": 32.459,
+      "temperature_percentile": 0.573043,
+      "heat_exceedance_hours": 7.0,
+      "ndvi": 0.587045,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00065",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.090392,
+              30.213476
+            ],
+            [
+              120.09299,
+              30.213476
+            ],
+            [
+              120.09299,
+              30.215722
+            ],
+            [
+              120.090392,
+              30.215722
+            ],
+            [
+              120.090392,
+              30.213476
+            ]
+          ]
+        ]
+      },
+      "lat": 30.214599,
+      "lon": 120.091691,
+      "population_total": 1134.772,
+      "population_age_0_14": 140.816,
+      "population_age_65_plus": 157.356,
+      "land_surface_temperature": 31.664,
+      "temperature_percentile": 0.524429,
+      "heat_exceedance_hours": 5.154,
+      "ndvi": 0.563274,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00066",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09299,
+              30.213476
+            ],
+            [
+              120.095588,
+              30.213476
+            ],
+            [
+              120.095588,
+              30.215722
+            ],
+            [
+              120.09299,
+              30.215722
+            ],
+            [
+              120.09299,
+              30.213476
+            ]
+          ]
+        ]
+      },
+      "lat": 30.214599,
+      "lon": 120.094289,
+      "population_total": 1007.33,
+      "population_age_0_14": 129.41,
+      "population_age_65_plus": 120.528,
+      "land_surface_temperature": 31.649,
+      "temperature_percentile": 0.517538,
+      "heat_exceedance_hours": 4.574,
+      "ndvi": 0.526514,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00067",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.095588,
+              30.213476
+            ],
+            [
+              120.09818600000001,
+              30.213476
+            ],
+            [
+              120.09818600000001,
+              30.215722
+            ],
+            [
+              120.095588,
+              30.215722
+            ],
+            [
+              120.095588,
+              30.213476
+            ]
+          ]
+        ]
+      },
+      "lat": 30.214599,
+      "lon": 120.096887,
+      "population_total": 1064.102,
+      "population_age_0_14": 139.595,
+      "population_age_65_plus": 121.502,
+      "land_surface_temperature": 31.929,
+      "temperature_percentile": 0.529569,
+      "heat_exceedance_hours": 4.757,
+      "ndvi": 0.503686,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00068",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.098186,
+              30.213476
+            ],
+            [
+              120.100784,
+              30.213476
+            ],
+            [
+              120.100784,
+              30.215722
+            ],
+            [
+              120.098186,
+              30.215722
+            ],
+            [
+              120.098186,
+              30.213476
+            ]
+          ]
+        ]
+      },
+      "lat": 30.214599,
+      "lon": 120.099485,
+      "population_total": 934.937,
+      "population_age_0_14": 121.01,
+      "population_age_65_plus": 106.017,
+      "land_surface_temperature": 31.551,
+      "temperature_percentile": 0.510701,
+      "heat_exceedance_hours": 4.269,
+      "ndvi": 0.518422,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00069",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.100784,
+              30.213476
+            ],
+            [
+              120.10338200000001,
+              30.213476
+            ],
+            [
+              120.10338200000001,
+              30.215722
+            ],
+            [
+              120.100784,
+              30.215722
+            ],
+            [
+              120.100784,
+              30.213476
+            ]
+          ]
+        ]
+      },
+      "lat": 30.214599,
+      "lon": 120.102083,
+      "population_total": 654.916,
+      "population_age_0_14": 81.914,
+      "population_age_65_plus": 74.225,
+      "land_surface_temperature": 30.698,
+      "temperature_percentile": 0.468736,
+      "heat_exceedance_hours": 3.218,
+      "ndvi": 0.555008,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00070",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.103382,
+              30.213476
+            ],
+            [
+              120.10598,
+              30.213476
+            ],
+            [
+              120.10598,
+              30.215722
+            ],
+            [
+              120.103382,
+              30.215722
+            ],
+            [
+              120.103382,
+              30.213476
+            ]
+          ]
+        ]
+      },
+      "lat": 30.214599,
+      "lon": 120.104681,
+      "population_total": 441.604,
+      "population_age_0_14": 53.763,
+      "population_age_65_plus": 50.048,
+      "land_surface_temperature": 30.047,
+      "temperature_percentile": 0.436741,
+      "heat_exceedance_hours": 2.419,
+      "ndvi": 0.582999,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00071",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08,
+              30.215722
+            ],
+            [
+              120.082598,
+              30.215722
+            ],
+            [
+              120.082598,
+              30.217968
+            ],
+            [
+              120.08,
+              30.217968
+            ],
+            [
+              120.08,
+              30.215722
+            ]
+          ]
+        ]
+      },
+      "lat": 30.216845,
+      "lon": 120.081299,
+      "population_total": 644.282,
+      "population_age_0_14": 77.314,
+      "population_age_65_plus": 83.147,
+      "land_surface_temperature": 30.099,
+      "temperature_percentile": 0.454715,
+      "heat_exceedance_hours": 3.157,
+      "ndvi": 0.672554,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00072",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.082598,
+              30.215722
+            ],
+            [
+              120.08519600000001,
+              30.215722
+            ],
+            [
+              120.08519600000001,
+              30.217968
+            ],
+            [
+              120.082598,
+              30.217968
+            ],
+            [
+              120.082598,
+              30.215722
+            ]
+          ]
+        ]
+      },
+      "lat": 30.216845,
+      "lon": 120.083897,
+      "population_total": 1207.437,
+      "population_age_0_14": 144.902,
+      "population_age_65_plus": 187.53,
+      "land_surface_temperature": 31.301,
+      "temperature_percentile": 0.522307,
+      "heat_exceedance_hours": 5.41,
+      "ndvi": 0.672493,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00073",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085196,
+              30.215722
+            ],
+            [
+              120.087794,
+              30.215722
+            ],
+            [
+              120.087794,
+              30.217968
+            ],
+            [
+              120.085196,
+              30.217968
+            ],
+            [
+              120.085196,
+              30.215722
+            ]
+          ]
+        ]
+      },
+      "lat": 30.216845,
+      "lon": 120.086495,
+      "population_total": 1712.523,
+      "population_age_0_14": 205.61,
+      "population_age_65_plus": 306.063,
+      "land_surface_temperature": 32.382,
+      "temperature_percentile": 0.583022,
+      "heat_exceedance_hours": 7.429,
+      "ndvi": 0.672035,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00074",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.087794,
+              30.215722
+            ],
+            [
+              120.09039200000001,
+              30.215722
+            ],
+            [
+              120.09039200000001,
+              30.217968
+            ],
+            [
+              120.087794,
+              30.217968
+            ],
+            [
+              120.087794,
+              30.215722
+            ]
+          ]
+        ]
+      },
+      "lat": 30.216845,
+      "lon": 120.089093,
+      "population_total": 1535.241,
+      "population_age_0_14": 184.715,
+      "population_age_65_plus": 260.511,
+      "land_surface_temperature": 32.019,
+      "temperature_percentile": 0.562237,
+      "heat_exceedance_hours": 6.716,
+      "ndvi": 0.669899,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00075",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.090392,
+              30.215722
+            ],
+            [
+              120.09299,
+              30.215722
+            ],
+            [
+              120.09299,
+              30.217968
+            ],
+            [
+              120.090392,
+              30.217968
+            ],
+            [
+              120.090392,
+              30.215722
+            ]
+          ]
+        ]
+      },
+      "lat": 30.216845,
+      "lon": 120.091691,
+      "population_total": 956.929,
+      "population_age_0_14": 115.814,
+      "population_age_65_plus": 134.524,
+      "land_surface_temperature": 30.827,
+      "temperature_percentile": 0.494203,
+      "heat_exceedance_hours": 4.391,
+      "ndvi": 0.663935,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00076",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09299,
+              30.215722
+            ],
+            [
+              120.095588,
+              30.215722
+            ],
+            [
+              120.095588,
+              30.217968
+            ],
+            [
+              120.09299,
+              30.217968
+            ],
+            [
+              120.09299,
+              30.215722
+            ]
+          ]
+        ]
+      },
+      "lat": 30.216845,
+      "lon": 120.094289,
+      "population_total": 624.684,
+      "population_age_0_14": 76.289,
+      "population_age_65_plus": 76.084,
+      "land_surface_temperature": 30.182,
+      "temperature_percentile": 0.456441,
+      "heat_exceedance_hours": 3.045,
+      "ndvi": 0.654712,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00077",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.095588,
+              30.215722
+            ],
+            [
+              120.09818600000001,
+              30.215722
+            ],
+            [
+              120.09818600000001,
+              30.217968
+            ],
+            [
+              120.095588,
+              30.217968
+            ],
+            [
+              120.095588,
+              30.215722
+            ]
+          ]
+        ]
+      },
+      "lat": 30.216845,
+      "lon": 120.096887,
+      "population_total": 552.599,
+      "population_age_0_14": 67.863,
+      "population_age_65_plus": 64.32,
+      "land_surface_temperature": 30.069,
+      "temperature_percentile": 0.4491,
+      "heat_exceedance_hours": 2.745,
+      "ndvi": 0.648984,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00078",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.098186,
+              30.215722
+            ],
+            [
+              120.100784,
+              30.215722
+            ],
+            [
+              120.100784,
+              30.217968
+            ],
+            [
+              120.098186,
+              30.217968
+            ],
+            [
+              120.098186,
+              30.215722
+            ]
+          ]
+        ]
+      },
+      "lat": 30.216845,
+      "lon": 120.099485,
+      "population_total": 507.75,
+      "population_age_0_14": 62.131,
+      "population_age_65_plus": 58.704,
+      "land_surface_temperature": 29.947,
+      "temperature_percentile": 0.442873,
+      "heat_exceedance_hours": 2.573,
+      "ndvi": 0.652682,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00079",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.100784,
+              30.215722
+            ],
+            [
+              120.10338200000001,
+              30.215722
+            ],
+            [
+              120.10338200000001,
+              30.217968
+            ],
+            [
+              120.100784,
+              30.217968
+            ],
+            [
+              120.100784,
+              30.215722
+            ]
+          ]
+        ]
+      },
+      "lat": 30.216845,
+      "lon": 120.102083,
+      "population_total": 436.558,
+      "population_age_0_14": 52.943,
+      "population_age_65_plus": 50.448,
+      "land_surface_temperature": 29.731,
+      "temperature_percentile": 0.432232,
+      "heat_exceedance_hours": 2.306,
+      "ndvi": 0.661861,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00080",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.103382,
+              30.215722
+            ],
+            [
+              120.10598,
+              30.215722
+            ],
+            [
+              120.10598,
+              30.217968
+            ],
+            [
+              120.103382,
+              30.217968
+            ],
+            [
+              120.103382,
+              30.215722
+            ]
+          ]
+        ]
+      },
+      "lat": 30.216845,
+      "lon": 120.104681,
+      "population_total": 383.002,
+      "population_age_0_14": 46.128,
+      "population_age_65_plus": 44.258,
+      "land_surface_temperature": 29.568,
+      "temperature_percentile": 0.4242,
+      "heat_exceedance_hours": 2.105,
+      "ndvi": 0.668884,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00081",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08,
+              30.217968000000003
+            ],
+            [
+              120.082598,
+              30.217968000000003
+            ],
+            [
+              120.082598,
+              30.220214000000002
+            ],
+            [
+              120.08,
+              30.220214000000002
+            ],
+            [
+              120.08,
+              30.217968000000003
+            ]
+          ]
+        ]
+      },
+      "lat": 30.219091,
+      "lon": 120.081299,
+      "population_total": 534.111,
+      "population_age_0_14": 64.093,
+      "population_age_65_plus": 66.748,
+      "land_surface_temperature": 29.731,
+      "temperature_percentile": 0.438494,
+      "heat_exceedance_hours": 2.616,
+      "ndvi": 0.699148,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00082",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.082598,
+              30.217968000000003
+            ],
+            [
+              120.08519600000001,
+              30.217968000000003
+            ],
+            [
+              120.08519600000001,
+              30.220214000000002
+            ],
+            [
+              120.082598,
+              30.220214000000002
+            ],
+            [
+              120.082598,
+              30.217968000000003
+            ]
+          ]
+        ]
+      },
+      "lat": 30.219091,
+      "lon": 120.083897,
+      "population_total": 833.982,
+      "population_age_0_14": 100.079,
+      "population_age_65_plus": 115.89,
+      "land_surface_temperature": 30.371,
+      "temperature_percentile": 0.47448,
+      "heat_exceedance_hours": 3.816,
+      "ndvi": 0.699138,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00083",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085196,
+              30.217968000000003
+            ],
+            [
+              120.087794,
+              30.217968000000003
+            ],
+            [
+              120.087794,
+              30.220214000000002
+            ],
+            [
+              120.085196,
+              30.220214000000002
+            ],
+            [
+              120.085196,
+              30.217968000000003
+            ]
+          ]
+        ]
+      },
+      "lat": 30.219091,
+      "lon": 120.086495,
+      "population_total": 1101.787,
+      "population_age_0_14": 132.225,
+      "population_age_65_plus": 166.845,
+      "land_surface_temperature": 30.943,
+      "temperature_percentile": 0.506634,
+      "heat_exceedance_hours": 4.887,
+      "ndvi": 0.699065,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00084",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.087794,
+              30.217968000000003
+            ],
+            [
+              120.09039200000001,
+              30.217968000000003
+            ],
+            [
+              120.09039200000001,
+              30.220214000000002
+            ],
+            [
+              120.087794,
+              30.220214000000002
+            ],
+            [
+              120.087794,
+              30.217968000000003
+            ]
+          ]
+        ]
+      },
+      "lat": 30.219091,
+      "lon": 120.089093,
+      "population_total": 1001.267,
+      "population_age_0_14": 120.203,
+      "population_age_65_plus": 146.805,
+      "land_surface_temperature": 30.731,
+      "temperature_percentile": 0.494649,
+      "heat_exceedance_hours": 4.484,
+      "ndvi": 0.698723,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00085",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.090392,
+              30.217968000000003
+            ],
+            [
+              120.09299,
+              30.217968000000003
+            ],
+            [
+              120.09299,
+              30.220214000000002
+            ],
+            [
+              120.090392,
+              30.220214000000002
+            ],
+            [
+              120.090392,
+              30.217968000000003
+            ]
+          ]
+        ]
+      },
+      "lat": 30.219091,
+      "lon": 120.091691,
+      "population_total": 676.216,
+      "population_age_0_14": 81.257,
+      "population_age_65_plus": 88.659,
+      "land_surface_temperature": 30.044,
+      "temperature_percentile": 0.455862,
+      "heat_exceedance_hours": 3.182,
+      "ndvi": 0.697768,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00086",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09299,
+              30.217968000000003
+            ],
+            [
+              120.095588,
+              30.217968000000003
+            ],
+            [
+              120.095588,
+              30.220214000000002
+            ],
+            [
+              120.09299,
+              30.220214000000002
+            ],
+            [
+              120.09299,
+              30.217968000000003
+            ]
+          ]
+        ]
+      },
+      "lat": 30.219091,
+      "lon": 120.094289,
+      "population_total": 473.015,
+      "population_age_0_14": 56.923,
+      "population_age_65_plus": 57.283,
+      "land_surface_temperature": 29.621,
+      "temperature_percentile": 0.431815,
+      "heat_exceedance_hours": 2.367,
+      "ndvi": 0.696291,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00087",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.095588,
+              30.217968000000003
+            ],
+            [
+              120.09818600000001,
+              30.217968000000003
+            ],
+            [
+              120.09818600000001,
+              30.220214000000002
+            ],
+            [
+              120.095588,
+              30.220214000000002
+            ],
+            [
+              120.095588,
+              30.217968000000003
+            ]
+          ]
+        ]
+      },
+      "lat": 30.219091,
+      "lon": 120.096887,
+      "population_total": 418.347,
+      "population_age_0_14": 50.39,
+      "population_age_65_plus": 49.459,
+      "land_surface_temperature": 29.511,
+      "temperature_percentile": 0.425465,
+      "heat_exceedance_hours": 2.146,
+      "ndvi": 0.695373,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00088",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.098186,
+              30.217968000000003
+            ],
+            [
+              120.100784,
+              30.217968000000003
+            ],
+            [
+              120.100784,
+              30.220214000000002
+            ],
+            [
+              120.098186,
+              30.220214000000002
+            ],
+            [
+              120.098186,
+              30.217968000000003
+            ]
+          ]
+        ]
+      },
+      "lat": 30.219091,
+      "lon": 120.099485,
+      "population_total": 404.949,
+      "population_age_0_14": 48.747,
+      "population_age_65_plus": 47.707,
+      "land_surface_temperature": 29.478,
+      "temperature_percentile": 0.423721,
+      "heat_exceedance_hours": 2.094,
+      "ndvi": 0.695965,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00089",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.100784,
+              30.217968000000003
+            ],
+            [
+              120.10338200000001,
+              30.217968000000003
+            ],
+            [
+              120.10338200000001,
+              30.220214000000002
+            ],
+            [
+              120.100784,
+              30.220214000000002
+            ],
+            [
+              120.100784,
+              30.217968000000003
+            ]
+          ]
+        ]
+      },
+      "lat": 30.219091,
+      "lon": 120.102083,
+      "population_total": 393.081,
+      "population_age_0_14": 47.25,
+      "population_age_65_plus": 46.297,
+      "land_surface_temperature": 29.442,
+      "temperature_percentile": 0.421961,
+      "heat_exceedance_hours": 2.049,
+      "ndvi": 0.697435,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00090",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.103382,
+              30.217968000000003
+            ],
+            [
+              120.10598,
+              30.217968000000003
+            ],
+            [
+              120.10598,
+              30.220214000000002
+            ],
+            [
+              120.103382,
+              30.220214000000002
+            ],
+            [
+              120.103382,
+              30.217968000000003
+            ]
+          ]
+        ]
+      },
+      "lat": 30.219091,
+      "lon": 120.104681,
+      "population_total": 384.485,
+      "population_age_0_14": 46.165,
+      "population_age_65_plus": 45.284,
+      "land_surface_temperature": 29.416,
+      "temperature_percentile": 0.420673,
+      "heat_exceedance_hours": 2.017,
+      "ndvi": 0.69856,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00091",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08,
+              30.220214000000002
+            ],
+            [
+              120.082598,
+              30.220214000000002
+            ],
+            [
+              120.082598,
+              30.22246
+            ],
+            [
+              120.08,
+              30.22246
+            ],
+            [
+              120.08,
+              30.220214000000002
+            ]
+          ]
+        ]
+      },
+      "lat": 30.221337,
+      "lon": 120.081299,
+      "population_total": 449.289,
+      "population_age_0_14": 53.915,
+      "population_age_65_plus": 54.843,
+      "land_surface_temperature": 29.636,
+      "temperature_percentile": 0.425315,
+      "heat_exceedance_hours": 2.177,
+      "ndvi": 0.652969,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00092",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.082598,
+              30.220214000000002
+            ],
+            [
+              120.08519600000001,
+              30.220214000000002
+            ],
+            [
+              120.08519600000001,
+              30.22246
+            ],
+            [
+              120.082598,
+              30.22246
+            ],
+            [
+              120.082598,
+              30.220214000000002
+            ]
+          ]
+        ]
+      },
+      "lat": 30.221337,
+      "lon": 120.083897,
+      "population_total": 535.455,
+      "population_age_0_14": 64.255,
+      "population_age_65_plus": 67.514,
+      "land_surface_temperature": 29.819,
+      "temperature_percentile": 0.435655,
+      "heat_exceedance_hours": 2.522,
+      "ndvi": 0.652968,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00093",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085196,
+              30.220214000000002
+            ],
+            [
+              120.087794,
+              30.220214000000002
+            ],
+            [
+              120.087794,
+              30.22246
+            ],
+            [
+              120.085196,
+              30.22246
+            ],
+            [
+              120.085196,
+              30.220214000000002
+            ]
+          ]
+        ]
+      },
+      "lat": 30.221337,
+      "lon": 120.086495,
+      "population_total": 612.316,
+      "population_age_0_14": 73.479,
+      "population_age_65_plus": 79.4,
+      "land_surface_temperature": 29.983,
+      "temperature_percentile": 0.44488,
+      "heat_exceedance_hours": 2.829,
+      "ndvi": 0.652961,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00094",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.087794,
+              30.220214000000002
+            ],
+            [
+              120.09039200000001,
+              30.220214000000002
+            ],
+            [
+              120.09039200000001,
+              30.22246
+            ],
+            [
+              120.087794,
+              30.22246
+            ],
+            [
+              120.087794,
+              30.220214000000002
+            ]
+          ]
+        ]
+      },
+      "lat": 30.221337,
+      "lon": 120.089093,
+      "population_total": 582.945,
+      "population_age_0_14": 69.956,
+      "population_age_65_plus": 74.785,
+      "land_surface_temperature": 29.921,
+      "temperature_percentile": 0.441363,
+      "heat_exceedance_hours": 2.712,
+      "ndvi": 0.652926,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00095",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.090392,
+              30.220214000000002
+            ],
+            [
+              120.09299,
+              30.220214000000002
+            ],
+            [
+              120.09299,
+              30.22246
+            ],
+            [
+              120.090392,
+              30.22246
+            ],
+            [
+              120.090392,
+              30.220214000000002
+            ]
+          ]
+        ]
+      },
+      "lat": 30.221337,
+      "lon": 120.091691,
+      "population_total": 488.181,
+      "population_age_0_14": 58.59,
+      "population_age_65_plus": 60.452,
+      "land_surface_temperature": 29.72,
+      "temperature_percentile": 0.430014,
+      "heat_exceedance_hours": 2.332,
+      "ndvi": 0.652828,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00096",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09299,
+              30.220214000000002
+            ],
+            [
+              120.095588,
+              30.220214000000002
+            ],
+            [
+              120.095588,
+              30.22246
+            ],
+            [
+              120.09299,
+              30.22246
+            ],
+            [
+              120.09299,
+              30.220214000000002
+            ]
+          ]
+        ]
+      },
+      "lat": 30.221337,
+      "lon": 120.094289,
+      "population_total": 427.699,
+      "population_age_0_14": 51.339,
+      "population_age_65_plus": 51.733,
+      "land_surface_temperature": 29.592,
+      "temperature_percentile": 0.422791,
+      "heat_exceedance_hours": 2.09,
+      "ndvi": 0.652677,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00097",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.095588,
+              30.220214000000002
+            ],
+            [
+              120.09818600000001,
+              30.220214000000002
+            ],
+            [
+              120.09818600000001,
+              30.22246
+            ],
+            [
+              120.095588,
+              30.22246
+            ],
+            [
+              120.095588,
+              30.220214000000002
+            ]
+          ]
+        ]
+      },
+      "lat": 30.221337,
+      "lon": 120.096887,
+      "population_total": 410.694,
+      "population_age_0_14": 49.302,
+      "population_age_65_plus": 49.336,
+      "land_surface_temperature": 29.556,
+      "temperature_percentile": 0.420772,
+      "heat_exceedance_hours": 2.022,
+      "ndvi": 0.652584,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00098",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.098186,
+              30.220214000000002
+            ],
+            [
+              120.100784,
+              30.220214000000002
+            ],
+            [
+              120.100784,
+              30.22246
+            ],
+            [
+              120.098186,
+              30.22246
+            ],
+            [
+              120.098186,
+              30.220214000000002
+            ]
+          ]
+        ]
+      },
+      "lat": 30.221337,
+      "lon": 120.099485,
+      "population_total": 407.679,
+      "population_age_0_14": 48.937,
+      "population_age_65_plus": 48.925,
+      "land_surface_temperature": 29.549,
+      "temperature_percentile": 0.420396,
+      "heat_exceedance_hours": 2.01,
+      "ndvi": 0.652644,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00099",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.100784,
+              30.220214000000002
+            ],
+            [
+              120.10338200000001,
+              30.220214000000002
+            ],
+            [
+              120.10338200000001,
+              30.22246
+            ],
+            [
+              120.100784,
+              30.22246
+            ],
+            [
+              120.100784,
+              30.220214000000002
+            ]
+          ]
+        ]
+      },
+      "lat": 30.221337,
+      "lon": 120.102083,
+      "population_total": 406.342,
+      "population_age_0_14": 48.77,
+      "population_age_65_plus": 48.761,
+      "land_surface_temperature": 29.545,
+      "temperature_percentile": 0.420201,
+      "heat_exceedance_hours": 2.005,
+      "ndvi": 0.652794,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    },
+    {
+      "grid_id": "HZ-FIX-00100",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.103382,
+              30.220214000000002
+            ],
+            [
+              120.10598,
+              30.220214000000002
+            ],
+            [
+              120.10598,
+              30.22246
+            ],
+            [
+              120.103382,
+              30.22246
+            ],
+            [
+              120.103382,
+              30.220214000000002
+            ]
+          ]
+        ]
+      },
+      "lat": 30.221337,
+      "lon": 120.104681,
+      "population_total": 405.459,
+      "population_age_0_14": 48.658,
+      "population_age_65_plus": 48.655,
+      "land_surface_temperature": 29.542,
+      "temperature_percentile": 0.420069,
+      "heat_exceedance_hours": 2.002,
+      "ndvi": 0.652909,
+      "data_timestamp": "2026-08-01T00:00:00Z",
+      "data_source_ids": [
+        "fixture:landsat-st",
+        "fixture:era5-land",
+        "fixture:worldpop-total",
+        "fixture:worldpop-age-sex",
+        "fixture:sentinel-2-ndvi"
+      ],
+      "data_mode": "FIXTURE"
+    }
+  ]
+}

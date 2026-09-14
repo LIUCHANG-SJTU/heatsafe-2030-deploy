@@ -1,0 +1,122 @@
+{
+  "grid_id": "M4B-R-5EEC8B7710-G-R00-C00",
+  "row": 0,
+  "column": 0,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          120.12156859313895,
+          30.23354862612385
+        ],
+        [
+          120.12156924507673,
+          30.235803795592105
+        ],
+        [
+          120.11897204107349,
+          30.23580433583358
+        ],
+        [
+          120.11897144840277,
+          30.233549166341014
+        ],
+        [
+          120.12156859313895,
+          30.23354862612385
+        ]
+      ]
+    ]
+  },
+  "analysis_status": "ANALYZABLE_LAND",
+  "ranking_eligible": true,
+  "source_mode": "REAL",
+  "population_total": 29.884083556562373,
+  "population_age_0_14": 3.3242823436951707,
+  "population_age_65_plus": 3.3253417312420326,
+  "elderly_share": 0.11127467653301373,
+  "child_share": 0.11123922664060339,
+  "vulnerability_share_raw": 0.11126404156529063,
+  "lst_median_c": 39.55948592000004,
+  "lst_valid_fraction": 1.0,
+  "ndvi_median_land": 0.8724378461450284,
+  "green_fraction_land": 0.9888,
+  "green_fraction_grid_legacy": 0.9888,
+  "water_fraction_grid": 0.0,
+  "sentinel_valid_fraction": 1.0,
+  "spatial_heat_score": 0.1592356687898089,
+  "temporal_severity_score": 0.5238709677419354,
+  "hazard_score": 0.26862625847544686,
+  "exposure_score": 0.16663779234501438,
+  "vulnerability_score": 0.2200036223265801,
+  "adaptive_capacity_score": 0.9888,
+  "risk_score": 19.479067594174836,
+  "risk_percentile_within_aoi": 0.10509554140127389,
+  "hazard_contribution_points": 10.745050339017874,
+  "exposure_contribution_points": 4.165944808625359,
+  "vulnerability_contribution_points": 4.400072446531603,
+  "adaptive_deficit_contribution_points": 0.16799999999999982,
+  "primary_driver": "hazard",
+  "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+  "source_ids": [
+    "LC09_L2SP_119039_20260731_02_T1",
+    "S2C_MSIL2A_20260731T023551_R089_T51RTP_20260731T060913",
+    "chn_pop_2026_CN_100m_R2025A_v1.tif"
+  ],
+  "analysis_reasons": [],
+  "landsat_quality_flag": "HIGH",
+  "sentinel_quality_flag": "HIGH",
+  "methods": {
+    "population": "FRACTIONAL_AREA_COUNT_TRANSFER",
+    "vegetation": "VEGETATION_LAND_FRACTION_PROXY_HEURISTIC",
+    "vulnerability": "AGE_COMPOSITION_VULNERABILITY_HEURISTIC",
+    "hazard": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC",
+    "risk": "TRANSPARENT_WEIGHTED_RISK_HEURISTIC"
+  },
+  "quality": {
+    "analysis_status": "ANALYZABLE_LAND"
+  },
+  "provenance": {
+    "source_ids": [
+      "LC09_L2SP_119039_20260731_02_T1",
+      "S2C_MSIL2A_20260731T023551_R089_T51RTP_20260731T060913",
+      "chn_pop_2026_CN_100m_R2025A_v1.tif"
+    ]
+  },
+  "temporal_context": {
+    "source_mode": "REAL",
+    "source_id": "era5:reanalysis-era5-land-timeseries:120.1,30.2:2026-07-31T03Z",
+    "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+    "dataset_id": "reanalysis-era5-land-timeseries",
+    "requested_latitude": 30.211,
+    "requested_longitude": 120.093,
+    "returned_latitude": 30.200000000000998,
+    "returned_longitude": 120.09999999999746,
+    "spatial_selection_method": "CDS nearest 0.1 degree ERA5-Land grid point",
+    "satellite_reference_time": "2026-07-31T02:31:22Z",
+    "era5_reference_time": "2026-07-31T03:00:00Z",
+    "time_offset_minutes": 28.633333333333333,
+    "time_selection_method": "NEAREST_HOUR",
+    "air_temperature_c": 33.55983886718752,
+    "dewpoint_temperature_c": 24.195947265625023,
+    "relative_humidity_percent": 58.12084447051188,
+    "historical_median_c": 31.882196044921898,
+    "historical_mean_c": 31.075488412508424,
+    "historical_p90_c": 34.797256469726584,
+    "historical_p95_c": 35.792510986328146,
+    "historical_std_c": 3.537656811512953,
+    "baseline_sample_count": 930,
+    "temperature_anomaly_c": 1.677642822265625,
+    "temperature_percentile": 0.7483870967741936,
+    "hot_hours_last_24h": 1,
+    "hot_hours_last_72h": 1,
+    "consecutive_hot_hours_at_reference": 0,
+    "max_consecutive_hot_hours_last_72h": 1,
+    "event_window_complete": true,
+    "temporal_intensity_score": 0.7483870967741936,
+    "temporal_persistence_score": 0.0,
+    "temporal_severity_score": 0.5238709677419354,
+    "method": "TEMPORAL_HEAT_CONTEXT_HEURISTIC"
+  }
+}

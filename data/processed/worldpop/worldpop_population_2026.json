@@ -1,0 +1,4317 @@
+{
+  "data_mode": "REAL",
+  "population_description": "estimated population",
+  "provider": "WorldPop",
+  "api_url": "https://api.worldpop.org/v2",
+  "year": 2026,
+  "resolution": "100m",
+  "projected_crs": "EPSG:32651",
+  "pilot_bbox_wgs84": [
+    120.0796959,
+    30.19944578,
+    120.10630115,
+    30.22255317
+  ],
+  "grids": [
+    {
+      "grid_id": "HZP-0001",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08295564171794,
+              30.199503558903046
+            ],
+            [
+              120.08288915137213,
+              30.201756708318797
+            ],
+            [
+              120.08029518460498,
+              30.201698925259507
+            ],
+            [
+              120.0803617338709,
+              30.199445781043703
+            ],
+            [
+              120.08295564171794,
+              30.199503558903046
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20060125,
+      "centroid_lon": 120.08162543,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 7.4,
+      "population_age_0_14": 0.8300000000000001,
+      "population_age_65_plus": 0.8300000000000001,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:5df0c58b63554e9e64d1a530a1a4f400f985d2e8e60a9615a51a07b3cceb846e",
+      "task_id": "d1f540c9-2155-4055-be69-ef38afda243c",
+      "request_hash": "5df0c58b63554e9e64d1a530a1a4f400f985d2e8e60a9615a51a07b3cceb846e",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/5df0c58b63554e9e64d1a530a1a4f400f985d2e8e60a9615a51a07b3cceb846e.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0002",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08554955708551,
+              30.199561285550974
+            ],
+            [
+              120.0854831256605,
+              30.201814440162053
+            ],
+            [
+              120.08288915137213,
+              30.201756708318797
+            ],
+            [
+              120.08295564171794,
+              30.199503558903046
+            ],
+            [
+              120.08554955708551,
+              30.199561285550974
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.200659,
+      "centroid_lon": 120.08421937,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 1.07,
+      "population_age_0_14": 0.1,
+      "population_age_65_plus": 0.13,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:c8cdc2d6d8296f9d4d77a631aac2ddd3bf51a86b830ff05cf5618c268e0f9110",
+      "task_id": "42703240-b3ef-4e91-8d22-ffcb056cfda8",
+      "request_hash": "c8cdc2d6d8296f9d4d77a631aac2ddd3bf51a86b830ff05cf5618c268e0f9110",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/c8cdc2d6d8296f9d4d77a631aac2ddd3bf51a86b830ff05cf5618c268e0f9110.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0003",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08814347996694,
+              30.199618960986953
+            ],
+            [
+              120.08807710746348,
+              30.201872120788767
+            ],
+            [
+              120.0854831256605,
+              30.201814440162053
+            ],
+            [
+              120.08554955708551,
+              30.199561285550974
+            ],
+            [
+              120.08814347996694,
+              30.199618960986953
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20071671,
+      "centroid_lon": 120.08681332,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:d1e8040b4c2d7e7f791b9c11dfa9b64f8423b4ae8858dca44f25c327dae01f52",
+      "task_id": "feb3bdd0-c3fe-421e-a0cd-c62cbbb416a4",
+      "request_hash": "d1e8040b4c2d7e7f791b9c11dfa9b64f8423b4ae8858dca44f25c327dae01f52",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/d1e8040b4c2d7e7f791b9c11dfa9b64f8423b4ae8858dca44f25c327dae01f52.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0004",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.0907374103556,
+              30.199676585210447
+            ],
+            [
+              120.09067109677437,
+              30.201929750198392
+            ],
+            [
+              120.08807710746348,
+              30.201872120788767
+            ],
+            [
+              120.08814347996694,
+              30.199618960986953
+            ],
+            [
+              120.0907374103556,
+              30.199676585210447
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20077436,
+      "centroid_lon": 120.08940727,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:48f5d3ddf169a569ce3c3165c2352c9a4dac24a76754382dd94b75e7c689b5fe",
+      "task_id": "0e6d2023-77ca-4fc9-bd16-88878680d8d9",
+      "request_hash": "48f5d3ddf169a569ce3c3165c2352c9a4dac24a76754382dd94b75e7c689b5fe",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/48f5d3ddf169a569ce3c3165c2352c9a4dac24a76754382dd94b75e7c689b5fe.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0005",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09333134824482,
+              30.19973415822093
+            ],
+            [
+              120.09326509358654,
+              30.201987328390405
+            ],
+            [
+              120.09067109677437,
+              30.201929750198392
+            ],
+            [
+              120.0907374103556,
+              30.199676585210447
+            ],
+            [
+              120.09333134824482,
+              30.19973415822093
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20083196,
+      "centroid_lon": 120.09200124,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:78a4c78d8bdbb2cad83d5009af4dd334447933e57686be6170581c8d4a8a3518",
+      "task_id": "7608b7cf-679d-40bc-8796-eb8ca1cdeba2",
+      "request_hash": "78a4c78d8bdbb2cad83d5009af4dd334447933e57686be6170581c8d4a8a3518",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/78a4c78d8bdbb2cad83d5009af4dd334447933e57686be6170581c8d4a8a3518.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0006",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09592529362794,
+              30.199791680017874
+            ],
+            [
+              120.09585909789335,
+              30.202044855364267
+            ],
+            [
+              120.09326509358654,
+              30.201987328390405
+            ],
+            [
+              120.09333134824482,
+              30.19973415822093
+            ],
+            [
+              120.09592529362794,
+              30.199791680017874
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20088951,
+      "centroid_lon": 120.09459521,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:905717d1e6a23c4bd036a7b79720982ccd721b756d423ac6758ac42c3efef5d0",
+      "task_id": "2b6e037a-7809-4520-ae32-81bf6e14109d",
+      "request_hash": "905717d1e6a23c4bd036a7b79720982ccd721b756d423ac6758ac42c3efef5d0",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/905717d1e6a23c4bd036a7b79720982ccd721b756d423ac6758ac42c3efef5d0.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0007",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09851924649834,
+              30.19984915060076
+            ],
+            [
+              120.09845310968815,
+              30.202102331119477
+            ],
+            [
+              120.09585909789335,
+              30.202044855364267
+            ],
+            [
+              120.09592529362794,
+              30.199791680017874
+            ],
+            [
+              120.09851924649834,
+              30.19984915060076
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20094701,
+      "centroid_lon": 120.09718919,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:0f5cd75730e4a1c2bac971b6cbc49a97be028156f380ea9a2074f55905bafed5",
+      "task_id": "5712b6f3-f629-4b7d-84af-c280a8719461",
+      "request_hash": "0f5cd75730e4a1c2bac971b6cbc49a97be028156f380ea9a2074f55905bafed5",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/0f5cd75730e4a1c2bac971b6cbc49a97be028156f380ea9a2074f55905bafed5.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0008",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10111320684936,
+              30.199906569969038
+            ],
+            [
+              120.10104712896424,
+              30.202159755655465
+            ],
+            [
+              120.09845310968815,
+              30.202102331119477
+            ],
+            [
+              120.09851924649834,
+              30.19984915060076
+            ],
+            [
+              120.10111320684936,
+              30.199906569969038
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20100446,
+      "centroid_lon": 120.09978317,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:f8ed8d9ac2d84cacce8630af9abd8c397259c5cdd82bf3060a73d4960c01b8ac",
+      "task_id": "59430a13-39c4-4ea1-92e2-2c6d7cb6357f",
+      "request_hash": "f8ed8d9ac2d84cacce8630af9abd8c397259c5cdd82bf3060a73d4960c01b8ac",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/f8ed8d9ac2d84cacce8630af9abd8c397259c5cdd82bf3060a73d4960c01b8ac.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0009",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10370717467434,
+              30.19996393812219
+            ],
+            [
+              120.10364115571502,
+              30.202217128971732
+            ],
+            [
+              120.10104712896424,
+              30.202159755655465
+            ],
+            [
+              120.10111320684936,
+              30.199906569969038
+            ],
+            [
+              120.10370717467434,
+              30.19996393812219
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20106185,
+      "centroid_lon": 120.10237717,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:df63bf44b14d8e6033dc70d03a41e0e97f5110f1a9033b5f85f4691462aaf8b1",
+      "task_id": "26db443d-b5e9-4a3b-8050-8d11820442d7",
+      "request_hash": "df63bf44b14d8e6033dc70d03a41e0e97f5110f1a9033b5f85f4691462aaf8b1",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/df63bf44b14d8e6033dc70d03a41e0e97f5110f1a9033b5f85f4691462aaf8b1.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0010",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10630114996663,
+              30.200021255059713
+            ],
+            [
+              120.10623518993386,
+              30.202274451067755
+            ],
+            [
+              120.10364115571502,
+              30.202217128971732
+            ],
+            [
+              120.10370717467434,
+              30.19996393812219
+            ],
+            [
+              120.10630114996663,
+              30.200021255059713
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.2011192,
+      "centroid_lon": 120.10497117,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:8a02535b19d411a7ced796480806f076420011b231539c4a6d3dcdd13247a7ad",
+      "task_id": "4d5ae1bb-03fd-4fc8-a020-bd6530abf9f5",
+      "request_hash": "8a02535b19d411a7ced796480806f076420011b231539c4a6d3dcdd13247a7ad",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/8a02535b19d411a7ced796480806f076420011b231539c4a6d3dcdd13247a7ad.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0011",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08288915137213,
+              30.201756708318797
+            ],
+            [
+              120.08282265350506,
+              30.204009856826843
+            ],
+            [
+              120.08022862781114,
+              30.203952068567386
+            ],
+            [
+              120.08029518460498,
+              30.201698925259507
+            ],
+            [
+              120.08288915137213,
+              30.201756708318797
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20285439,
+      "centroid_lon": 120.0815589,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 25.06,
+      "population_age_0_14": 2.79,
+      "population_age_65_plus": 2.8,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:91bc6f6105057ef4884f2a57d675c045c1603357a503504e7fe45c59987a22b0",
+      "task_id": "7521f433-c3e1-4ab1-9ceb-c5e03a7a49c2",
+      "request_hash": "91bc6f6105057ef4884f2a57d675c045c1603357a503504e7fe45c59987a22b0",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/91bc6f6105057ef4884f2a57d675c045c1603357a503504e7fe45c59987a22b0.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0012",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.0854831256605,
+              30.201814440162053
+            ],
+            [
+              120.08541668672089,
+              30.20406759386567
+            ],
+            [
+              120.08282265350506,
+              30.204009856826843
+            ],
+            [
+              120.08288915137213,
+              30.201756708318797
+            ],
+            [
+              120.0854831256605,
+              30.201814440162053
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20291215,
+      "centroid_lon": 120.0841529,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 7.97,
+      "population_age_0_14": 0.88,
+      "population_age_65_plus": 0.8900000000000001,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:2807be970d6256615cdb9d46ce794e1b5e9f216b7f216076761adec8aba2e52d",
+      "task_id": "f98ef17e-e565-4c55-b455-7df9ca66469c",
+      "request_hash": "2807be970d6256615cdb9d46ce794e1b5e9f216b7f216076761adec8aba2e52d",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/2807be970d6256615cdb9d46ce794e1b5e9f216b7f216076761adec8aba2e52d.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0013",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08807710746348,
+              30.201872120788767
+            ],
+            [
+              120.08801072745204,
+              30.20412527968334
+            ],
+            [
+              120.08541668672089,
+              30.20406759386567
+            ],
+            [
+              120.0854831256605,
+              30.201814440162053
+            ],
+            [
+              120.08807710746348,
+              30.201872120788767
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20296986,
+      "centroid_lon": 120.08674691,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 12.22,
+      "population_age_0_14": 1.35,
+      "population_age_65_plus": 1.3800000000000001,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:d92aa0aaf34f0c0231e5bbd2fd8f23a4b03fe132db658cbded17c72b0fec6ddf",
+      "task_id": "f6fb22fa-796d-48b2-ac42-1dc577ea9f84",
+      "request_hash": "d92aa0aaf34f0c0231e5bbd2fd8f23a4b03fe132db658cbded17c72b0fec6ddf",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/d92aa0aaf34f0c0231e5bbd2fd8f23a4b03fe132db658cbded17c72b0fec6ddf.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0014",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09067109677437,
+              30.201929750198392
+            ],
+            [
+              120.09060477569184,
+              30.204182914279325
+            ],
+            [
+              120.08801072745204,
+              30.20412527968334
+            ],
+            [
+              120.08807710746348,
+              30.201872120788767
+            ],
+            [
+              120.09067109677437,
+              30.201929750198392
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20302752,
+      "centroid_lon": 120.08934093,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 2.86,
+      "population_age_0_14": 0.32,
+      "population_age_65_plus": 0.31,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:db9e7e49ae416449852b0465149b949c9fdd8f6f2755c18e3ebb4ae83b9e2893",
+      "task_id": "fe4d6865-540e-4973-b21d-ba823b646847",
+      "request_hash": "db9e7e49ae416449852b0465149b949c9fdd8f6f2755c18e3ebb4ae83b9e2893",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/db9e7e49ae416449852b0465149b949c9fdd8f6f2755c18e3ebb4ae83b9e2893.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0015",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09326509358654,
+              30.201987328390405
+            ],
+            [
+              120.09319883143364,
+              30.204240497653092
+            ],
+            [
+              120.09060477569184,
+              30.204182914279325
+            ],
+            [
+              120.09067109677437,
+              30.201929750198392
+            ],
+            [
+              120.09326509358654,
+              30.201987328390405
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20308513,
+      "centroid_lon": 120.09193495,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:500a4fda82c573ca0302eeccb76dad2b556ce4af4eea8c60c1c28ae8d607e08a",
+      "task_id": "3c6348f3-883d-4dbe-abef-a31d21dd8eea",
+      "request_hash": "500a4fda82c573ca0302eeccb76dad2b556ce4af4eea8c60c1c28ae8d607e08a",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/500a4fda82c573ca0302eeccb76dad2b556ce4af4eea8c60c1c28ae8d607e08a.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0016",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09585909789335,
+              30.202044855364267
+            ],
+            [
+              120.09579289467078,
+              30.204298029804114
+            ],
+            [
+              120.09319883143364,
+              30.204240497653092
+            ],
+            [
+              120.09326509358654,
+              30.201987328390405
+            ],
+            [
+              120.09585909789335,
+              30.202044855364267
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20314268,
+      "centroid_lon": 120.09452898,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:387934220f0d83b18cd7720c8755ef3f366ff00cdcd242de08e9bf638d654ff9",
+      "task_id": "b7dff085-7297-41be-8279-9dcb3b917014",
+      "request_hash": "387934220f0d83b18cd7720c8755ef3f366ff00cdcd242de08e9bf638d654ff9",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/387934220f0d83b18cd7720c8755ef3f366ff00cdcd242de08e9bf638d654ff9.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0017",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09845310968815,
+              30.202102331119477
+            ],
+            [
+              120.0983869653966,
+              30.204355510731865
+            ],
+            [
+              120.09579289467078,
+              30.204298029804114
+            ],
+            [
+              120.09585909789335,
+              30.202044855364267
+            ],
+            [
+              120.09845310968815,
+              30.202102331119477
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20320019,
+      "centroid_lon": 120.09712302,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:ce7ab86a3899c3876ce00350ac2d573c97567926c83360bc761ae21c905faaba",
+      "task_id": "a867ea50-af9d-4c17-8986-50c232cd9922",
+      "request_hash": "ce7ab86a3899c3876ce00350ac2d573c97567926c83360bc761ae21c905faaba",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/ce7ab86a3899c3876ce00350ac2d573c97567926c83360bc761ae21c905faaba.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0018",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10104712896424,
+              30.202159755655465
+            ],
+            [
+              120.10098104360446,
+              30.204412940435812
+            ],
+            [
+              120.0983869653966,
+              30.204355510731865
+            ],
+            [
+              120.09845310968815,
+              30.202102331119477
+            ],
+            [
+              120.10104712896424,
+              30.202159755655465
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20325764,
+      "centroid_lon": 120.09971706,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:c3683240c1657c1fc3705c25d7505e526fb45adc1ad527d08bea643a15db19ab",
+      "task_id": "8138181f-78d1-4cbd-866a-220827a60807",
+      "request_hash": "c3683240c1657c1fc3705c25d7505e526fb45adc1ad527d08bea643a15db19ab",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/c3683240c1657c1fc3705c25d7505e526fb45adc1ad527d08bea643a15db19ab.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0019",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10364115571502,
+              30.202217128971732
+            ],
+            [
+              120.10357512928772,
+              30.204470318915423
+            ],
+            [
+              120.10098104360446,
+              30.204412940435812
+            ],
+            [
+              120.10104712896424,
+              30.202159755655465
+            ],
+            [
+              120.10364115571502,
+              30.202217128971732
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20331504,
+      "centroid_lon": 120.10231111,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:a2b4d36300dcd31e34670948a909f28a7c844576476d178eafb95784d0773dd9",
+      "task_id": "777ae96c-936c-42b3-8f79-1b8cdca9ab78",
+      "request_hash": "a2b4d36300dcd31e34670948a909f28a7c844576476d178eafb95784d0773dd9",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/a2b4d36300dcd31e34670948a909f28a7c844576476d178eafb95784d0773dd9.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0020",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10623518993386,
+              30.202274451067755
+            ],
+            [
+              120.1061692224397,
+              30.20452764617018
+            ],
+            [
+              120.10357512928772,
+              30.204470318915423
+            ],
+            [
+              120.10364115571502,
+              30.202217128971732
+            ],
+            [
+              120.10623518993386,
+              30.202274451067755
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20337239,
+      "centroid_lon": 120.10490517,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:d06d408ffc7c92d2c804419ececd16fee79d5960eb0ddefe532f2acab6427b8d",
+      "task_id": "2decf74f-8361-4b6a-8806-9c3abd962967",
+      "request_hash": "d06d408ffc7c92d2c804419ececd16fee79d5960eb0ddefe532f2acab6427b8d",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/d06d408ffc7c92d2c804419ececd16fee79d5960eb0ddefe532f2acab6427b8d.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0021",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08282265350506,
+              30.204009856826843
+            ],
+            [
+              120.08275614811603,
+              30.206263004427132
+            ],
+            [
+              120.08016206348873,
+              30.20620521096729
+            ],
+            [
+              120.08022862781114,
+              30.203952068567386
+            ],
+            [
+              120.08282265350506,
+              30.204009856826843
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20510754,
+      "centroid_lon": 120.08149237,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 48.99,
+      "population_age_0_14": 5.43,
+      "population_age_65_plus": 5.44,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:c134fdcc71660511b24171959e393aed6fa8e20ab565706a50af645f896d3f22",
+      "task_id": "b76c7314-b512-4650-8615-af13aebb1385",
+      "request_hash": "c134fdcc71660511b24171959e393aed6fa8e20ab565706a50af645f896d3f22",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/c134fdcc71660511b24171959e393aed6fa8e20ab565706a50af645f896d3f22.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0022",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08541668672089,
+              30.20406759386567
+            ],
+            [
+              120.085350240266,
+              30.206320746661763
+            ],
+            [
+              120.08275614811603,
+              30.206263004427132
+            ],
+            [
+              120.08282265350506,
+              30.204009856826843
+            ],
+            [
+              120.08541668672089,
+              30.20406759386567
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.2051653,
+      "centroid_lon": 120.08408643,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 178.07,
+      "population_age_0_14": 19.8,
+      "population_age_65_plus": 19.84,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:39ea338d943e81159d973e18059d915d7af38663a5bfb4fdf72e33582003b4ed",
+      "task_id": "4a2e2a93-de59-48e1-98fc-2217b5c04b7a",
+      "request_hash": "39ea338d943e81159d973e18059d915d7af38663a5bfb4fdf72e33582003b4ed",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/39ea338d943e81159d973e18059d915d7af38663a5bfb4fdf72e33582003b4ed.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0023",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08801072745204,
+              30.20412527968334
+            ],
+            [
+              120.08794433993198,
+              30.206378437670622
+            ],
+            [
+              120.085350240266,
+              30.206320746661763
+            ],
+            [
+              120.08541668672089,
+              30.20406759386567
+            ],
+            [
+              120.08801072745204,
+              30.20412527968334
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20522302,
+      "centroid_lon": 120.0866805,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 125.82,
+      "population_age_0_14": 14.0,
+      "population_age_65_plus": 14.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:3e0372dc7509c85fd8681be9866880afe9c85a6d054cefd2963b0b2564f5f3da",
+      "task_id": "92861b6a-7875-492a-b1cc-0cb67a6ffe4e",
+      "request_hash": "3e0372dc7509c85fd8681be9866880afe9c85a6d054cefd2963b0b2564f5f3da",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/3e0372dc7509c85fd8681be9866880afe9c85a6d054cefd2963b0b2564f5f3da.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0024",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09060477569184,
+              30.204182914279325
+            ],
+            [
+              120.09053844710733,
+              30.206436077453205
+            ],
+            [
+              120.08794433993198,
+              30.206378437670622
+            ],
+            [
+              120.08801072745204,
+              30.20412527968334
+            ],
+            [
+              120.09060477569184,
+              30.204182914279325
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20528068,
+      "centroid_lon": 120.08927457,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 5.25,
+      "population_age_0_14": 0.58,
+      "population_age_65_plus": 0.61,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:8ebf09999fbc4f13a8088560cd6c1cec2e1b685477a95db2c40598139b84f984",
+      "task_id": "acc8e246-28cd-473c-8192-e2d90338af96",
+      "request_hash": "8ebf09999fbc4f13a8088560cd6c1cec2e1b685477a95db2c40598139b84f984",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/8ebf09999fbc4f13a8088560cd6c1cec2e1b685477a95db2c40598139b84f984.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0025",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09319883143364,
+              30.204240497653092
+            ],
+            [
+              120.0931325617854,
+              30.206493666008964
+            ],
+            [
+              120.09053844710733,
+              30.206436077453205
+            ],
+            [
+              120.09060477569184,
+              30.204182914279325
+            ],
+            [
+              120.09319883143364,
+              30.204240497653092
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20533829,
+      "centroid_lon": 120.09186865,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:98b1ad04a0f6ffb106a2f2d996b4b52dbbb16d581c8d7307b7bbeac2df426e92",
+      "task_id": "080e5606-b5e4-445d-8892-b26b521a6f27",
+      "request_hash": "98b1ad04a0f6ffb106a2f2d996b4b52dbbb16d581c8d7307b7bbeac2df426e92",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/98b1ad04a0f6ffb106a2f2d996b4b52dbbb16d581c8d7307b7bbeac2df426e92.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0026",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09579289467078,
+              30.204298029804114
+            ],
+            [
+              120.09572668395951,
+              30.206551203337362
+            ],
+            [
+              120.0931325617854,
+              30.206493666008964
+            ],
+            [
+              120.09319883143364,
+              30.204240497653092
+            ],
+            [
+              120.09579289467078,
+              30.204298029804114
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20539585,
+      "centroid_lon": 120.09446274,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:58318d22e0464c589dc01848a6e8574eca45088e1c08d4b8edec7ec58fb2bd6d",
+      "task_id": "ef8490ea-0841-49ed-a459-d6e045479560",
+      "request_hash": "58318d22e0464c589dc01848a6e8574eca45088e1c08d4b8edec7ec58fb2bd6d",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/58318d22e0464c589dc01848a6e8574eca45088e1c08d4b8edec7ec58fb2bd6d.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0027",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.0983869653966,
+              30.204355510731865
+            ],
+            [
+              120.09832081362302,
+              30.2066086894379
+            ],
+            [
+              120.09572668395951,
+              30.206551203337362
+            ],
+            [
+              120.09579289467078,
+              30.204298029804114
+            ],
+            [
+              120.0983869653966,
+              30.204355510731865
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20545336,
+      "centroid_lon": 120.09705684,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:c09feff50bd45321f58fc19f38f53f3646e47bb3c983951b68a0567e7e866d25",
+      "task_id": "5a665456-c4ed-4f16-9eb8-38b18b9c0a6f",
+      "request_hash": "c09feff50bd45321f58fc19f38f53f3646e47bb3c983951b68a0567e7e866d25",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/c09feff50bd45321f58fc19f38f53f3646e47bb3c983951b68a0567e7e866d25.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0028",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10098104360446,
+              30.204412940435812
+            ],
+            [
+              120.10091495076928,
+              30.206666124310008
+            ],
+            [
+              120.09832081362302,
+              30.2066086894379
+            ],
+            [
+              120.0983869653966,
+              30.204355510731865
+            ],
+            [
+              120.10098104360446,
+              30.204412940435812
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20551082,
+      "centroid_lon": 120.09965094,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:a51fea8fc5b948293c0aaf179a3f72c6e26b8f332c91d19b303f875993de9259",
+      "task_id": "83464968-0d03-435b-9526-2aeb8d1a93c1",
+      "request_hash": "a51fea8fc5b948293c0aaf179a3f72c6e26b8f332c91d19b303f875993de9259",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/a51fea8fc5b948293c0aaf179a3f72c6e26b8f332c91d19b303f875993de9259.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0029",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10357512928772,
+              30.204470318915423
+            ],
+            [
+              120.10350909539164,
+              30.2067235079532
+            ],
+            [
+              120.10091495076928,
+              30.206666124310008
+            ],
+            [
+              120.10098104360446,
+              30.204412940435812
+            ],
+            [
+              120.10357512928772,
+              30.204470318915423
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20556823,
+      "centroid_lon": 120.10224506,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:0d747f468c28965fee44773f88c1e709cf1a2f2731a718401989407f320648ea",
+      "task_id": "3969e39c-678e-4ee9-b39d-add47268cb7c",
+      "request_hash": "0d747f468c28965fee44773f88c1e709cf1a2f2731a718401989407f320648ea",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/0d747f468c28965fee44773f88c1e709cf1a2f2731a718401989407f320648ea.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0030",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.1061692224397,
+              30.20452764617018
+            ],
+            [
+              120.10610324748346,
+              30.20678084036693
+            ],
+            [
+              120.10350909539164,
+              30.2067235079532
+            ],
+            [
+              120.10357512928772,
+              30.204470318915423
+            ],
+            [
+              120.1061692224397,
+              30.20452764617018
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20562558,
+      "centroid_lon": 120.10483917,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:6e76e53a83839304eac93c72330c36c4ca0e11135e319a786fa4190daba81441",
+      "task_id": "8a228c8d-c83f-4ee7-9b8d-85a475b67389",
+      "request_hash": "6e76e53a83839304eac93c72330c36c4ca0e11135e319a786fa4190daba81441",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/6e76e53a83839304eac93c72330c36c4ca0e11135e319a786fa4190daba81441.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0031",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08275614811603,
+              30.206263004427132
+            ],
+            [
+              120.08268963520433,
+              30.208516151119635
+            ],
+            [
+              120.080095491637,
+              30.208458352459154
+            ],
+            [
+              120.08016206348873,
+              30.20620521096729
+            ],
+            [
+              120.08275614811603,
+              30.206263004427132
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20736068,
+      "centroid_lon": 120.08142583,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 22.47,
+      "population_age_0_14": 2.4899999999999998,
+      "population_age_65_plus": 2.49,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:e1c55cc0f1e9af3ac3b7239fc11f3f9cd3ba1dbcfbafeb789094783a4ae62e81",
+      "task_id": "cadfd9f0-04f1-4457-ae03-b6e63539db73",
+      "request_hash": "e1c55cc0f1e9af3ac3b7239fc11f3f9cd3ba1dbcfbafeb789094783a4ae62e81",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/e1c55cc0f1e9af3ac3b7239fc11f3f9cd3ba1dbcfbafeb789094783a4ae62e81.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0032",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.085350240266,
+              30.206320746661763
+            ],
+            [
+              120.08528378629508,
+              30.208573898550288
+            ],
+            [
+              120.08268963520433,
+              30.208516151119635
+            ],
+            [
+              120.08275614811603,
+              30.206263004427132
+            ],
+            [
+              120.085350240266,
+              30.206320746661763
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20741845,
+      "centroid_lon": 120.08401995,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 96.41,
+      "population_age_0_14": 10.719999999999999,
+      "population_age_65_plus": 10.73,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:44b98217941ff14a4a2514ea59fa36520a0a6671ff9e56928af7140b442b40a6",
+      "task_id": "825c77ea-653e-4cde-8618-1c342a190e15",
+      "request_hash": "44b98217941ff14a4a2514ea59fa36520a0a6671ff9e56928af7140b442b40a6",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/44b98217941ff14a4a2514ea59fa36520a0a6671ff9e56928af7140b442b40a6.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0033",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08794433993198,
+              30.206378437670622
+            ],
+            [
+              120.08787794490256,
+              30.208631594750575
+            ],
+            [
+              120.08528378629508,
+              30.208573898550288
+            ],
+            [
+              120.085350240266,
+              30.206320746661763
+            ],
+            [
+              120.08794433993198,
+              30.206378437670622
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20747617,
+      "centroid_lon": 120.08661408,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 37.37,
+      "population_age_0_14": 4.16,
+      "population_age_65_plus": 4.17,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:7af35a1f2972d53cd0c0b8f674da06d0cc29e783c3ca8ac2cdbfa9b651963b1b",
+      "task_id": "80bd9d91-576d-497e-a020-4a27db63ebe8",
+      "request_hash": "7af35a1f2972d53cd0c0b8f674da06d0cc29e783c3ca8ac2cdbfa9b651963b1b",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/7af35a1f2972d53cd0c0b8f674da06d0cc29e783c3ca8ac2cdbfa9b651963b1b.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0034",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09053844710733,
+              30.206436077453205
+            ],
+            [
+              120.0904721110201,
+              30.208689239719977
+            ],
+            [
+              120.08787794490256,
+              30.208631594750575
+            ],
+            [
+              120.08794433993198,
+              30.206378437670622
+            ],
+            [
+              120.09053844710733,
+              30.206436077453205
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20753384,
+      "centroid_lon": 120.08920821,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 3.89,
+      "population_age_0_14": 0.43,
+      "population_age_65_plus": 0.42000000000000004,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:17794715cac51b6fb49e017fd389b141b90f79ae2e8891b82d4491e0ddf06873",
+      "task_id": "b44655a9-5352-4eec-9f2b-b04845ee5625",
+      "request_hash": "17794715cac51b6fb49e017fd389b141b90f79ae2e8891b82d4491e0ddf06873",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/17794715cac51b6fb49e017fd389b141b90f79ae2e8891b82d4491e0ddf06873.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0035",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.0931325617854,
+              30.206493666008964
+            ],
+            [
+              120.0930662846411,
+              30.208746833457944
+            ],
+            [
+              120.0904721110201,
+              30.208689239719977
+            ],
+            [
+              120.09053844710733,
+              30.206436077453205
+            ],
+            [
+              120.0931325617854,
+              30.206493666008964
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20759146,
+      "centroid_lon": 120.09180235,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:e722df673dd23c0e59adbd19f52401c1447084985da18f626562055ff474c013",
+      "task_id": "d40bab2f-02bb-4fad-8bfa-14f22153d82f",
+      "request_hash": "e722df673dd23c0e59adbd19f52401c1447084985da18f626562055ff474c013",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/e722df673dd23c0e59adbd19f52401c1447084985da18f626562055ff474c013.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0036",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09572668395951,
+              30.206551203337362
+            ],
+            [
+              120.09566046575883,
+              30.208804375963968
+            ],
+            [
+              120.0930662846411,
+              30.208746833457944
+            ],
+            [
+              120.0931325617854,
+              30.206493666008964
+            ],
+            [
+              120.09572668395951,
+              30.206551203337362
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20764902,
+      "centroid_lon": 120.0943965,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:6d2dee43d3f9641e6dbf8be0a8c704af207d515caf0e7d8a0460120753a61667",
+      "task_id": "0f079db1-a0f6-4d80-bfaf-7698db1106c3",
+      "request_hash": "6d2dee43d3f9641e6dbf8be0a8c704af207d515caf0e7d8a0460120753a61667",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/6d2dee43d3f9641e6dbf8be0a8c704af207d515caf0e7d8a0460120753a61667.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0037",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09832081362302,
+              30.2066086894379
+            ],
+            [
+              120.09825465436668,
+              30.208861867237506
+            ],
+            [
+              120.09566046575883,
+              30.208804375963968
+            ],
+            [
+              120.09572668395951,
+              30.206551203337362
+            ],
+            [
+              120.09832081362302,
+              30.2066086894379
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20770654,
+      "centroid_lon": 120.09699065,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:7a74c2c6e68bff568ed5a75f7b51ddc656659907f7a111231f62d9071cfb02da",
+      "task_id": "4e2271a1-ba14-4574-a51f-d6dae39e394d",
+      "request_hash": "7a74c2c6e68bff568ed5a75f7b51ddc656659907f7a111231f62d9071cfb02da",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/7a74c2c6e68bff568ed5a75f7b51ddc656659907f7a111231f62d9071cfb02da.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0038",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10091495076928,
+              30.206666124310008
+            ],
+            [
+              120.10084885045801,
+              30.20891930727803
+            ],
+            [
+              120.09825465436668,
+              30.208861867237506
+            ],
+            [
+              120.09832081362302,
+              30.2066086894379
+            ],
+            [
+              120.10091495076928,
+              30.206666124310008
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.207764,
+      "centroid_lon": 120.09958482,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:a210e8d5bb204b9d48d93ba3ddd0ec9a2e9d4671917c1771ea408809a5fe7b74",
+      "task_id": "bdac7a6f-20c8-46ba-8fc0-f700aa93946e",
+      "request_hash": "a210e8d5bb204b9d48d93ba3ddd0ec9a2e9d4671917c1771ea408809a5fe7b74",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/a210e8d5bb204b9d48d93ba3ddd0ec9a2e9d4671917c1771ea408809a5fe7b74.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0039",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10350909539164,
+              30.2067235079532
+            ],
+            [
+              120.10344305402616,
+              30.208976696085017
+            ],
+            [
+              120.10084885045801,
+              30.20891930727803
+            ],
+            [
+              120.10091495076928,
+              30.206666124310008
+            ],
+            [
+              120.10350909539164,
+              30.2067235079532
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20782141,
+      "centroid_lon": 120.10217899,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:cb0a3ade225e5293363b130cff78a3afafdc522a5d5b581b094e9216d8a47425",
+      "task_id": "38af1a77-8413-466b-ae05-982266960262",
+      "request_hash": "cb0a3ade225e5293363b130cff78a3afafdc522a5d5b581b094e9216d8a47425",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/cb0a3ade225e5293363b130cff78a3afafdc522a5d5b581b094e9216d8a47425.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0040",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10610324748346,
+              30.20678084036693
+            ],
+            [
+              120.10603726506444,
+              30.209034033657936
+            ],
+            [
+              120.10344305402616,
+              30.208976696085017
+            ],
+            [
+              120.10350909539164,
+              30.2067235079532
+            ],
+            [
+              120.10610324748346,
+              30.20678084036693
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20787877,
+      "centroid_lon": 120.10477317,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:952e0f68b76497d38a41758c0f25b276109af9589dbeda9c537d76c9a6f2377f",
+      "task_id": "b075e6ad-2432-4aa5-b695-bcab7e6a7fc7",
+      "request_hash": "952e0f68b76497d38a41758c0f25b276109af9589dbeda9c537d76c9a6f2377f",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/952e0f68b76497d38a41758c0f25b276109af9589dbeda9c537d76c9a6f2377f.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0041",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08268963520433,
+              30.208516151119635
+            ],
+            [
+              120.08262311476928,
+              30.210769296904274
+            ],
+            [
+              120.08002891225522,
+              30.21071149304293
+            ],
+            [
+              120.080095491637,
+              30.208458352459154
+            ],
+            [
+              120.08268963520433,
+              30.208516151119635
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20961383,
+      "centroid_lon": 120.08135929,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 8.7,
+      "population_age_0_14": 0.95,
+      "population_age_65_plus": 0.9600000000000001,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:609b62f0e90bbb9a474abd870ae84fba6727b79e3b33800d2fd9794c663329c5",
+      "task_id": "05f3f0f2-8020-40f5-be88-29277fe948a3",
+      "request_hash": "609b62f0e90bbb9a474abd870ae84fba6727b79e3b33800d2fd9794c663329c5",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/609b62f0e90bbb9a474abd870ae84fba6727b79e3b33800d2fd9794c663329c5.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0042",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08528378629508,
+              30.208573898550288
+            ],
+            [
+              120.08521732480746,
+              30.21082704953119
+            ],
+            [
+              120.08262311476928,
+              30.210769296904274
+            ],
+            [
+              120.08268963520433,
+              30.208516151119635
+            ],
+            [
+              120.08528378629508,
+              30.208573898550288
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.2096716,
+      "centroid_lon": 120.08395347,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 24.51,
+      "population_age_0_14": 2.74,
+      "population_age_65_plus": 2.72,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:8e2c2009caf141151eaf72100efffeb2e832035d100e84117d7902a2bbdecae6",
+      "task_id": "48b94c30-7937-4f63-b1f4-902f38ca9d14",
+      "request_hash": "8e2c2009caf141151eaf72100efffeb2e832035d100e84117d7902a2bbdecae6",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/8e2c2009caf141151eaf72100efffeb2e832035d100e84117d7902a2bbdecae6.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0043",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08787794490256,
+              30.208631594750575
+            ],
+            [
+              120.08781154236307,
+              30.210884750923135
+            ],
+            [
+              120.08521732480746,
+              30.21082704953119
+            ],
+            [
+              120.08528378629508,
+              30.208573898550288
+            ],
+            [
+              120.08787794490256,
+              30.208631594750575
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20972933,
+      "centroid_lon": 120.08654765,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 3.9,
+      "population_age_0_14": 0.43,
+      "population_age_65_plus": 0.42000000000000004,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:5578d17bc3089807e8927aedfb2132914ba9358ee00eb5d9d1fbde877ab5eedd",
+      "task_id": "c7900f19-31ae-4ce9-86cd-e0075d5f2ee1",
+      "request_hash": "5578d17bc3089807e8927aedfb2132914ba9358ee00eb5d9d1fbde877ab5eedd",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/5578d17bc3089807e8927aedfb2132914ba9358ee00eb5d9d1fbde877ab5eedd.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0044",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.0904721110201,
+              30.208689239719977
+            ],
+            [
+              120.09040576742949,
+              30.21094240107958
+            ],
+            [
+              120.08781154236307,
+              30.210884750923135
+            ],
+            [
+              120.08787794490256,
+              30.208631594750575
+            ],
+            [
+              120.0904721110201,
+              30.208689239719977
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.209787,
+      "centroid_lon": 120.08914184,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:da123983122064df25759475c17ecc53c02057cee6fd6e61d4c32f17885743d5",
+      "task_id": "ddb53d22-1cd8-420b-a9d4-d105a3e6e522",
+      "request_hash": "da123983122064df25759475c17ecc53c02057cee6fd6e61d4c32f17885743d5",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/da123983122064df25759475c17ecc53c02057cee6fd6e61d4c32f17885743d5.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0045",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.0930662846411,
+              30.208746833457944
+            ],
+            [
+              120.09300000000002,
+              30.211000000000002
+            ],
+            [
+              120.09040576742949,
+              30.21094240107958
+            ],
+            [
+              120.0904721110201,
+              30.208689239719977
+            ],
+            [
+              120.0930662846411,
+              30.208746833457944
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20984462,
+      "centroid_lon": 120.09173604,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:e32426b169f8b29bf4d9d7812e55645610c85b9c10bd974c7d74a5dfd5a7e65b",
+      "task_id": "509028ad-2e41-4363-b84d-0bf38b51d079",
+      "request_hash": "e32426b169f8b29bf4d9d7812e55645610c85b9c10bd974c7d74a5dfd5a7e65b",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/e32426b169f8b29bf4d9d7812e55645610c85b9c10bd974c7d74a5dfd5a7e65b.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0046",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09566046575883,
+              30.208804375963968
+            ],
+            [
+              120.09559424006805,
+              30.21105754768386
+            ],
+            [
+              120.09300000000002,
+              30.211000000000002
+            ],
+            [
+              120.0930662846411,
+              30.208746833457944
+            ],
+            [
+              120.09566046575883,
+              30.208804375963968
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20990219,
+      "centroid_lon": 120.09433025,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:3c1ed83c6828ab5a0a822563c6fd2e1acd76aaffc2a43d011202a50accd04f61",
+      "task_id": "60583378-ec12-4778-9fd4-ac41444f1f84",
+      "request_hash": "3c1ed83c6828ab5a0a822563c6fd2e1acd76aaffc2a43d011202a50accd04f61",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/3c1ed83c6828ab5a0a822563c6fd2e1acd76aaffc2a43d011202a50accd04f61.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0047",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09825465436668,
+              30.208861867237506
+            ],
+            [
+              120.09818848762691,
+              30.21111504413064
+            ],
+            [
+              120.09559424006805,
+              30.21105754768386
+            ],
+            [
+              120.09566046575883,
+              30.208804375963968
+            ],
+            [
+              120.09825465436668,
+              30.208861867237506
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.20995971,
+      "centroid_lon": 120.09692446,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:14482b8ffba4a543d5fd902b98e4fbaedc0e2acd4e01c52c5155178c5fe54a6c",
+      "task_id": "4be3c627-be4c-4287-b38a-a3fbb9fbe11b",
+      "request_hash": "14482b8ffba4a543d5fd902b98e4fbaedc0e2acd4e01c52c5155178c5fe54a6c",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/14482b8ffba4a543d5fd902b98e4fbaedc0e2acd4e01c52c5155178c5fe54a6c.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0048",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10084885045801,
+              30.20891930727803
+            ],
+            [
+              120.10078274266995,
+              30.211172489339802
+            ],
+            [
+              120.09818848762691,
+              30.21111504413064
+            ],
+            [
+              120.09825465436668,
+              30.208861867237506
+            ],
+            [
+              120.10084885045801,
+              30.20891930727803
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21001718,
+      "centroid_lon": 120.09951868,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:9516b807c8df25d0f56c0f5535fc4b6ea5700379617238ad48292d15d464a834",
+      "task_id": "628a145c-5192-4460-bd34-d74883bbbf7b",
+      "request_hash": "9516b807c8df25d0f56c0f5535fc4b6ea5700379617238ad48292d15d464a834",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/9516b807c8df25d0f56c0f5535fc4b6ea5700379617238ad48292d15d464a834.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0049",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10344305402616,
+              30.208976696085017
+            ],
+            [
+              120.1033770051905,
+              30.211229883310818
+            ],
+            [
+              120.10078274266995,
+              30.211172489339802
+            ],
+            [
+              120.10084885045801,
+              30.20891930727803
+            ],
+            [
+              120.10344305402616,
+              30.208976696085017
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.2100746,
+      "centroid_lon": 120.10211291,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:9afe4801eb7647e07a35ea0712f8e2bc12f8f806de8c29a5fd32b48c438cad0e",
+      "task_id": "0dbc2a1f-9c16-4b02-876d-45ef348688b4",
+      "request_hash": "9afe4801eb7647e07a35ea0712f8e2bc12f8f806de8c29a5fd32b48c438cad0e",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/9afe4801eb7647e07a35ea0712f8e2bc12f8f806de8c29a5fd32b48c438cad0e.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0050",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10603726506444,
+              30.209034033657936
+            ],
+            [
+              120.10597127518193,
+              30.211287226043165
+            ],
+            [
+              120.1033770051905,
+              30.211229883310818
+            ],
+            [
+              120.10344305402616,
+              30.208976696085017
+            ],
+            [
+              120.10603726506444,
+              30.209034033657936
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21013196,
+      "centroid_lon": 120.10470715,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:216c1d849f729884f4fdd9ca20fd1f267619ac9ff0a64c1f07d6efb0246c4a24",
+      "task_id": "f2819236-6d8b-4fe2-a4a1-0d37986e7397",
+      "request_hash": "216c1d849f729884f4fdd9ca20fd1f267619ac9ff0a64c1f07d6efb0246c4a24",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/216c1d849f729884f4fdd9ca20fd1f267619ac9ff0a64c1f07d6efb0246c4a24.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0051",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08262311476928,
+              30.210769296904274
+            ],
+            [
+              120.08255658681011,
+              30.213022441781003
+            ],
+            [
+              120.07996232534269,
+              30.212964632718563
+            ],
+            [
+              120.08002891225522,
+              30.21071149304293
+            ],
+            [
+              120.08262311476928,
+              30.210769296904274
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21186697,
+      "centroid_lon": 120.08129274,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 1.04,
+      "population_age_0_14": 0.1,
+      "population_age_65_plus": 0.12,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:a45497be132105a0319463446023386c222345718cb0c38b1a98930b6b61d56f",
+      "task_id": "7989699e-0eaf-45af-8baa-1bfce3670a40",
+      "request_hash": "a45497be132105a0319463446023386c222345718cb0c38b1a98930b6b61d56f",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/a45497be132105a0319463446023386c222345718cb0c38b1a98930b6b61d56f.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0052",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08521732480746,
+              30.21082704953119
+            ],
+            [
+              120.08515085580238,
+              30.213080199604413
+            ],
+            [
+              120.08255658681011,
+              30.213022441781003
+            ],
+            [
+              120.08262311476928,
+              30.210769296904274
+            ],
+            [
+              120.08521732480746,
+              30.21082704953119
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21192475,
+      "centroid_lon": 120.08388697,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 2.02,
+      "population_age_0_14": 0.23,
+      "population_age_65_plus": 0.22000000000000003,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:20bf246e0a4d2ad4258b43a867511e22bff3a5e6124d50489eeb8cf6d90c3797",
+      "task_id": "88186dff-cff4-4557-8650-27609b14ab6d",
+      "request_hash": "20bf246e0a4d2ad4258b43a867511e22bff3a5e6124d50489eeb8cf6d90c3797",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/20bf246e0a4d2ad4258b43a867511e22bff3a5e6124d50489eeb8cf6d90c3797.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0053",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08781154236307,
+              30.210884750923135
+            ],
+            [
+              120.08774513231278,
+              30.213137906188244
+            ],
+            [
+              120.08515085580238,
+              30.213080199604413
+            ],
+            [
+              120.08521732480746,
+              30.21082704953119
+            ],
+            [
+              120.08781154236307,
+              30.210884750923135
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21198248,
+      "centroid_lon": 120.08648121,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:05a5bfdbfa3d49cd0bca37da338ca7d4b3fe8f6f4dd25793a1d6cf26b2c67de5",
+      "task_id": "9877a0e0-2085-48e6-9745-3dc1156f6749",
+      "request_hash": "05a5bfdbfa3d49cd0bca37da338ca7d4b3fe8f6f4dd25793a1d6cf26b2c67de5",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/05a5bfdbfa3d49cd0bca37da338ca7d4b3fe8f6f4dd25793a1d6cf26b2c67de5.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0054",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09040576742949,
+              30.21094240107958
+            ],
+            [
+              120.09033941633469,
+              30.213195561531975
+            ],
+            [
+              120.08774513231278,
+              30.213137906188244
+            ],
+            [
+              120.08781154236307,
+              30.210884750923135
+            ],
+            [
+              120.09040576742949,
+              30.21094240107958
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21204016,
+      "centroid_lon": 120.08907546,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:fb77cfa6bc015e0a488fcb059e5e146c4602bff5d19c727e8f2cab7c3a5271cf",
+      "task_id": "ad6e92e7-9f6d-4f1e-affa-d1aae8481d71",
+      "request_hash": "fb77cfa6bc015e0a488fcb059e5e146c4602bff5d19c727e8f2cab7c3a5271cf",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/fb77cfa6bc015e0a488fcb059e5e146c4602bff5d19c727e8f2cab7c3a5271cf.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0055",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09300000000002,
+              30.211000000000002
+            ],
+            [
+              120.09293370786146,
+              30.213253165635074
+            ],
+            [
+              120.09033941633469,
+              30.213195561531975
+            ],
+            [
+              120.09040576742949,
+              30.21094240107958
+            ],
+            [
+              120.09300000000002,
+              30.211000000000002
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21209779,
+      "centroid_lon": 120.09166972,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:d7996549cbd43b393de286772c4ea72ce8b30122ba0587bc0c931f5d9e413c36",
+      "task_id": "95670466-3e30-4859-b75e-0e46c960755d",
+      "request_hash": "d7996549cbd43b393de286772c4ea72ce8b30122ba0587bc0c931f5d9e413c36",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/d7996549cbd43b393de286772c4ea72ce8b30122ba0587bc0c931f5d9e413c36.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0056",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09559424006805,
+              30.21105754768386
+            ],
+            [
+              120.09552800688643,
+              30.213310718497002
+            ],
+            [
+              120.09293370786146,
+              30.213253165635074
+            ],
+            [
+              120.09300000000002,
+              30.211000000000002
+            ],
+            [
+              120.09559424006805,
+              30.21105754768386
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21215536,
+      "centroid_lon": 120.09426399,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:1dac40bd544cecaf96e49b97089f0b73f9c5fc22efb4010d7386821ccdf667c8",
+      "task_id": "7bd19206-afcd-421c-a236-1531092c55b0",
+      "request_hash": "1dac40bd544cecaf96e49b97089f0b73f9c5fc22efb4010d7386821ccdf667c8",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/1dac40bd544cecaf96e49b97089f0b73f9c5fc22efb4010d7386821ccdf667c8.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0057",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09818848762691,
+              30.21111504413064
+            ],
+            [
+              120.09812231340294,
+              30.213368220117253
+            ],
+            [
+              120.09552800688643,
+              30.213310718497002
+            ],
+            [
+              120.09559424006805,
+              30.21105754768386
+            ],
+            [
+              120.09818848762691,
+              30.21111504413064
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21221289,
+      "centroid_lon": 120.09685826,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:5367141b0dcb3b56d61b25bd11d67c4b0935dde2dd7175e3aadfed03d57baa25",
+      "task_id": "04a039bb-bc6e-49bf-b895-88bb9caf5fbc",
+      "request_hash": "5367141b0dcb3b56d61b25bd11d67c4b0935dde2dd7175e3aadfed03d57baa25",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/5367141b0dcb3b56d61b25bd11d67c4b0935dde2dd7175e3aadfed03d57baa25.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0058",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10078274266995,
+              30.211172489339802
+            ],
+            [
+              120.10071662740435,
+              30.21342567049528
+            ],
+            [
+              120.09812231340294,
+              30.213368220117253
+            ],
+            [
+              120.09818848762691,
+              30.21111504413064
+            ],
+            [
+              120.10078274266995,
+              30.211172489339802
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21227036,
+      "centroid_lon": 120.09945254,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:cf15a5c8991a10b0538405fbaf7d28e818a9252f21c0956939b4494200aa1b49",
+      "task_id": "aba9322c-8101-45b9-9352-38e8e8de904b",
+      "request_hash": "cf15a5c8991a10b0538405fbaf7d28e818a9252f21c0956939b4494200aa1b49",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/cf15a5c8991a10b0538405fbaf7d28e818a9252f21c0956939b4494200aa1b49.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0059",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.1033770051905,
+              30.211229883310818
+            ],
+            [
+              120.10331094888399,
+              30.21348306963056
+            ],
+            [
+              120.10071662740435,
+              30.21342567049528
+            ],
+            [
+              120.10078274266995,
+              30.211172489339802
+            ],
+            [
+              120.1033770051905,
+              30.211229883310818
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21232778,
+      "centroid_lon": 120.10204683,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:6d61c12a96eabb2b9e31dc785077eecc677d7da5b9535d9494f0b40f92bec9d3",
+      "task_id": "7ce9d12a-34e6-4752-b4ae-4dcf9935d91c",
+      "request_hash": "6d61c12a96eabb2b9e31dc785077eecc677d7da5b9535d9494f0b40f92bec9d3",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/6d61c12a96eabb2b9e31dc785077eecc677d7da5b9535d9494f0b40f92bec9d3.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0060",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10597127518193,
+              30.211287226043165
+            ],
+            [
+              120.10590527783519,
+              30.213540417522566
+            ],
+            [
+              120.10331094888399,
+              30.21348306963056
+            ],
+            [
+              120.1033770051905,
+              30.211229883310818
+            ],
+            [
+              120.10597127518193,
+              30.211287226043165
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21238515,
+      "centroid_lon": 120.10464113,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:f07fcf586a8348b458ec29c805a34f704a345eb90db2f459153dd66234083f12",
+      "task_id": "8ba0c8c8-5416-4984-b91f-a0e964a7402b",
+      "request_hash": "f07fcf586a8348b458ec29c805a34f704a345eb90db2f459153dd66234083f12",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/f07fcf586a8348b458ec29c805a34f704a345eb90db2f459153dd66234083f12.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0061",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08255658681011,
+              30.213022441781003
+            ],
+            [
+              120.08249005132612,
+              30.215275585749776
+            ],
+            [
+              120.0798957308987,
+              30.215217771486007
+            ],
+            [
+              120.07996232534269,
+              30.212964632718563
+            ],
+            [
+              120.08255658681011,
+              30.213022441781003
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21412011,
+      "centroid_lon": 120.08122617,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:f7bc5a667af1f359ff462a575775d4b04370b98888148de8c38db5422aa9b6f1",
+      "task_id": "8dc70b9b-7e2a-44ec-b084-3b51e0ff1dec",
+      "request_hash": "f7bc5a667af1f359ff462a575775d4b04370b98888148de8c38db5422aa9b6f1",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/f7bc5a667af1f359ff462a575775d4b04370b98888148de8c38db5422aa9b6f1.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0062",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08515085580238,
+              30.213080199604413
+            ],
+            [
+              120.08508437927912,
+              30.215333348769903
+            ],
+            [
+              120.08249005132612,
+              30.215275585749776
+            ],
+            [
+              120.08255658681011,
+              30.213022441781003
+            ],
+            [
+              120.08515085580238,
+              30.213080199604413
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.2141779,
+      "centroid_lon": 120.08382047,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:0abdd0d4cd7bdb4d6ca644da3442fa1e9dfdeedb7c9aeb3de782b1fa19040289",
+      "task_id": "a5aa35e7-175b-400f-9f8b-e23a4e76b4ce",
+      "request_hash": "0abdd0d4cd7bdb4d6ca644da3442fa1e9dfdeedb7c9aeb3de782b1fa19040289",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/0abdd0d4cd7bdb4d6ca644da3442fa1e9dfdeedb7c9aeb3de782b1fa19040289.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0063",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08774513231278,
+              30.213137906188244
+            ],
+            [
+              120.08767871475098,
+              30.21539106054585
+            ],
+            [
+              120.08508437927912,
+              30.215333348769903
+            ],
+            [
+              120.08515085580238,
+              30.213080199604413
+            ],
+            [
+              120.08774513231278,
+              30.213137906188244
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21423563,
+      "centroid_lon": 120.08641477,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:057e7fded705fe3b1d16945884154af46612e93cb0c12089a606491ccbcf8731",
+      "task_id": "32937822-9e05-4c5b-b6c2-500055809685",
+      "request_hash": "057e7fded705fe3b1d16945884154af46612e93cb0c12089a606491ccbcf8731",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/057e7fded705fe3b1d16945884154af46612e93cb0c12089a606491ccbcf8731.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0064",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09033941633469,
+              30.213195561531975
+            ],
+            [
+              120.09027305773505,
+              30.215448721077102
+            ],
+            [
+              120.08767871475098,
+              30.21539106054585
+            ],
+            [
+              120.08774513231278,
+              30.213137906188244
+            ],
+            [
+              120.09033941633469,
+              30.213195561531975
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21429332,
+      "centroid_lon": 120.08900908,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:c174247dc29e839dd30f4e0a1c299477d95cd19382ea8659da6c2a87d990f43e",
+      "task_id": "8474d200-2595-4421-a937-7df3a011f13c",
+      "request_hash": "c174247dc29e839dd30f4e0a1c299477d95cd19382ea8659da6c2a87d990f43e",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/c174247dc29e839dd30f4e0a1c299477d95cd19382ea8659da6c2a87d990f43e.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0065",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09293370786146,
+              30.213253165635074
+            ],
+            [
+              120.0928674082247,
+              30.21550633036311
+            ],
+            [
+              120.09027305773505,
+              30.215448721077102
+            ],
+            [
+              120.09033941633469,
+              30.213195561531975
+            ],
+            [
+              120.09293370786146,
+              30.213253165635074
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21435095,
+      "centroid_lon": 120.0916034,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:bd929dc486e0a987f980b884d255ef5f42846163b2506739ff69ea1f107d91ed",
+      "task_id": "d0231b94-3b6e-41a4-8cd6-d40ccc74c3aa",
+      "request_hash": "bd929dc486e0a987f980b884d255ef5f42846163b2506739ff69ea1f107d91ed",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/bd929dc486e0a987f980b884d255ef5f42846163b2506739ff69ea1f107d91ed.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0066",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09552800688643,
+              30.213310718497002
+            ],
+            [
+              120.09546176621326,
+              30.215563888403345
+            ],
+            [
+              120.0928674082247,
+              30.21550633036311
+            ],
+            [
+              120.09293370786146,
+              30.213253165635074
+            ],
+            [
+              120.09552800688643,
+              30.213310718497002
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21440853,
+      "centroid_lon": 120.09419772,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:754bbbc22fce5f854646016357684e3938d19b093f64d0b617e8b5e363583e1b",
+      "task_id": "d56796ca-23ed-4531-9962-2ff0e431eceb",
+      "request_hash": "754bbbc22fce5f854646016357684e3938d19b093f64d0b617e8b5e363583e1b",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/754bbbc22fce5f854646016357684e3938d19b093f64d0b617e8b5e363583e1b.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0067",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09812231340294,
+              30.213368220117253
+            ],
+            [
+              120.09805613169408,
+              30.21562139519729
+            ],
+            [
+              120.09546176621326,
+              30.215563888403345
+            ],
+            [
+              120.09552800688643,
+              30.213310718497002
+            ],
+            [
+              120.09812231340294,
+              30.213368220117253
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21446606,
+      "centroid_lon": 120.09679205,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:7084317cfd7a4e85d23fa76ec8611112009213da73d6c3b19a4b812747be13c6",
+      "task_id": "61761e34-fc5c-4a6d-804a-35ea75f0a243",
+      "request_hash": "7084317cfd7a4e85d23fa76ec8611112009213da73d6c3b19a4b812747be13c6",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/7084317cfd7a4e85d23fa76ec8611112009213da73d6c3b19a4b812747be13c6.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0068",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10071662740435,
+              30.21342567049528
+            ],
+            [
+              120.1006505046605,
+              30.215678850744418
+            ],
+            [
+              120.09805613169408,
+              30.21562139519729
+            ],
+            [
+              120.09812231340294,
+              30.213368220117253
+            ],
+            [
+              120.10071662740435,
+              30.21342567049528
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21452354,
+      "centroid_lon": 120.09938639,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:5846c8d2255bc2048cc13823f7e9db9f58c725acbdea23b42f1719d0c5bdfa08",
+      "task_id": "4aefd191-3f75-4712-abd1-bd41baae1327",
+      "request_hash": "5846c8d2255bc2048cc13823f7e9db9f58c725acbdea23b42f1719d0c5bdfa08",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/5846c8d2255bc2048cc13823f7e9db9f58c725acbdea23b42f1719d0c5bdfa08.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0069",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10331094888399,
+              30.21348306963056
+            ],
+            [
+              120.10324488510587,
+              30.215736255044185
+            ],
+            [
+              120.1006505046605,
+              30.215678850744418
+            ],
+            [
+              120.10071662740435,
+              30.21342567049528
+            ],
+            [
+              120.10331094888399,
+              30.21348306963056
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21458097,
+      "centroid_lon": 120.10198074,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:132380ed1a8c27bb6707f940c1a4e5cf4576e7354ffe77f0f9dee6fd1784e71d",
+      "task_id": "4cdf1d38-186d-4bde-bd02-85c223936e48",
+      "request_hash": "132380ed1a8c27bb6707f940c1a4e5cf4576e7354ffe77f0f9dee6fd1784e71d",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/132380ed1a8c27bb6707f940c1a4e5cf4576e7354ffe77f0f9dee6fd1784e71d.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0070",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10590527783519,
+              30.213540417522566
+            ],
+            [
+              120.10583927302352,
+              30.215793608096075
+            ],
+            [
+              120.10324488510587,
+              30.215736255044185
+            ],
+            [
+              120.10331094888399,
+              30.21348306963056
+            ],
+            [
+              120.10590527783519,
+              30.213540417522566
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21463834,
+      "centroid_lon": 120.1045751,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:f219d4cf99b4746312548afc43780f4928456c15ab213a4786954313d5292d99",
+      "task_id": "e59e976e-73f5-4170-8cb1-7cfd869557d1",
+      "request_hash": "f219d4cf99b4746312548afc43780f4928456c15ab213a4786954313d5292d99",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/f219d4cf99b4746312548afc43780f4928456c15ab213a4786954313d5292d99.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0071",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08249005132612,
+              30.215275585749776
+            ],
+            [
+              120.08242350831664,
+              30.21752872881055
+            ],
+            [
+              120.07982912892251,
+              30.217470909345227
+            ],
+            [
+              120.0798957308987,
+              30.215217771486007
+            ],
+            [
+              120.08249005132612,
+              30.215275585749776
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21637325,
+      "centroid_lon": 120.08115961,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:5b16b51044b77ce222ceeb8588fc66553bee52e277fab55065d1608fd5ec927e",
+      "task_id": "2b75d10a-b0bf-4815-8cbe-8e4d34defb2b",
+      "request_hash": "5b16b51044b77ce222ceeb8588fc66553bee52e277fab55065d1608fd5ec927e",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/5b16b51044b77ce222ceeb8588fc66553bee52e277fab55065d1608fd5ec927e.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0072",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08508437927912,
+              30.215333348769903
+            ],
+            [
+              120.08501789523699,
+              30.21758649702762
+            ],
+            [
+              120.08242350831664,
+              30.21752872881055
+            ],
+            [
+              120.08249005132612,
+              30.215275585749776
+            ],
+            [
+              120.08508437927912,
+              30.215333348769903
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21643104,
+      "centroid_lon": 120.08375396,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:968be575a63b1f9b3849740685638187dd8367812560505de7adac8bdf43addc",
+      "task_id": "8b908a97-8377-466c-a293-336ae101cb95",
+      "request_hash": "968be575a63b1f9b3849740685638187dd8367812560505de7adac8bdf43addc",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/968be575a63b1f9b3849740685638187dd8367812560505de7adac8bdf43addc.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0073",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08767871475098,
+              30.21539106054585
+            ],
+            [
+              120.08761228967697,
+              30.217644213995918
+            ],
+            [
+              120.08501789523699,
+              30.21758649702762
+            ],
+            [
+              120.08508437927912,
+              30.215333348769903
+            ],
+            [
+              120.08767871475098,
+              30.21539106054585
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21648878,
+      "centroid_lon": 120.08634832,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:8665cd952870756741320675ba0093fd7a6faeebe13bb20f690fa4dbac3dff13",
+      "task_id": "dbdbfa02-ec08-49ad-9ffd-ef7419b14b8f",
+      "request_hash": "8665cd952870756741320675ba0093fd7a6faeebe13bb20f690fa4dbac3dff13",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/8665cd952870756741320675ba0093fd7a6faeebe13bb20f690fa4dbac3dff13.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0074",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09027305773505,
+              30.215448721077102
+            ],
+            [
+              120.09020669162985,
+              30.217701879714916
+            ],
+            [
+              120.08761228967697,
+              30.217644213995918
+            ],
+            [
+              120.08767871475098,
+              30.21539106054585
+            ],
+            [
+              120.09027305773505,
+              30.215448721077102
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21654647,
+      "centroid_lon": 120.08894269,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:a930eabc82f80e46e2b6cc7ef53093025866933c02c4cfe6ed9062acf84bc04f",
+      "task_id": "2910f51b-265a-44ee-928e-bea352f2ea2e",
+      "request_hash": "a930eabc82f80e46e2b6cc7ef53093025866933c02c4cfe6ed9062acf84bc04f",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/a930eabc82f80e46e2b6cc7ef53093025866933c02c4cfe6ed9062acf84bc04f.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0075",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.0928674082247,
+              30.21550633036311
+            ],
+            [
+              120.09280110108904,
+              30.217759494184055
+            ],
+            [
+              120.09020669162985,
+              30.217701879714916
+            ],
+            [
+              120.09027305773505,
+              30.215448721077102
+            ],
+            [
+              120.0928674082247,
+              30.21550633036311
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21660411,
+      "centroid_lon": 120.09153706,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:f7869bf6271c1285becc761b5482c71ce846b624e4308fff033447b145239c91",
+      "task_id": "46e1df53-16c8-44de-a8a2-8b9200b5ef6b",
+      "request_hash": "f7869bf6271c1285becc761b5482c71ce846b624e4308fff033447b145239c91",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/f7869bf6271c1285becc761b5482c71ce846b624e4308fff033447b145239c91.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0076",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09546176621326,
+              30.215563888403345
+            ],
+            [
+              120.09539551804785,
+              30.217817057402833
+            ],
+            [
+              120.09280110108904,
+              30.217759494184055
+            ],
+            [
+              120.0928674082247,
+              30.21550633036311
+            ],
+            [
+              120.09546176621326,
+              30.215563888403345
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.2166617,
+      "centroid_lon": 120.09413145,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:6c82e241e86b40bd412c1351042884cc0435fd40e7cf6a2ebff21df739cb288f",
+      "task_id": "0050c1ef-cec7-4a85-9279-9c50f7ce75da",
+      "request_hash": "6c82e241e86b40bd412c1351042884cc0435fd40e7cf6a2ebff21df739cb288f",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/6c82e241e86b40bd412c1351042884cc0435fd40e7cf6a2ebff21df739cb288f.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0077",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09805613169408,
+              30.21562139519729
+            ],
+            [
+              120.09798994249962,
+              30.21787456937071
+            ],
+            [
+              120.09539551804785,
+              30.217817057402833
+            ],
+            [
+              120.09546176621326,
+              30.215563888403345
+            ],
+            [
+              120.09805613169408,
+              30.21562139519729
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21671923,
+      "centroid_lon": 120.09672584,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:165672d6e0682f1b96e40a72da1aabbfbdc75719cc58ee091dbf99d1ae77b1e4",
+      "task_id": "e82af5a8-deb8-4b1e-a879-4f18a42fd28a",
+      "request_hash": "165672d6e0682f1b96e40a72da1aabbfbdc75719cc58ee091dbf99d1ae77b1e4",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/165672d6e0682f1b96e40a72da1aabbfbdc75719cc58ee091dbf99d1ae77b1e4.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0078",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.1006505046605,
+              30.215678850744418
+            ],
+            [
+              120.10058437443773,
+              30.217932030087162
+            ],
+            [
+              120.09798994249962,
+              30.21787456937071
+            ],
+            [
+              120.09805613169408,
+              30.21562139519729
+            ],
+            [
+              120.1006505046605,
+              30.215678850744418
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21677672,
+      "centroid_lon": 120.09932024,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:36c87e145b5ac887e6be94f372c3fa37c959f4bec0cd877cf8b8b600519f49fb",
+      "task_id": "010abb9a-ea5c-4e38-9ebe-591d677acba3",
+      "request_hash": "36c87e145b5ac887e6be94f372c3fa37c959f4bec0cd877cf8b8b600519f49fb",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/36c87e145b5ac887e6be94f372c3fa37c959f4bec0cd877cf8b8b600519f49fb.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0079",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10324488510587,
+              30.215736255044185
+            ],
+            [
+              120.10317881385548,
+              30.217989439551655
+            ],
+            [
+              120.10058437443773,
+              30.217932030087162
+            ],
+            [
+              120.1006505046605,
+              30.215678850744418
+            ],
+            [
+              120.10324488510587,
+              30.215736255044185
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21683415,
+      "centroid_lon": 120.10191464,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 10.9,
+      "population_age_0_14": 1.22,
+      "population_age_65_plus": 1.21,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:42fee4c376bb28f6801e9e6a48306fbc0a28cfe37e48f9f27fd86786bd5f3367",
+      "task_id": "8ed7b957-08f7-49b7-9150-38264707a302",
+      "request_hash": "42fee4c376bb28f6801e9e6a48306fbc0a28cfe37e48f9f27fd86786bd5f3367",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/42fee4c376bb28f6801e9e6a48306fbc0a28cfe37e48f9f27fd86786bd5f3367.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0080",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10583927302352,
+              30.215793608096075
+            ],
+            [
+              120.10577326074623,
+              30.21804679776366
+            ],
+            [
+              120.10317881385548,
+              30.217989439551655
+            ],
+            [
+              120.10324488510587,
+              30.215736255044185
+            ],
+            [
+              120.10583927302352,
+              30.215793608096075
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21689153,
+      "centroid_lon": 120.10450906,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 29.47,
+      "population_age_0_14": 3.27,
+      "population_age_65_plus": 3.2800000000000002,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:03776488cf2e4592914f3e4e267ffce7f20d4afff2c32d35a6b67ed17ff037de",
+      "task_id": "ba3d43c9-c0d1-4f0b-8398-c28db4f21fe3",
+      "request_hash": "03776488cf2e4592914f3e4e267ffce7f20d4afff2c32d35a6b67ed17ff037de",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/03776488cf2e4592914f3e4e267ffce7f20d4afff2c32d35a6b67ed17ff037de.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0081",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08242350831664,
+              30.21752872881055
+            ],
+            [
+              120.08235695778085,
+              30.21978187096325
+            ],
+            [
+              120.07976251941342,
+              30.219724046296136
+            ],
+            [
+              120.07982912892251,
+              30.217470909345227
+            ],
+            [
+              120.08242350831664,
+              30.21752872881055
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21862639,
+      "centroid_lon": 120.08109303,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:fb6c25f06f13cdd3f9fb9dd6113853c2c98ec51840f3f0290b70e0f9c8225535",
+      "task_id": "ac332f99-c27f-4168-90a7-eaa661b531ff",
+      "request_hash": "fb6c25f06f13cdd3f9fb9dd6113853c2c98ec51840f3f0290b70e0f9c8225535",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/fb6c25f06f13cdd3f9fb9dd6113853c2c98ec51840f3f0290b70e0f9c8225535.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0082",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08501789523699,
+              30.21758649702762
+            ],
+            [
+              120.08495140367526,
+              30.219839644377505
+            ],
+            [
+              120.08235695778085,
+              30.21978187096325
+            ],
+            [
+              120.08242350831664,
+              30.21752872881055
+            ],
+            [
+              120.08501789523699,
+              30.21758649702762
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21868419,
+      "centroid_lon": 120.08368744,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:544cf9b425b5cda1bdd44a30b85bccdf39973fb655d8255eb0e80a03c5780349",
+      "task_id": "f2b8c794-6548-433a-bb6e-284d95efd7da",
+      "request_hash": "544cf9b425b5cda1bdd44a30b85bccdf39973fb655d8255eb0e80a03c5780349",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/544cf9b425b5cda1bdd44a30b85bccdf39973fb655d8255eb0e80a03c5780349.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0083",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08761228967697,
+              30.217644213995918
+            ],
+            [
+              120.08754585708999,
+              30.219897366538383
+            ],
+            [
+              120.08495140367526,
+              30.219839644377505
+            ],
+            [
+              120.08501789523699,
+              30.21758649702762
+            ],
+            [
+              120.08761228967697,
+              30.217644213995918
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21874193,
+      "centroid_lon": 120.08628186,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:b9cad15f11f95a18f49b463c411bec9b38705ddfd95f4bc1af7425e3ff905920",
+      "task_id": "5dbb37d9-f1c5-447b-856d-7c3f073b2564",
+      "request_hash": "b9cad15f11f95a18f49b463c411bec9b38705ddfd95f4bc1af7425e3ff905920",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/b9cad15f11f95a18f49b463c411bec9b38705ddfd95f4bc1af7425e3ff905920.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0084",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09020669162985,
+              30.217701879714916
+            ],
+            [
+              120.09014031801837,
+              30.219955037445356
+            ],
+            [
+              120.08754585708999,
+              30.219897366538383
+            ],
+            [
+              120.08761228967697,
+              30.217644213995918
+            ],
+            [
+              120.09020669162985,
+              30.217701879714916
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21879963,
+      "centroid_lon": 120.08887629,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:9eb991066268d4e88269cee6cd1c2f9017d1a9d2d3dfbf68853b926cfca1488c",
+      "task_id": "1e927071-b902-428c-a624-28d9d595153d",
+      "request_hash": "9eb991066268d4e88269cee6cd1c2f9017d1a9d2d3dfbf68853b926cfca1488c",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/9eb991066268d4e88269cee6cd1c2f9017d1a9d2d3dfbf68853b926cfca1488c.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0085",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09280110108904,
+              30.217759494184055
+            ],
+            [
+              120.09273478645375,
+              30.22001265709787
+            ],
+            [
+              120.09014031801837,
+              30.219955037445356
+            ],
+            [
+              120.09020669162985,
+              30.217701879714916
+            ],
+            [
+              120.09280110108904,
+              30.217759494184055
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21885727,
+      "centroid_lon": 120.09147072,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:06de872fd6b0ecf8eff30c9052f0b3921d8f900abe25a4fa4f9d3d8df092b483",
+      "task_id": "7de73b6e-ca1a-4587-bbc9-ce9d3c16084e",
+      "request_hash": "06de872fd6b0ecf8eff30c9052f0b3921d8f900abe25a4fa4f9d3d8df092b483",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/06de872fd6b0ecf8eff30c9052f0b3921d8f900abe25a4fa4f9d3d8df092b483.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0086",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09539551804785,
+              30.217817057402833
+            ],
+            [
+              120.09532926238947,
+              30.220070225495405
+            ],
+            [
+              120.09273478645375,
+              30.22001265709787
+            ],
+            [
+              120.09280110108904,
+              30.217759494184055
+            ],
+            [
+              120.09539551804785,
+              30.217817057402833
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21891486,
+      "centroid_lon": 120.09406517,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.82,
+      "population_age_0_14": 0.1,
+      "population_age_65_plus": 0.08,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:a4b9c357cb0c2263c36440ef7236ec1db606d32cf56b2c5b799946dc3d56f1f1",
+      "task_id": "018d81e9-52e6-4977-bf45-32ac26e5d382",
+      "request_hash": "a4b9c357cb0c2263c36440ef7236ec1db606d32cf56b2c5b799946dc3d56f1f1",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/a4b9c357cb0c2263c36440ef7236ec1db606d32cf56b2c5b799946dc3d56f1f1.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0087",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09798994249962,
+              30.21787456937071
+            ],
+            [
+              120.09792374581885,
+              30.220127742637434
+            ],
+            [
+              120.09532926238947,
+              30.220070225495405
+            ],
+            [
+              120.09539551804785,
+              30.217817057402833
+            ],
+            [
+              120.09798994249962,
+              30.21787456937071
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.2189724,
+      "centroid_lon": 120.09665962,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 11.16,
+      "population_age_0_14": 1.25,
+      "population_age_65_plus": 1.24,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:1c02af17359a999014a3edf682e6b664f716acd6a93d394394a19769237b769a",
+      "task_id": "ee913094-c21d-4fc3-97aa-d49ea3e8fda0",
+      "request_hash": "1c02af17359a999014a3edf682e6b664f716acd6a93d394394a19769237b769a",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/1c02af17359a999014a3edf682e6b664f716acd6a93d394394a19769237b769a.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0088",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10058437443773,
+              30.217932030087162
+            ],
+            [
+              120.10051823673527,
+              30.22018520852344
+            ],
+            [
+              120.09792374581885,
+              30.220127742637434
+            ],
+            [
+              120.09798994249962,
+              30.21787456937071
+            ],
+            [
+              120.10058437443773,
+              30.217932030087162
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21902989,
+      "centroid_lon": 120.09925408,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 17.99,
+      "population_age_0_14": 2.0100000000000002,
+      "population_age_65_plus": 2.02,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:dc649e56b1ab93c97aa3470670e38f4dc0237052194074edefe370a97bcd5d36",
+      "task_id": "79598aee-4c39-4dbc-b31c-1c4ead58b34e",
+      "request_hash": "dc649e56b1ab93c97aa3470670e38f4dc0237052194074edefe370a97bcd5d36",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/dc649e56b1ab93c97aa3470670e38f4dc0237052194074edefe370a97bcd5d36.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0089",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10317881385548,
+              30.217989439551655
+            ],
+            [
+              120.10311273513209,
+              30.220242623152885
+            ],
+            [
+              120.10051823673527,
+              30.22018520852344
+            ],
+            [
+              120.10058437443773,
+              30.217932030087162
+            ],
+            [
+              120.10317881385548,
+              30.217989439551655
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21908733,
+      "centroid_lon": 120.10184854,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 108.95,
+      "population_age_0_14": 12.11,
+      "population_age_65_plus": 12.12,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:d4f0e51b5c693fb53097ed257701c9cb654e3d76d68a4aac403c416250013ddd",
+      "task_id": "f62a3fd2-7c5f-4a55-a226-40255a4e2af7",
+      "request_hash": "d4f0e51b5c693fb53097ed257701c9cb654e3d76d68a4aac403c416250013ddd",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/d4f0e51b5c693fb53097ed257701c9cb654e3d76d68a4aac403c416250013ddd.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0090",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10577326074623,
+              30.21804679776366
+            ],
+            [
+              120.10570724100259,
+              30.220299986525237
+            ],
+            [
+              120.10311273513209,
+              30.220242623152885
+            ],
+            [
+              120.10317881385548,
+              30.217989439551655
+            ],
+            [
+              120.10577326074623,
+              30.21804679776366
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.21914472,
+      "centroid_lon": 120.10444301,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 56.75,
+      "population_age_0_14": 6.3,
+      "population_age_65_plus": 6.31,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:b778239cd64de01cfdcb9d0e394a172ecc58b6fc22ecac05a851fb69a87e10c3",
+      "task_id": "c581d3c7-97ed-4933-8f08-e70f90bd7544",
+      "request_hash": "b778239cd64de01cfdcb9d0e394a172ecc58b6fc22ecac05a851fb69a87e10c3",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/b778239cd64de01cfdcb9d0e394a172ecc58b6fc22ecac05a851fb69a87e10c3.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0091",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08235695778085,
+              30.21978187096325
+            ],
+            [
+              120.08229039971813,
+              30.22203501220783
+            ],
+            [
+              120.07969590237069,
+              30.221977182338698
+            ],
+            [
+              120.07976251941342,
+              30.219724046296136
+            ],
+            [
+              120.08235695778085,
+              30.21978187096325
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.22087953,
+      "centroid_lon": 120.08102645,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:76d32105f000ae8bc9ee0282c78771784056961f21478d199670ed913cbc4501",
+      "task_id": "01d4e3c6-36d6-471f-b4f7-04af64443ef9",
+      "request_hash": "76d32105f000ae8bc9ee0282c78771784056961f21478d199670ed913cbc4501",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/76d32105f000ae8bc9ee0282c78771784056961f21478d199670ed913cbc4501.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0092",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08495140367526,
+              30.219839644377505
+            ],
+            [
+              120.08488490459325,
+              30.22209279081951
+            ],
+            [
+              120.08229039971813,
+              30.22203501220783
+            ],
+            [
+              120.08235695778085,
+              30.21978187096325
+            ],
+            [
+              120.08495140367526,
+              30.219839644377505
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.22093733,
+      "centroid_lon": 120.08362092,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:45c73ef12621679cfd11d9a003475b9f7acf5cace7ab11c5a588792755ca5a08",
+      "task_id": "500862ef-2dcf-4cc4-b287-58dc624144f1",
+      "request_hash": "45c73ef12621679cfd11d9a003475b9f7acf5cace7ab11c5a588792755ca5a08",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/45c73ef12621679cfd11d9a003475b9f7acf5cace7ab11c5a588792755ca5a08.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0093",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.08754585708999,
+              30.219897366538383
+            ],
+            [
+              120.08747941698938,
+              30.2221505181732
+            ],
+            [
+              120.08488490459325,
+              30.22209279081951
+            ],
+            [
+              120.08495140367526,
+              30.219839644377505
+            ],
+            [
+              120.08754585708999,
+              30.219897366538383
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.22099508,
+      "centroid_lon": 120.0862154,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:607e8f4b238ae02f44c6f31a14c546075d61580aceb70fe3cfdad2000cd73269",
+      "task_id": "090501e0-0de1-4aca-bda0-0b192d35eec4",
+      "request_hash": "607e8f4b238ae02f44c6f31a14c546075d61580aceb70fe3cfdad2000cd73269",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/607e8f4b238ae02f44c6f31a14c546075d61580aceb70fe3cfdad2000cd73269.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0094",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09014031801837,
+              30.219955037445356
+            ],
+            [
+              120.09007393689988,
+              30.22220819426837
+            ],
+            [
+              120.08747941698938,
+              30.2221505181732
+            ],
+            [
+              120.08754585708999,
+              30.219897366538383
+            ],
+            [
+              120.09014031801837,
+              30.219955037445356
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.22105278,
+      "centroid_lon": 120.08880988,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:2b57ae1514ef2093ec398fca15905784f3c494f3562264954ff5bd37d70bec03",
+      "task_id": "f577be72-d808-4ecb-a1f2-a3dbf7c34915",
+      "request_hash": "2b57ae1514ef2093ec398fca15905784f3c494f3562264954ff5bd37d70bec03",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/2b57ae1514ef2093ec398fca15905784f3c494f3562264954ff5bd37d70bec03.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0095",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09273478645375,
+              30.22001265709787
+            ],
+            [
+              120.09266846431811,
+              30.222265819104482
+            ],
+            [
+              120.09007393689988,
+              30.22220819426837
+            ],
+            [
+              120.09014031801837,
+              30.219955037445356
+            ],
+            [
+              120.09273478645375,
+              30.22001265709787
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.22111043,
+      "centroid_lon": 120.09140438,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:2ef2e69d8cb4a52456b30febd581a33b7753f631e3740e93055cb1ac805c6c7f",
+      "task_id": "5fc683a8-beee-4815-8042-54b352e9ee33",
+      "request_hash": "2ef2e69d8cb4a52456b30febd581a33b7753f631e3740e93055cb1ac805c6c7f",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/2ef2e69d8cb4a52456b30febd581a33b7753f631e3740e93055cb1ac805c6c7f.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0096",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09532926238947,
+              30.220070225495405
+            ],
+            [
+              120.09526299923739,
+              30.22232339268103
+            ],
+            [
+              120.09266846431811,
+              30.222265819104482
+            ],
+            [
+              120.09273478645375,
+              30.22001265709787
+            ],
+            [
+              120.09532926238947,
+              30.220070225495405
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.22116803,
+      "centroid_lon": 120.09399888,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 0.0,
+      "population_age_0_14": 0.0,
+      "population_age_65_plus": 0.0,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:90c9bbded29dea7c9c5613d745f3abb6f7b085c5020750a713c018a0f323dc84",
+      "task_id": "64a22808-1155-4a6b-89ac-a1b43a61737a",
+      "request_hash": "90c9bbded29dea7c9c5613d745f3abb6f7b085c5020750a713c018a0f323dc84",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/90c9bbded29dea7c9c5613d745f3abb6f7b085c5020750a713c018a0f323dc84.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0097",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.09792374581885,
+              30.220127742637434
+            ],
+            [
+              120.09785754165104,
+              30.22238091499745
+            ],
+            [
+              120.09526299923739,
+              30.22232339268103
+            ],
+            [
+              120.09532926238947,
+              30.220070225495405
+            ],
+            [
+              120.09792374581885,
+              30.220127742637434
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.22122557,
+      "centroid_lon": 120.09659339,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 24.99,
+      "population_age_0_14": 2.78,
+      "population_age_65_plus": 2.79,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:9bce731f9d7f9d1709e2c20ff60e36c43d57910dc68f46c10d56f8bb3e424211",
+      "task_id": "188cd931-4b22-4889-b4a5-1064804aa58d",
+      "request_hash": "9bce731f9d7f9d1709e2c20ff60e36c43d57910dc68f46c10d56f8bb3e424211",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/9bce731f9d7f9d1709e2c20ff60e36c43d57910dc68f46c10d56f8bb3e424211.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0098",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10051823673527,
+              30.22018520852344
+            ],
+            [
+              120.10045209155246,
+              30.22243838605324
+            ],
+            [
+              120.09785754165104,
+              30.22238091499745
+            ],
+            [
+              120.09792374581885,
+              30.220127742637434
+            ],
+            [
+              120.10051823673527,
+              30.22018520852344
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.22128307,
+      "centroid_lon": 120.0991879,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 65.63,
+      "population_age_0_14": 7.31,
+      "population_age_65_plus": 7.300000000000001,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:48c1acd9ca9a69f76842bbdf955ad78568d99cb0c8dbc853da9a3d2e4bf3c89f",
+      "task_id": "7ae6d49c-4cd5-492f-b391-aed8c2e60bf8",
+      "request_hash": "48c1acd9ca9a69f76842bbdf955ad78568d99cb0c8dbc853da9a3d2e4bf3c89f",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/48c1acd9ca9a69f76842bbdf955ad78568d99cb0c8dbc853da9a3d2e4bf3c89f.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0099",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10311273513209,
+              30.220242623152885
+            ],
+            [
+              120.10304664893498,
+              30.222495805847856
+            ],
+            [
+              120.10045209155246,
+              30.22243838605324
+            ],
+            [
+              120.10051823673527,
+              30.22018520852344
+            ],
+            [
+              120.10311273513209,
+              30.220242623152885
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.22134051,
+      "centroid_lon": 120.10178243,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 59.11,
+      "population_age_0_14": 6.58,
+      "population_age_65_plus": 6.58,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:7e27d9febc1ecca0f2efe1112edd2c9d968de8c292a3b4375c49f623c6bbe435",
+      "task_id": "687c523b-b404-4069-b492-f7ec817bb928",
+      "request_hash": "7e27d9febc1ecca0f2efe1112edd2c9d968de8c292a3b4375c49f623c6bbe435",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/7e27d9febc1ecca0f2efe1112edd2c9d968de8c292a3b4375c49f623c6bbe435.json",
+      "data_mode": "REAL"
+    },
+    {
+      "grid_id": "HZP-0100",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.10570724100259,
+              30.220299986525237
+            ],
+            [
+              120.1056412137919,
+              30.22255317438078
+            ],
+            [
+              120.10304664893498,
+              30.222495805847856
+            ],
+            [
+              120.10311273513209,
+              30.220242623152885
+            ],
+            [
+              120.10570724100259,
+              30.220299986525237
+            ]
+          ]
+        ]
+      },
+      "centroid_lat": 30.2213979,
+      "centroid_lon": 120.10437696,
+      "projected_crs": "EPSG:32651",
+      "area_m2": 62500.0,
+      "population_total": 76.43,
+      "population_age_0_14": 8.49,
+      "population_age_65_plus": 8.5,
+      "data_source": "worldpop_R2025A_2026_100m",
+      "source_id": "worldpop:api:2026:100m:2dbabac76925dd1cddc83d9330eaea6412c658ed586fb393f1cb7fed50c451be",
+      "task_id": "a1c397b7-c7c1-447b-a760-b8ae8c9dc468",
+      "request_hash": "2dbabac76925dd1cddc83d9330eaea6412c658ed586fb393f1cb7fed50c451be",
+      "raw_response_path": "/home/liuchang/Projects/heatsafe-2030/data/raw/worldpop/api/responses/2dbabac76925dd1cddc83d9330eaea6412c658ed586fb393f1cb7fed50c451be.json",
+      "data_mode": "REAL"
+    }
+  ]
+}

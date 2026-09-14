@@ -1,0 +1,103 @@
+{
+  "manifest_version": "m4c-demo-v1",
+  "demo_id": "heatsafe-hangzhou-demo-v1",
+  "production_timestamp": "2026-08-28T02:42:24.694732+00:00",
+  "git_baseline_sha": "2b09a13ee9a5e2492b95e81c587adaac2f3b6589",
+  "data_mode": "REAL",
+  "model_status": "PRELIMINARY_HEURISTIC",
+  "risk_scope": "RELATIVE_WITHIN_DEMO_AOI",
+  "methods": {
+    "population": "FRACTIONAL_AREA_COUNT_TRANSFER",
+    "vegetation": "VEGETATION_LAND_FRACTION_PROXY_HEURISTIC",
+    "vulnerability": "AGE_COMPOSITION_VULNERABILITY_HEURISTIC",
+    "hazard": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC",
+    "risk": "TRANSPARENT_WEIGHTED_RISK_HEURISTIC"
+  },
+  "records": [
+    {
+      "path": "data/processed/demo_aoi_selection/m4b_selected_demo_aoi.json",
+      "sha256": "9f0306f328a68bf337048dda05367ceca45bf5f488f4345a5c820e4d60774152",
+      "source_mode": "REAL"
+    },
+    {
+      "path": "data/processed/demo_aoi_selection/m4b_selected_demo_grid.geojson",
+      "sha256": "64b2253560f845ce7c8deac71646e362c290f1f812865ec75569ba0cb4d3c925",
+      "source_mode": "REAL"
+    },
+    {
+      "path": "data/processed/demo_aoi_selection/m4b_satellite_top8.json",
+      "sha256": "edd72f203a9cee4028de6fb6cd94a8b5845933ef2e4814602a75a6dbc0aace53",
+      "source_mode": "REAL"
+    },
+    {
+      "path": "data/processed/event_selection/m4a_selected_event_2026.json",
+      "sha256": "6b1845462145955a0f3ffd03a9f1a14fbfe4ee1177cfee293769201c92bf4091",
+      "source_mode": "REAL"
+    },
+    {
+      "path": "data/processed/era5/era5_temporal_context.json",
+      "sha256": "9b6f7801e1e97251cfeed9737b423b88041af2cc81b34bedb3dd05d8094903f5",
+      "source_mode": "REAL"
+    },
+    {
+      "path": "data/processed/analysis/heatsafe_demo_v1_2026.json",
+      "sha256": "85a568dc55c14288e9173d42815b4501369093ceda85ceb6edb47fa3e57632da",
+      "source_mode": "REAL"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_pop_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "ca74e52f5862ddcc90ba0e2b5a31159c2d407af68664b2bc29d55e72b8b5248f",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_t_00_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "6c06bb1907f2a52934777475c103adc0742b0d77b8392862d4818ecfa7fd2195",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_t_01_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "06f3340abc91eede6e7e8333a9d28709980a47d63be149c85d06475330f948c3",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_t_05_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "0a2ec06698e4326109949a5e0fe178caf501e1d2ea48e34c530bb0082ed68d78",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_t_10_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "205d263121ccbe180ff2ba9859625bbed4fa81d0f9614f077000558b2217f1f6",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_t_65_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "5e2ded313e823b092056928a2c4ec9f94e030e0bf3be0cd8d440e8fa528cc78a",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_t_70_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "9512af2c01771f0ca256a39c49fc05b105dd1d5d9b6cae3f8d35b1c600a74fd9",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_t_75_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "aca11a6a4281f1d84da8de9a763893cea951da01ced09acadf94cf139c0b70cd",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_t_80_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "561f3e9e245ca2da521629a9d975c9a05394d1696657cbe1bf14c72e4e591f97",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_t_85_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "0c1153374fb6b7d42613053ddba287a9337c04a6f18c8fd47ffd24c56701e156",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    },
+    {
+      "path": "data/manual/worldpop/m4c/chn_t_90_2026_CN_100m_R2025A_v1.tif",
+      "sha256": "b6fba54ec39e4258d319e817edbe916f4fd85da1b2f130f0caba3d1a3d767ef2",
+      "source_mode": "MANUAL_OFFICIAL_RASTER"
+    }
+  ]
+}
