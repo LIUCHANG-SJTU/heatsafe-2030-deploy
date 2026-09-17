@@ -1,0 +1,20 @@
+{
+  "name": "heatsafe-2030-pages-frontdoor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pretest": "npm run prepare:static",
+    "test": "node --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "prepare:static": "node scripts/prepare-static.mjs",
+    "dev": "wrangler pages dev public --service HEATSAFE=heatsafe-2030-service-local",
+    "compare": "node scripts/compare-frontdoor.mjs",
+    "deploy": "wrangler pages deploy public --project-name heatsafe-2030 --branch main"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250917.0",
+    "typescript": "^5.9.2",
+    "wrangler": "4.38.0"
+  }
+}
