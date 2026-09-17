@@ -21,7 +21,7 @@ describe("I18nProvider", () => {
   it("defaults to zh-CN and updates the document language", () => {
     render(<I18nProvider><Probe /></I18nProvider>);
     expect(screen.getByText("zh-CN")).toBeInTheDocument();
-    expect(screen.getByText("400 个生产格网")).toBeInTheDocument();
+    expect(screen.getByText("400 个分析格网")).toBeInTheDocument();
     expect(document.documentElement.lang).toBe("zh-CN");
   });
 
@@ -29,7 +29,7 @@ describe("I18nProvider", () => {
     render(<I18nProvider><Probe /></I18nProvider>);
     fireEvent.click(screen.getByRole("button", { name: "EN" }));
     expect(screen.getByText("en")).toBeInTheDocument();
-    expect(screen.getByText("400 production grids")).toBeInTheDocument();
+    expect(screen.getByText("400 analysis grids")).toBeInTheDocument();
     expect(localStorage.getItem("heatsafe-locale")).toBe("en");
     expect(document.documentElement.lang).toBe("en");
   });

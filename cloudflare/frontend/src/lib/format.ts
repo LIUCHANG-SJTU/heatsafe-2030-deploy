@@ -7,19 +7,64 @@ export const formatPercent = (value: number | null | undefined) => value == null
 export const formatTemperature = (value: number | null | undefined) => value == null ? "—" : `${value.toFixed(1)}°C`;
 const DRIVER_LABELS: Record<Locale, Record<string, string>> = {
   "zh-CN": {
-    hazard: "热危险度主导",
-    exposure: "人口暴露主导",
-    vulnerability: "脆弱性主导",
-    adaptive_capacity_deficit: "适应能力缺口主导",
+    hazard: "热危险度",
+    exposure: "人口暴露",
+    vulnerability: "脆弱性",
+    adaptive_capacity_deficit: "适应能力缺口",
+    adaptive_deficit: "适应能力缺口",
+    adaptive_capacity_gap: "适应能力缺口",
+    adaptation_gap: "适应能力缺口",
   },
   en: {
-    hazard: "Hazard dominant",
-    exposure: "Exposure dominant",
-    vulnerability: "Vulnerability dominant",
-    adaptive_capacity_deficit: "Adaptive capacity gap dominant",
+    hazard: "Heat Hazard",
+    exposure: "Population Exposure",
+    vulnerability: "Vulnerability",
+    adaptive_capacity_deficit: "Adaptive Capacity Gap",
   },
 };
 export const driverLabel = (driver: string | null, locale: Locale = "zh-CN") => DRIVER_LABELS[locale][driver || ""] || "—";
+
+export const formatGridCode = (gridId: string): string =>
+  gridId.match(/(?:^|-)G-(R\d+-C\d+)$/)?.[1] || gridId;
+
+export const formatGridLabel = (gridId: string, locale: Locale = "zh-CN"): string => {
+  const code = formatGridCode(gridId);
+  if (code === gridId) return gridId;
+  return locale === "zh-CN" ? `格网 ${code}` : `Grid ${code}`;
+};
+
+const CONTRIBUTION_METRIC_LABELS: Record<Locale, Record<string, string>> = {
+  "zh-CN": {
+    hazard: "热危险度",
+    exposure: "人口暴露",
+    vulnerability: "脆弱性",
+    adaptive_capacity_deficit: "适应能力缺口",
+    hazard_contribution_points: "热危险度加权贡献",
+    exposure_contribution_points: "人口暴露加权贡献",
+    vulnerability_contribution_points: "脆弱性加权贡献",
+    adaptive_deficit_contribution_points: "适应能力缺口加权贡献",
+    adaptive_capacity_gap_contribution_points: "适应能力缺口加权贡献",
+    adaptation_gap_contribution_points: "适应能力缺口加权贡献",
+  },
+  en: {
+    hazard: "heat hazard",
+    exposure: "population exposure",
+    vulnerability: "vulnerability",
+    adaptive_capacity_deficit: "adaptive capacity gap",
+    adaptive_deficit: "adaptive capacity gap",
+    adaptive_capacity_gap: "adaptive capacity gap",
+    adaptation_gap: "adaptive capacity gap",
+    hazard_contribution_points: "heat hazard weighted contribution",
+    exposure_contribution_points: "population exposure weighted contribution",
+    vulnerability_contribution_points: "vulnerability weighted contribution",
+    adaptive_deficit_contribution_points: "adaptive capacity gap weighted contribution",
+    adaptive_capacity_gap_contribution_points: "adaptive capacity gap weighted contribution",
+    adaptation_gap_contribution_points: "adaptive capacity gap weighted contribution",
+  },
+};
+
+export const contributionMetricLabel = (metric: string, locale: Locale = "zh-CN") =>
+  CONTRIBUTION_METRIC_LABELS[locale][metric] || metric;
 
 const METRIC_LABELS: Record<Locale, Record<string, string>> = {
   "zh-CN": {
@@ -52,21 +97,21 @@ const EVIDENCE_METRIC_LABELS: Record<Locale, Record<string, string>> = {
     risk_score: "热风险", risk_scale_max: "风险量表上限", risk_percentile_within_aoi: "风险分位", risk_percentile_percent: "风险分位",
     population_total: "人口", lst_median_c: "LST 中位数", green_fraction_land: "绿地比例", water_fraction_grid: "水域比例",
     hazard_score: "热危险度", exposure_score: "人口暴露", vulnerability_score: "脆弱性", adaptive_capacity_score: "适应能力",
-    hazard_contribution_points: "热危险度加权贡献", exposure_contribution_points: "人口暴露加权贡献", vulnerability_contribution_points: "脆弱性加权贡献", adaptive_deficit_contribution_points: "适应能力缺口加权贡献",
+    hazard_contribution_points: "热危险度加权贡献", exposure_contribution_points: "人口暴露加权贡献", vulnerability_contribution_points: "脆弱性加权贡献", adaptive_deficit_contribution_points: "适应能力缺口加权贡献", adaptive_capacity_gap_contribution_points: "适应能力缺口加权贡献", adaptation_gap_contribution_points: "适应能力缺口加权贡献",
     elderly_share: "老年人口占比", child_share: "儿童占比", analysis_status: "分析状态", recommendation_status: "建议状态",
   },
   en: {
     risk_score: "Heat Risk", risk_scale_max: "Risk Scale Maximum", risk_percentile_within_aoi: "Risk Percentile", risk_percentile_percent: "Risk Percentile",
     population_total: "Population", lst_median_c: "Median LST", green_fraction_land: "Green Fraction", water_fraction_grid: "Water Fraction",
     hazard_score: "Hazard", exposure_score: "Exposure", vulnerability_score: "Vulnerability", adaptive_capacity_score: "Adaptive Capacity",
-    hazard_contribution_points: "Hazard Contribution", exposure_contribution_points: "Exposure Contribution", vulnerability_contribution_points: "Vulnerability Contribution", adaptive_deficit_contribution_points: "Adaptive Capacity Gap Contribution",
+    hazard_contribution_points: "Heat Hazard Weighted Contribution", exposure_contribution_points: "Population Exposure Weighted Contribution", vulnerability_contribution_points: "Vulnerability Weighted Contribution", adaptive_deficit_contribution_points: "Adaptive Capacity Gap Weighted Contribution", adaptive_capacity_gap_contribution_points: "Adaptive Capacity Gap Weighted Contribution", adaptation_gap_contribution_points: "Adaptive Capacity Gap Weighted Contribution",
     elderly_share: "Older-adult Share", child_share: "Child Share", analysis_status: "Analysis Status", recommendation_status: "Recommendation Status",
   },
 };
 export const evidenceMetricLabel = (metric: string, fallback: string, locale: Locale = "zh-CN") => EVIDENCE_METRIC_LABELS[locale][metric] || fallback;
 
 const SOURCE_COMPONENT_LABELS: Record<Locale, Record<string, string>> = {
-  "zh-CN": { RISK_MODEL: "风险模型", WORLDPOP: "WorldPop 人口数据", LANDSAT: "Landsat 地表温度", SENTINEL2: "Sentinel-2 地表覆盖", ERA5_LAND: "ERA5-Land 时间背景", ACTION_ENGINE: "行动优先级引擎", DEMO_REPOSITORY: "HeatSafe 数据仓库" },
-  en: { RISK_MODEL: "Risk Model", WORLDPOP: "WorldPop Population Data", LANDSAT: "Landsat Surface Temperature", SENTINEL2: "Sentinel-2 Land Cover", ERA5_LAND: "ERA5-Land Temporal Context", ACTION_ENGINE: "Action Priority Engine", DEMO_REPOSITORY: "HeatSafe Data Repository" },
+  "zh-CN": { RISK_MODEL: "风险模型", WORLDPOP: "WorldPop 人口数据", LANDSAT: "Landsat 地表温度", LANDSAT_9: "Landsat 9 地表温度", SENTINEL2: "Sentinel-2 地表覆盖", SENTINEL_2: "Sentinel-2 地表覆盖", ERA5_LAND: "ERA5-Land 时间背景", ACTION_ENGINE: "行动优先级引擎", DEMO_REPOSITORY: "HeatSafe 数据仓库" },
+  en: { RISK_MODEL: "Risk Model", WORLDPOP: "WorldPop Population Data", LANDSAT: "Landsat Surface Temperature", LANDSAT_9: "Landsat 9 Surface Temperature", SENTINEL2: "Sentinel-2 Land Cover", SENTINEL_2: "Sentinel-2 Land Cover", ERA5_LAND: "ERA5-Land Temporal Context", ACTION_ENGINE: "Action Priority Engine", DEMO_REPOSITORY: "HeatSafe Data Repository" },
 };
 export const sourceComponentLabel = (source: string, locale: Locale = "zh-CN") => SOURCE_COMPONENT_LABELS[locale][source] || source;

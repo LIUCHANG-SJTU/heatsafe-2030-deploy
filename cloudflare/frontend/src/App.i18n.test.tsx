@@ -34,12 +34,16 @@ describe("application localization", () => {
     render(<App />);
     expect(screen.getByRole("link", { name: "总览" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "看见热风险，行动有依据。" })).toBeInTheDocument();
-    expect(screen.getByText("生产格网总数")).toBeInTheDocument();
+    expect(screen.getByText("分析格网")).toBeInTheDocument();
+    expect(screen.getByText("数据快照日期")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "HeatSafe 智能决策助手" })).toHaveAttribute("title", "HeatSafe 智能决策助手");
     expect(document.body.textContent).not.toMatch(/Demo(?: AOI)?/i);
     expect(document.body.textContent).not.toContain("Map Analysis");
     expect(document.body.textContent).not.toContain("Recommended Actions");
     expect(document.body.textContent).not.toContain("Data & Methodology");
+    expect(document.body.textContent).not.toContain("API v1");
+    expect(document.body.textContent).not.toContain("M4C1_CANONICAL_QA_V1");
+    expect(document.body.textContent).not.toContain("分析版本 m4c1");
   });
 
   it("renders representative competition UI in English without ordinary Chinese copy", () => {
@@ -47,7 +51,8 @@ describe("application localization", () => {
     render(<App />);
     expect(screen.getByRole("link", { name: "Overview" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "See the heat risk. Act on evidence." })).toBeInTheDocument();
-    expect(screen.getByText("Total Grids")).toBeInTheDocument();
+    expect(screen.getByText("Analysis Grids")).toBeInTheDocument();
+    expect(screen.getByText("DATA SNAPSHOT DATE")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "ZH" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "HeatSafe Decision Agent" })).toHaveAttribute("title", "HeatSafe Decision Agent");
     expect(document.body.textContent).not.toMatch(/\bDemo(?: AOI)?\b/i);

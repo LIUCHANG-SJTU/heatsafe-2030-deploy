@@ -5,7 +5,7 @@ import maplibreWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
 import type { DemoGridCollection, MetricKey } from "../api/types";
 import { fillColorExpression } from "../lib/mapStyles";
 import { useI18n } from "../i18n/useI18n";
-import { formatPopulation } from "../lib/format";
+import { formatGridLabel, formatPopulation } from "../lib/format";
 import "maplibre-gl/dist/maplibre-gl.css";
 import "../styles/map-tooltip.css";
 
@@ -41,13 +41,15 @@ export function MapView({ grids, metric, selectedId, agentHighlightIds = [], onS
         const risk = properties.risk_score == null ? "N/A" : Number(properties.risk_score).toFixed(1);
         const content = document.createElement("div");
         content.className = "map-tooltip";
-        const title = document.createElement("b");
-        title.textContent = String(properties.grid_id || "");
-        const metrics = document.createElement("span");
         const currentLocale = localeRef.current;
+        const title = document.createElement("b");
+        const fullGridId = String(properties.grid_id || "");
+        title.textContent = formatGridLabel(fullGridId, currentLocale);
+        title.title = fullGridId;
+        const metrics = document.createElement("span");
         metrics.textContent = `${currentLocale === "zh-CN" ? "风险" : "Risk"} ${risk} · ${currentLocale === "zh-CN" ? "人口" : "Population"} ${properties.population_total == null ? "—" : formatPopulation(Number(properties.population_total), currentLocale)}`;
         const status = document.createElement("span");
-        status.textContent = properties.analysis_status === "NON_URBAN_WATER" ? (currentLocale === "zh-CN" ? "非城市水域 · 已排除" : "Excluded Non-Urban Water") : (currentLocale === "zh-CN" ? "可分析陆地" : "Analyzable Land");
+        status.textContent = properties.analysis_status === "NON_URBAN_WATER" ? (currentLocale === "zh-CN" ? "水域格网 · 不评分" : "Water Grid · Not Scored") : (currentLocale === "zh-CN" ? "有效陆地格网" : "Valid Land Grid");
         content.append(title, metrics, status);
         new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 8 }).setLngLat(event.lngLat).setDOMContent(content).addTo(map);
       });

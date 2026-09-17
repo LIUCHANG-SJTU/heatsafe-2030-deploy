@@ -19,8 +19,8 @@ const plan: GridActionPlan = {
       title_en: "Population Exposure Management",
       recommended_actions_zh: ["加强高温信息与公共服务触达"],
       recommended_actions_en: ["Strengthen service reach"],
-      why_zh: "Exposure contribution",
-      why_en: "Existing exposure contribution sets this priority.",
+      why_zh: "人口暴露管理的排序依据是现有 exposure_contribution_points 加权贡献。",
+      why_en: "Population Exposure Management is prioritized using the existing weighted contribution from exposure_contribution_points.",
       signal_metric: "exposure_contribution_points",
       signal_points: 25,
       supporting_evidence: [{ evidence_id: "E9", metric: "population_total", grid_id: "GRID-1", value: 1589.3 }],
@@ -37,8 +37,8 @@ const plan: GridActionPlan = {
       title_en: "Heat Exposure Mitigation",
       recommended_actions_zh: ["优先评估公共活动空间遮阴条件", "加强高温时段热暴露管理"],
       recommended_actions_en: ["Assess shade", "Manage exposure"],
-      why_zh: "Hazard contribution",
-      why_en: "Existing hazard contribution sets this priority.",
+      why_zh: "热暴露缓解的排序依据是现有 hazard_contribution_points 加权贡献。",
+      why_en: "Heat Exposure Mitigation is prioritized using the existing weighted contribution from hazard_contribution_points.",
       signal_metric: "hazard_contribution_points",
       signal_points: 33.6,
       supporting_evidence: [
@@ -81,6 +81,8 @@ describe("ActionPlanPanel", () => {
     expect(screen.getByRole("link", { name: /UN-Habitat/ })).toBeInTheDocument();
     expect(screen.getByText(/不代表措施实施后的风险下降幅度/)).toBeInTheDocument();
     expect(screen.queryByText(/effect estimate/i)).not.toBeInTheDocument();
+    expect(document.body.textContent).not.toContain("hazard_contribution_points");
+    expect(document.body.textContent).not.toContain("exposure_contribution_points");
   });
 
   it("renders bounded loading and error states", () => {
@@ -94,7 +96,7 @@ describe("ActionPlanPanel", () => {
     localStorage.setItem("heatsafe-locale", "en");
     renderPanel(<ActionPlanPanel plan={plan} />);
     expect(screen.getByText("Heat Exposure Mitigation")).toBeInTheDocument();
-    expect(screen.getByText("Existing hazard contribution sets this priority.")).toBeInTheDocument();
+    expect(screen.getByText("Heat Exposure Mitigation is prioritized using the existing weighted contribution from heat hazard.")).toBeInTheDocument();
     expect(screen.getByText("This is not a predicted risk reduction.")).toBeInTheDocument();
     expect(screen.queryByText("热暴露缓解")).not.toBeInTheDocument();
     expect(screen.queryByText("优先评估公共活动空间遮阴条件")).not.toBeInTheDocument();
