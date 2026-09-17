@@ -1,0 +1,313 @@
+{
+  "demo_id": "heatsafe-hangzhou-demo-v1",
+  "api_version": "v1",
+  "demo_revision": "m4c1",
+  "qa_contract_version": "M4C1_CANONICAL_QA_V1",
+  "data_mode": "REAL",
+  "model_status": "PRELIMINARY_HEURISTIC",
+  "risk_scope": "RELATIVE_WITHIN_DEMO_AOI",
+  "event": {
+    "selection_method": "MAX_TEMPORAL_SEVERITY_AFTER_LANDSAT_QA",
+    "search_window": [
+      "2026-06-01",
+      "2026-08-20"
+    ],
+    "scene_id": "LC09_L2SP_119039_20260731_02_T1",
+    "product_id": "LC09_L2SP_119039_20260731_20260801_02_T1",
+    "platform": "landsat-9",
+    "acquisition_datetime": "2026-07-31T02:31:22.083707Z",
+    "scene_cloud_cover": 2.46,
+    "pilot_total_pixels": 7308,
+    "pilot_valid_pixels": 7308,
+    "pilot_valid_fraction": 1.0,
+    "pilot_cloud_fraction": 0.0,
+    "st_asset_available": true,
+    "qa_asset_available": true,
+    "st_asset_key": "lwir11",
+    "qa_asset_key": "qa_pixel",
+    "st_qa_asset_key": "qa",
+    "eligible": true,
+    "rejection_reason": null,
+    "landsat_acquisition_time": "2026-07-31T02:31:22.083707+00:00",
+    "era5_reference_time": "2026-07-31T03:00:00+00:00",
+    "time_offset_minutes": 28.631938216666665,
+    "air_temperature_c": 33.55983886718752,
+    "historical_median_c": 31.882196044921898,
+    "historical_p90_c": 34.797256469726584,
+    "historical_p95_c": 35.792510986328146,
+    "baseline_sample_count": 930,
+    "temperature_anomaly_c": 1.677642822265625,
+    "temperature_percentile": 0.7483870967741936,
+    "event_window_complete": true,
+    "hot_hours_last_24h": 1,
+    "hot_hours_last_72h": 1,
+    "consecutive_hot_hours_at_reference": 0,
+    "max_consecutive_hot_hours_last_72h": 1,
+    "temporal_intensity_score": 0.7483870967741936,
+    "temporal_persistence_score": 0.0,
+    "temporal_severity_score": 0.5238709677419354,
+    "rank": 1
+  },
+  "aoi": {
+    "candidate_id": "M4B-R-5EEC8B7710",
+    "selection_method": "PARETO_MAXIMIN_DEMO_SUITABILITY",
+    "event": {
+      "date": "2026-07-31",
+      "landsat_scene_id": "LC09_L2SP_119039_20260731_02_T1",
+      "landsat_acquisition_time": "2026-07-31T02:31:22.083707+00:00",
+      "era5_reference_time": "2026-07-31T03:00:00+00:00",
+      "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z"
+    },
+    "geometry": {
+      "projected_crs": "+proj=aeqd +lat_0=30.211 +lon_0=120.093 +datum=WGS84 +units=m +type=crs",
+      "bounds_projected": [
+        2500.0,
+        2500.0,
+        7500.0,
+        7500.0
+      ],
+      "bbox_wgs84": [
+        120.11897145,
+        30.23352859,
+        120.17094993,
+        30.27865241
+      ],
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.1709143343919,
+              30.233528586643313
+            ],
+            [
+              120.17094992526121,
+              30.278631810313072
+            ],
+            [
+              120.11898331203571,
+              30.278652408545895
+            ],
+            [
+              120.11897144840277,
+              30.233549166341014
+            ],
+            [
+              120.1709143343919,
+              30.233528586643313
+            ]
+          ]
+        ]
+      },
+      "centroid_lon": 120.14495476,
+      "centroid_lat": 30.25609221,
+      "width_m": 5000,
+      "height_m": 5000
+    },
+    "future_grid": {
+      "resolution_m": 250,
+      "rows": 20,
+      "columns": 20,
+      "grid_count": 400
+    },
+    "metrics": {
+      "population_total_est": 260958.43,
+      "population_whole_area": 260958.44,
+      "population_density_per_km2": 10438.3372,
+      "lst_p90_p10_spread_c": 15.108673806000013,
+      "green_p90_p10_spread": 0.9353599999999999,
+      "ndvi_p90_p10_spread": 0.6597000616345019,
+      "vulnerability_share_spread": 0.03770450108419693,
+      "populated_cell_fraction": 0.96,
+      "water_fraction": 0.21159877116067713,
+      "landsat_valid_fraction": 1.0,
+      "sentinel_valid_fraction": 1.0,
+      "exposure_vulnerability_correlation_all": 0.2546153846153845,
+      "exposure_vulnerability_correlation_populated": 0.1573913043478261,
+      "population_conservation_error": 3.832027816120155e-08
+    },
+    "ranks": {
+      "population": 0.6,
+      "thermal": 0.8,
+      "vegetation": 0.8,
+      "vulnerability": 1.0
+    },
+    "pareto_front": 1,
+    "demo_balance_score": 0.6,
+    "explanation_labels": [
+      "STRONG_THERMAL_CONTRAST",
+      "STRONG_GREEN_CONTRAST",
+      "STRONG_VULNERABILITY_VARIATION",
+      "EXCELLENT_SATELLITE_COVERAGE"
+    ]
+  },
+  "temporal_context": {
+    "source_mode": "REAL",
+    "source_id": "era5:reanalysis-era5-land-timeseries:120.1,30.2:2026-07-31T03Z",
+    "temporal_context_id": "era5-temporal:pilot_v1:2026-07-31T03Z",
+    "dataset_id": "reanalysis-era5-land-timeseries",
+    "requested_latitude": 30.211,
+    "requested_longitude": 120.093,
+    "returned_latitude": 30.200000000000998,
+    "returned_longitude": 120.09999999999746,
+    "spatial_selection_method": "CDS nearest 0.1 degree ERA5-Land grid point",
+    "satellite_reference_time": "2026-07-31T02:31:22Z",
+    "era5_reference_time": "2026-07-31T03:00:00Z",
+    "time_offset_minutes": 28.633333333333333,
+    "time_selection_method": "NEAREST_HOUR",
+    "air_temperature_c": 33.55983886718752,
+    "dewpoint_temperature_c": 24.195947265625023,
+    "relative_humidity_percent": 58.12084447051188,
+    "historical_median_c": 31.882196044921898,
+    "historical_mean_c": 31.075488412508424,
+    "historical_p90_c": 34.797256469726584,
+    "historical_p95_c": 35.792510986328146,
+    "historical_std_c": 3.537656811512953,
+    "baseline_sample_count": 930,
+    "temperature_anomaly_c": 1.677642822265625,
+    "temperature_percentile": 0.7483870967741936,
+    "hot_hours_last_24h": 1,
+    "hot_hours_last_72h": 1,
+    "consecutive_hot_hours_at_reference": 0,
+    "max_consecutive_hot_hours_last_72h": 1,
+    "event_window_complete": true,
+    "temporal_intensity_score": 0.7483870967741936,
+    "temporal_persistence_score": 0.0,
+    "temporal_severity_score": 0.5238709677419354,
+    "method": "TEMPORAL_HEAT_CONTEXT_HEURISTIC"
+  },
+  "methods": {
+    "population": "FRACTIONAL_AREA_COUNT_TRANSFER",
+    "vegetation": "VEGETATION_LAND_FRACTION_PROXY_HEURISTIC",
+    "vulnerability": "AGE_COMPOSITION_VULNERABILITY_HEURISTIC",
+    "hazard": "SPATIOTEMPORAL_HEAT_HAZARD_HEURISTIC",
+    "risk": "TRANSPARENT_WEIGHTED_RISK_HEURISTIC"
+  },
+  "weights": {
+    "hazard": 0.4,
+    "exposure": 0.25,
+    "vulnerability": 0.2,
+    "adaptive_capacity_gap": 0.15
+  },
+  "quality_summary": {
+    "qa_contract_version": "M4C1_CANONICAL_QA_V1",
+    "canonical_landsat_quality_counts": {
+      "HIGH": 400,
+      "MEDIUM": 0,
+      "LOW": 0,
+      "INSUFFICIENT": 0
+    },
+    "canonical_sentinel_quality_counts": {
+      "HIGH": 400,
+      "MEDIUM": 0,
+      "LOW": 0,
+      "INSUFFICIENT": 0
+    },
+    "water_audit": {
+      "status": "PASS",
+      "threshold": 0.5,
+      "total_grids": 400,
+      "analyzable_land_grids": 315,
+      "water_excluded_grids": 85,
+      "mixed_land_water_grids": 45,
+      "water_excluded_population": 446.29048353533176,
+      "water_excluded_population_fraction": 0.001822221407421167,
+      "water_grids_with_population_ge_1": [
+        "M4B-R-5EEC8B7710-G-R00-C08",
+        "M4B-R-5EEC8B7710-G-R00-C11",
+        "M4B-R-5EEC8B7710-G-R01-C09",
+        "M4B-R-5EEC8B7710-G-R01-C10",
+        "M4B-R-5EEC8B7710-G-R01-C11",
+        "M4B-R-5EEC8B7710-G-R02-C05",
+        "M4B-R-5EEC8B7710-G-R02-C11",
+        "M4B-R-5EEC8B7710-G-R03-C01",
+        "M4B-R-5EEC8B7710-G-R03-C05",
+        "M4B-R-5EEC8B7710-G-R03-C11",
+        "M4B-R-5EEC8B7710-G-R05-C03",
+        "M4B-R-5EEC8B7710-G-R05-C12",
+        "M4B-R-5EEC8B7710-G-R07-C13",
+        "M4B-R-5EEC8B7710-G-R08-C05",
+        "M4B-R-5EEC8B7710-G-R08-C08",
+        "M4B-R-5EEC8B7710-G-R08-C13",
+        "M4B-R-5EEC8B7710-G-R09-C14",
+        "M4B-R-5EEC8B7710-G-R10-C07",
+        "M4B-R-5EEC8B7710-G-R10-C08",
+        "M4B-R-5EEC8B7710-G-R10-C13",
+        "M4B-R-5EEC8B7710-G-R11-C12"
+      ]
+    },
+    "frozen_input_audit": "PASS",
+    "worldpop_cross_source": {
+      "raster_vs_api_cell_relative_difference": 0.06147650117890817,
+      "raster_vs_api_whole_relative_difference": 0.06147653714338971
+    }
+  },
+  "summary": {
+    "total_grid_count": 400,
+    "analyzable_land_grid_count": 315,
+    "water_excluded_grid_count": 85,
+    "insufficient_quality_grid_count": 0,
+    "populated_analyzable_grid_count": 313,
+    "total_population_est": 244915.61877045897,
+    "water_excluded_population_est": 446.29048353533176,
+    "water_excluded_population_fraction": 0.001822221407421167,
+    "population_age_65_plus_total": 29749.676407566272,
+    "population_age_0_14_total": 26240.39081355174,
+    "risk_min": 7.232397558849171,
+    "risk_median": 53.45766121551073,
+    "risk_p90": 77.47271067941655,
+    "risk_max": 90.18907524978329,
+    "top_10_hotspots": [
+      {
+        "grid_id": "M4B-R-5EEC8B7710-G-R16-C13",
+        "risk_score": 90.18907524978329,
+        "population_total": 1589.32998904636
+      },
+      {
+        "grid_id": "M4B-R-5EEC8B7710-G-R14-C14",
+        "risk_score": 88.93290636846251,
+        "population_total": 1485.2093402256717
+      },
+      {
+        "grid_id": "M4B-R-5EEC8B7710-G-R15-C14",
+        "risk_score": 88.31625944271596,
+        "population_total": 1533.3561293755356
+      },
+      {
+        "grid_id": "M4B-R-5EEC8B7710-G-R16-C14",
+        "risk_score": 88.01756769162579,
+        "population_total": 1435.0498065163338
+      },
+      {
+        "grid_id": "M4B-R-5EEC8B7710-G-R13-C14",
+        "risk_score": 87.61261910169318,
+        "population_total": 1275.9835615807485
+      },
+      {
+        "grid_id": "M4B-R-5EEC8B7710-G-R14-C16",
+        "risk_score": 87.09618408905871,
+        "population_total": 1602.4590443286577
+      },
+      {
+        "grid_id": "M4B-R-5EEC8B7710-G-R13-C16",
+        "risk_score": 86.89742279798216,
+        "population_total": 1294.4737764039482
+      },
+      {
+        "grid_id": "M4B-R-5EEC8B7710-G-R14-C15",
+        "risk_score": 85.89332965921808,
+        "population_total": 1424.4550844449159
+      },
+      {
+        "grid_id": "M4B-R-5EEC8B7710-G-R15-C13",
+        "risk_score": 85.86390415277484,
+        "population_total": 1466.9104112990485
+      },
+      {
+        "grid_id": "M4B-R-5EEC8B7710-G-R14-C19",
+        "risk_score": 85.45226796203563,
+        "population_total": 839.2453401517371
+      }
+    ]
+  }
+}

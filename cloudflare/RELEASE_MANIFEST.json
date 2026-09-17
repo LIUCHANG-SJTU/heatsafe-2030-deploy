@@ -1,0 +1,44 @@
+{
+  "project": "HeatSafe 2030",
+  "team": "热韧智行",
+  "release": "competition-deploy-v2",
+  "public_url": "https://heatsafe-2030.cyrus-ai-lab.workers.dev",
+  "cloudflare_version": "6debc47a-79eb-4b5a-8a64-08423d19b776",
+  "runtime": "Cloudflare Workers Free + Static Assets",
+  "public_provider": "NONE",
+  "optional_provider": "glm-5.3-flash",
+  "model_api_called": "NO",
+  "tools": 8,
+  "python_ts_parity": "37/37 EXACT",
+  "public_agent": "19/19 EXACT",
+  "public_action": "2/2 EXACT",
+  "public_sse": "3/3 EXACT",
+  "frontend": "32/32 PASS",
+  "science": {
+    "grid_count": 400,
+    "analyzable_land": 315,
+    "water_excluded": 85,
+    "json_sha256": "85a568dc55c14288e9173d42815b4501369093ceda85ceb6edb47fa3e57632da",
+    "geojson_sha256": "7afb32b7a666cf7020576309c245822e3723085f7b36a83a9433146296ccb8ec"
+  },
+  "cloudflare_cpu": {
+    "requests": 121,
+    "errors": 0,
+    "p50_ms": 0.690,
+    "p99_ms": 4.773,
+    "max_ms": 5.882,
+    "free_limit_ms": 10
+  },
+  "workers_plan": "FREE",
+  "required_fixed_monthly_cost_usd": 0,
+  "database_required": "NO",
+  "persistent_storage_required": "NO",
+  "map_runtime": {
+    "library": "MapLibre GL JS 6.9.0",
+    "worker_module": "bundled",
+    "shared_worker_module": "bundled as maplibre-gl-shared.mjs",
+    "external_map_provider": "NONE"
+  },
+  "paid_bindings": 0,
+  "source_frozen_commit": "c6856e43463f245e38b857470b0f3c6466a4c2cd"
+}

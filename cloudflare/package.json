@@ -1,0 +1,7 @@
+{
+  "name": "heatsafe-2030-cloudflare",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck":"tsc --noEmit","bundle":"esbuild src/index.ts --bundle --format=esm --platform=neutral --outfile=dist-worker.mjs","build":"tsc --noEmit && npm --prefix frontend run build","test":"npm run bundle && node tests/runtime.test.mjs && node tests/parity.test.mjs && node tests/differential.test.mjs && node tests/static-assets.test.mjs"},
+  "devDependencies": {"@cloudflare/workers-types":"^4.20250917.0","typescript":"^5.7.2","wrangler":"4.38.0","vite":"^6.0.5","@vitejs/plugin-react":"^4.3.4"}
+}
