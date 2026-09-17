@@ -1,6 +1,17 @@
-# HeatSafe 2030 Cloudflare Competition Release
+# HeatSafe 2030 Worker Component Release
 
-This directory is the source for the accepted zero-cost public competition runtime deployed at:
+This is the frozen Worker component first released as the annotated tag
+`competition-deploy-v2`. It is included unchanged in the final annotated
+`competition-deploy-v3` source release.
+
+The primary competition entry is:
+
+<https://heatsafe-2030.pages.dev>
+
+Pages serves frontend assets directly and sends `/health` and `/api/*` to this
+Worker through the `HEATSAFE` Service Binding.
+
+The direct Worker engineering endpoint is:
 
 <https://heatsafe-2030.cyrus-ai-lab.workers.dev>
 
