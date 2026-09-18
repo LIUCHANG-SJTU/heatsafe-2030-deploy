@@ -40,7 +40,7 @@ export function AgentDrawer({ open, onClose, selectedGridId, activeLayer, focuse
         if (event.type === "status" && !tokenStarted) setDraft(event.data.message);
         if (event.type === "token") { setDraft((value) => tokenStarted ? value + event.data.text : event.data.text); tokenStarted = true; }
       });
-      setDraft(""); setAnswer(response); setMessages((current) => [...current, { role: "assistant" as const, content: presentAgentAnswer(response.answer, locale) }].slice(-12));
+      setDraft(""); setAnswer(response); setMessages((current) => [...current, { role: "assistant" as const, content: presentAgentAnswer(response.answer, locale, response.evidence) }].slice(-12));
       response.map_actions.forEach(onMapAction);
     } catch (error) {
       setAnswer({ request_id: "", answer: t("agent.unavailable"), evidence: [], tool_trace: [], map_actions: [], validation: { status: "FAIL", errors: [] }, answer_mode: "DETERMINISTIC_FALLBACK", provider: "error", model: "", latency_ms: 0 });

@@ -1,5 +1,6 @@
 import type { Locale } from "../i18n/types";
 import { contributionMetricLabel, formatGridCode, formatPopulation } from "../lib/format";
+import type { AgentEvidence } from "./types";
 
 const GROUNDED_NOTICE: Record<Locale, string> = {
   "zh-CN": "当前为证据约束决策模式。以下回答直接来自 HeatSafe 冻结公开数据与规则化工具链，并附可追溯证据。",
@@ -43,7 +44,12 @@ function replaceInternalMetrics(text: string, locale: Locale): string {
   );
 }
 
-export function presentAgentAnswer(text: string, locale: Locale): string {
+export function presentAgentAnswer(text: string, locale: Locale, evidence: AgentEvidence[] = []): string {
+  const greenFractionById = new Map(
+    evidence
+      .filter((item) => item.metric === "green_fraction_land" && typeof item.value === "number")
+      .map((item) => [item.evidence_id, item.value as number]),
+  );
   let answer = text
     .replace(
       /^当前模型服务暂时不可用(?:，以下为 HeatSafe REAL 数据摘要。?)?/,
@@ -53,6 +59,8 @@ export function presentAgentAnswer(text: string, locale: Locale): string {
       /^The model service is temporarily unavailable\.(?: This is a HeatSafe REAL-data summary\.)?/,
       GROUNDED_NOTICE.en,
     )
+    .replace(/现有 REAL Evidence\s*/g, "现有可追溯数据证据，")
+    .replace(/current REAL Evidence/gi, "current traceable data evidence")
     .replace(/M4B-R-[A-Z0-9]+-G-(R\d+-C\d+)/g, (_match, code: string) => formatGridCode(code));
 
   answer = answer.replace(/主要贡献项为 ([^。]+)。/g, (_match, driver: string) => {
@@ -67,8 +75,14 @@ export function presentAgentAnswer(text: string, locale: Locale): string {
   answer = answer
     .replace(/人口约为?\s*([\d,.]+)\s*人/g, (_match, value: string) => `人口约 ${formatPopulation(numberValue(value), "zh-CN")} 人`)
     .replace(/estimated population is\s*([\d,.]+)/gi, (_match, value: string) => `estimated population is approximately ${formatPopulation(numberValue(value), "en")} people`)
-    .replace(/有效陆地绿地比例为\s*(0(?:\.\d+)?|1(?:\.0+)?)\b/g, (_match, value: string) => `有效陆地绿地比例约 ${(numberValue(value) * 100).toFixed(1)}%`)
-    .replace(/Green fraction over valid land is\s*(0(?:\.\d+)?|1(?:\.0+)?)\b/gi, (_match, value: string) => `Green fraction over valid land is approximately ${(numberValue(value) * 100).toFixed(1)}%`);
+    .replace(/有效陆地绿地比例为\s*(0(?:\.\d+)?|1(?:\.0+)?)\s*\[(E\d+)\]/g, (_match, value: string, evidenceId: string) => {
+      const preciseValue = greenFractionById.get(evidenceId) ?? numberValue(value);
+      return `有效陆地绿地比例约 ${(preciseValue * 100).toFixed(1)}% [${evidenceId}]`;
+    })
+    .replace(/Green fraction over valid land is\s*(0(?:\.\d+)?|1(?:\.0+)?)\s*\[(E\d+)\]/gi, (_match, value: string, evidenceId: string) => {
+      const preciseValue = greenFractionById.get(evidenceId) ?? numberValue(value);
+      return `Green fraction over valid land is approximately ${(preciseValue * 100).toFixed(1)}% [${evidenceId}]`;
+    });
 
   return replaceInternalMetrics(answer, locale);
 }

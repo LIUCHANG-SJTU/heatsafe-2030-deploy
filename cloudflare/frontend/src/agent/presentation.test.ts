@@ -36,6 +36,17 @@ describe("Agent answer presentation", () => {
     expect(presentAgentAnswer(refusal, "zh-CN")).toBe(refusal);
   });
 
+  it("uses the precise Evidence value for green fraction in the answer", () => {
+    const raw = "有效陆地绿地比例为 0.2 [E5]。";
+    const evidence = [{ metric: "green_fraction_land", value: 0.226, evidence_id: "E5" } as never];
+    expect(presentAgentAnswer(raw, "zh-CN", evidence)).toContain("有效陆地绿地比例约 22.6% [E5]");
+  });
+
+  it("removes REAL Evidence wording from scope responses", () => {
+    expect(presentAgentAnswer("可以基于现有 REAL Evidence 提供非量化的行动优先级决策支持。", "zh-CN"))
+      .toBe("可以基于现有可追溯数据证据，提供非量化的行动优先级决策支持。");
+  });
+
   it("localizes internal contribution keys in rendered action answers", () => {
     expect(presentAgentAnswer("排序依据是现有 hazard_contribution_points 加权贡献。", "zh-CN"))
       .toBe("排序依据是现有热危险度加权贡献。");
