@@ -61,6 +61,7 @@ export function presentAgentAnswer(text: string, locale: Locale, evidence: Agent
     )
     .replace(/现有 REAL Evidence\s*/g, "现有可追溯数据证据，")
     .replace(/current REAL Evidence/gi, "current traceable data evidence")
+    .replace(/未来情景数值模拟/g, "未来情景的数值模拟")
     .replace(/M4B-R-[A-Z0-9]+-G-(R\d+-C\d+)/g, (_match, code: string) => formatGridCode(code));
 
   answer = answer.replace(/主要贡献项为 ([^。]+)。/g, (_match, driver: string) => {

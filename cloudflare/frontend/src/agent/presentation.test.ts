@@ -43,8 +43,8 @@ describe("Agent answer presentation", () => {
   });
 
   it("removes REAL Evidence wording from scope responses", () => {
-    expect(presentAgentAnswer("可以基于现有 REAL Evidence 提供非量化的行动优先级决策支持。", "zh-CN"))
-      .toBe("可以基于现有可追溯数据证据，提供非量化的行动优先级决策支持。");
+    expect(presentAgentAnswer("HeatSafe 当前不支持反事实或未来情景数值模拟，也不预测措施实施后的量化效果。可以基于现有 REAL Evidence 提供非量化的行动优先级决策支持。", "zh-CN"))
+      .toBe("HeatSafe 当前不支持反事实或未来情景的数值模拟，也不预测措施实施后的量化效果。可以基于现有可追溯数据证据，提供非量化的行动优先级决策支持。");
   });
 
   it("localizes internal contribution keys in rendered action answers", () => {
